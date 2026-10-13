@@ -35,7 +35,7 @@ jobs:
           STATE_FILE: comment_replies.json
           REQUESTS_FILE: viewer_requests.json
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          FIRST_QUESTIONS: '["Which planet are YOU? 🪐", "Did you know that one? 🤯", "Which planet should talk next? 👇", "Which fact surprised you most? 🚀", "Team Saturn or Team Jupiter? 🪐", "Should Pluto be a planet again? 🥺", "What space fact should we explain next? 💡", "Which planet would you visit first? 🚀", "Rate this fact from 1 to 10 ⭐", "Who said it best? 😂", "Which planet is the funniest? 😆", "What's your favorite moon? 🌙"]'
+          FIRST_QUESTIONS: '["Which planet are YOU? 🪐", "Did you know that one? 🤯", "Which planet should talk next? 👇", "Which fact surprised you most? 🚀", "Team Saturn or Team Jupiter? 🪐", "Should Pluto be a planet again? 🥺", "What space fact should we explain next? 💡", "Which planet would you visit first? 🚀", "Rate this fact from 1 to 10 ⭐", "Who said it best? 😂", "Which planet is the funniest? 😆", "What''s your favorite moon? 🌙"]'
         run: python tools/auto_reply.py
       - run: |
           git config user.name "comment-bot"
