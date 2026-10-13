@@ -34,7 +34,7 @@ jobs:
       - id: g
         env:
           LOG_FILE: history.json
-          SLOTS: "14:00,20:00"   # yeni kanal: 2/gün (seri üretim görünümü olmasın)
+          SLOTS: "13:00,16:00,19:00,23:00"   # 2026-10-13 kullanıcı: önce abone toplayalım → 4/gün, sonra düşürülecek
           HAS_YT: ${{ secrets.YT_REFRESH_TOKEN != '' && vars.LAUNCH == 'on' }}  # LAUNCH=on: seslendirme hazır olunca açılır
         # kanal bağlanana kadar zamanlı üretim yok (yoksa her saat boşuna render olur)
         run: |
