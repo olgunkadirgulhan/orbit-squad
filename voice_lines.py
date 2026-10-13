@@ -126,6 +126,174 @@ LINES = {
   "distance": [
    "150 million km. Perfect spot.",
    "love"
+  ],
+  "age": [
+   "4.5 billion. I look great, right?",
+   "happy"
+  ],
+  "scale": [
+   "Densest planet. Heavy for my size!",
+   "happy"
+  ],
+  "round": [
+   "Slightly wider at the equator.",
+   "calm"
+  ],
+  "shield": [
+   "My magnetic field protects life!",
+   "love"
+  ],
+  "aurora": [
+   "Northern lights! So pretty.",
+   "love"
+  ],
+  "cloudy": [
+   "Water clouds. Classic.",
+   "calm"
+  ],
+  "mountains": [
+   "Everest is 8.8 km tall!",
+   "happy"
+  ],
+  "canyons": [
+   "The Grand Canyon. Pretty deep!",
+   "happy"
+  ],
+  "changed": [
+   "My days get slightly longer!",
+   "calm"
+  ],
+  "bedtime": [
+   "Eight hours, please.",
+   "sleepy"
+  ],
+  "seasons": [
+   "Four seasons, every year!",
+   "happy"
+  ],
+  "snow": [
+   "Water snow. Build a snowman!",
+   "happy"
+  ],
+  "smell": [
+   "Fresh rain smell. Petrichor!",
+   "love"
+  ],
+  "sound": [
+   "Birds, waves and music!",
+   "love"
+  ],
+  "swim": [
+   "Five oceans. Dive in!",
+   "happy"
+  ],
+  "names": [
+   "My name just means the ground.",
+   "calm"
+  ],
+  "discovered": [
+   "Discovered? I am home!",
+   "calm"
+  ],
+  "galaxy": [
+   "We live in the Milky Way!",
+   "love"
+  ],
+  "eclipse": [
+   "My shadow turns the Moon red!",
+   "shock"
+  ],
+  "asteroid": [
+   "About 100 tons of space dust a day!",
+   "shock"
+  ],
+  "giants": [
+   "Rocky planet, thank you.",
+   "calm"
+  ],
+  "inside": [
+   "An iron core almost as hot as the Sun’s surface!",
+   "shock"
+  ],
+  "lights": [
+   "City lights from space!",
+   "love"
+  ],
+  "interview": [
+   "Experience: hosting life for billions of years.",
+   "cool"
+  ],
+  "selfie": [
+   "Pale Blue Dot, 1990!",
+   "love"
+  ],
+  "olympics": [
+   "Only known home of life. Gold!",
+   "love"
+  ],
+  "coffee": [
+   "A latte. Room temperature.",
+   "happy"
+  ],
+  "wifi": [
+   "Five bars. All good.",
+   "happy"
+  ],
+  "gym": [
+   "Standard weights.",
+   "calm"
+  ],
+  "air": [
+   "Nitrogen and oxygen. Breathe!",
+   "love"
+  ],
+  "twins": [
+   "Twins? You are 465 degrees!",
+   "shock"
+  ],
+  "school": [
+   "Third seat. Perfect spot.",
+   "cool"
+  ],
+  "famous": [
+   "Only planet with pizza.",
+   "happy"
+  ],
+  "freezing": [
+   "Minus 89 was my record!",
+   "shock"
+  ],
+  "rocket": [
+   "Escape speed: 11 km per second!",
+   "cool"
+  ],
+  "vacation": [
+   "Visit the Moon. Three days away!",
+   "happy"
+  ],
+  "pressure": [
+   "One atmosphere. Comfy.",
+   "calm"
+  ],
+  "bestfriend": [
+   "The Moon, obviously!",
+   "love"
+  ],
+  "skycolor": [
+   "Blue by day, orange sunsets!",
+   "happy"
+  ],
+  "storm": [
+   "Hurricanes up to 300 km/h!",
+   "shock"
+  ],
+  "newyear": [
+   "Countdown every 365 days!",
+   "happy"
+  ],
+  "moonlight": [
+   "She controls my ocean tides!",
+   "love"
   ]
  },
  "VE": {
@@ -192,6 +360,102 @@ LINES = {
   "distance": [
    "108 million km. Too hot.",
    "angry"
+  ],
+  "closest": [
+   "I come the closest to Earth!",
+   "cool"
+  ],
+  "shield": [
+   "No magnetic field. Wild.",
+   "shock"
+  ],
+  "cloudy": [
+   "Thick clouds hide my whole surface.",
+   "cool"
+  ],
+  "mountains": [
+   "Maxwell Montes, 11 km high!",
+   "cool"
+  ],
+  "canyons": [
+   "Huge rift valleys!",
+   "cool"
+  ],
+  "bedtime": [
+   "My night lasts 58 Earth days.",
+   "sleepy"
+  ],
+  "seasons": [
+   "Almost no seasons at all.",
+   "calm"
+  ],
+  "snow": [
+   "Metal frost on my mountains!",
+   "cool"
+  ],
+  "smell": [
+   "Sulfur. Also rotten eggs!",
+   "angry"
+  ],
+  "sound": [
+   "Venera landers recorded my wind!",
+   "cool"
+  ],
+  "swim": [
+   "Maybe oceans, billions of years ago.",
+   "cry"
+  ],
+  "sky": [
+   "Brightest planet in your sky!",
+   "cool"
+  ],
+  "names": [
+   "Roman goddess of love!",
+   "love"
+  ],
+  "discovered": [
+   "Ancient people tracked me!",
+   "cool"
+  ],
+  "lights": [
+   "Maybe lightning in my clouds!",
+   "cool"
+  ],
+  "weird": [
+   "The Sun rises in my west!",
+   "shock"
+  ],
+  "olympics": [
+   "Hottest planet. Gold in heat!",
+   "angry"
+  ],
+  "coffee": [
+   "Extra hot. 465 degrees, please.",
+   "angry"
+  ],
+  "air": [
+   "96 percent carbon dioxide too!",
+   "angry"
+  ],
+  "twins": [
+   "I am Earth’s twin in size!",
+   "love"
+  ],
+  "freezing": [
+   "Heater? I am 465!",
+   "angry"
+  ],
+  "vacation": [
+   "Do not. 92 times Earth’s air pressure!",
+   "angry"
+  ],
+  "pressure": [
+   "92 times Earth’s air pressure!",
+   "angry"
+  ],
+  "skycolor": [
+   "Orange, under thick clouds.",
+   "cool"
   ]
  },
  "JU": {
@@ -269,6 +533,166 @@ LINES = {
   ],
   "distance": [
    "778 million km away!",
+   "cool"
+  ],
+  "age": [
+   "Probably the first planet to form!",
+   "cool"
+  ],
+  "scale": [
+   "Twice all other planets combined!",
+   "cool"
+  ],
+  "closest": [
+   "Not me. Way out here.",
+   "sleepy"
+  ],
+  "round": [
+   "I bulge at the middle too!",
+   "happy"
+  ],
+  "shield": [
+   "Strongest magnetic field of all!",
+   "cool"
+  ],
+  "aurora": [
+   "My auroras are bigger than Earth!",
+   "cool"
+  ],
+  "cloudy": [
+   "Ammonia clouds in stripes!",
+   "happy"
+  ],
+  "mountains": [
+   "No surface, no mountains.",
+   "sleepy"
+  ],
+  "trip": [
+   "Juno took five years!",
+   "calm"
+  ],
+  "bedtime": [
+   "Five hour nights. Quick nap!",
+   "happy"
+  ],
+  "seasons": [
+   "Barely any seasons. Tiny tilt!",
+   "cool"
+  ],
+  "snow": [
+   "Ammonia ice crystals up high!",
+   "cool"
+  ],
+  "smell": [
+   "Ammonia, like cleaning products!",
+   "shock"
+  ],
+  "sound": [
+   "Juno turned my radio waves into sound!",
+   "cool"
+  ],
+  "swim": [
+   "Europa may hold twice Earth’s ocean water!",
+   "shock"
+  ],
+  "sky": [
+   "Usually second brightest!",
+   "happy"
+  ],
+  "names": [
+   "King of the Roman gods!",
+   "cool"
+  ],
+  "discovered": [
+   "Galileo found my moons in 1610!",
+   "happy"
+  ],
+  "galaxy": [
+   "The galaxy is 100,000 light years wide!",
+   "shock"
+  ],
+  "eclipse": [
+   "My moons cast shadows on me!",
+   "happy"
+  ],
+  "asteroid": [
+   "A comet hit me in 1994!",
+   "shock"
+  ],
+  "giants": [
+   "Gas giant. Mostly hydrogen!",
+   "cool"
+  ],
+  "inside": [
+   "Maybe a fuzzy, dissolved core!",
+   "calm"
+  ],
+  "lights": [
+   "Lightning stronger than Earth’s!",
+   "shock"
+  ],
+  "weird": [
+   "I have no solid surface!",
+   "cool"
+  ],
+  "interview": [
+   "Skills: gravity. Lots of it.",
+   "cool"
+  ],
+  "selfie": [
+   "Juno close-ups look like art!",
+   "cool"
+  ],
+  "olympics": [
+   "Biggest and fastest spin!",
+   "cool"
+  ],
+  "wifi": [
+   "Juno signals take about 45 minutes!",
+   "sleepy"
+  ],
+  "gym": [
+   "Lifting with 2.4 times gravity!",
+   "angry"
+  ],
+  "air": [
+   "Mostly hydrogen and helium.",
+   "cool"
+  ],
+  "school": [
+   "Biggest kid in class!",
+   "cool"
+  ],
+  "famous": [
+   "Galileo’s moons made history!",
+   "happy"
+  ],
+  "rocket": [
+   "60 km per second. Good luck!",
+   "angry"
+  ],
+  "vacation": [
+   "Watch my storms from a safe moon!",
+   "cool"
+  ],
+  "pressure": [
+   "Deep inside, hydrogen acts like metal!",
+   "shock"
+  ],
+  "bestfriend": [
+   "My four big Galilean moons!",
+   "cool"
+  ],
+  "storm": [
+   "My Great Red Spot is wider than Earth!",
+   "cool"
+  ],
+  "newyear": [
+   "Every 12 years. Big party!",
+   "love"
+  ],
+  "moonlight": [
+   "My Ganymede is bigger than Mercury!",
    "cool"
   ]
  },
@@ -352,6 +776,158 @@ LINES = {
   "distance": [
    "228 million km. A bit chilly.",
    "shiver"
+  ],
+  "age": [
+   "4.6 billion. Rusty but strong.",
+   "cool"
+  ],
+  "closest": [
+   "I come close every 26 months!",
+   "happy"
+  ],
+  "round": [
+   "My moon Phobos looks like a potato!",
+   "happy"
+  ],
+  "shield": [
+   "I lost my global magnetic field.",
+   "cry"
+  ],
+  "aurora": [
+   "Patchy auroras, even without a field!",
+   "shock"
+  ],
+  "cloudy": [
+   "Thin clouds of water ice!",
+   "shiver"
+  ],
+  "mountains": [
+   "Olympus Mons is about 22 km!",
+   "cool"
+  ],
+  "canyons": [
+   "Valles Marineris, as long as the USA!",
+   "cool"
+  ],
+  "changed": [
+   "Phobos is slowly spiraling into me!",
+   "shock"
+  ],
+  "trip": [
+   "About seven months by spacecraft!",
+   "cool"
+  ],
+  "bedtime": [
+   "Like Earth, plus 37 minutes!",
+   "calm"
+  ],
+  "seasons": [
+   "My seasons are twice as long!",
+   "cool"
+  ],
+  "snow": [
+   "Carbon dioxide snow at my poles!",
+   "shiver"
+  ],
+  "sound": [
+   "Perseverance recorded my wind!",
+   "happy"
+  ],
+  "swim": [
+   "I had water long ago!",
+   "cry"
+  ],
+  "sky": [
+   "The red dot in your sky!",
+   "cool"
+  ],
+  "galaxy": [
+   "Space is mostly empty!",
+   "calm"
+  ],
+  "eclipse": [
+   "Phobos makes mini eclipses here!",
+   "happy"
+  ],
+  "asteroid": [
+   "The asteroid belt is my neighbor!",
+   "cool"
+  ],
+  "giants": [
+   "Rocky, with icy poles!",
+   "cool"
+  ],
+  "inside": [
+   "A liquid core, says InSight!",
+   "cool"
+  ],
+  "interview": [
+   "Hosting robots since 1976!",
+   "happy"
+  ],
+  "selfie": [
+   "Curiosity takes selfies on me!",
+   "happy"
+  ],
+  "coffee": [
+   "Something red. Like my rust.",
+   "cool"
+  ],
+  "wifi": [
+   "Messages take up to 22 minutes!",
+   "angry"
+  ],
+  "gym": [
+   "Lift almost three times more here!",
+   "cool"
+  ],
+  "air": [
+   "95 percent carbon dioxide.",
+   "cool"
+  ],
+  "school": [
+   "Fourth seat, red backpack.",
+   "happy"
+  ],
+  "famous": [
+   "Most explored planet after Earth!",
+   "cool"
+  ],
+  "freezing": [
+   "Minus 125 at my poles!",
+   "shiver"
+  ],
+  "rocket": [
+   "Five km per second to leave!",
+   "cool"
+  ],
+  "vacation": [
+   "Pack warm. Minus 60!",
+   "shiver"
+  ],
+  "pressure": [
+   "Less than one percent of Earth’s!",
+   "shock"
+  ],
+  "bestfriend": [
+   "Phobos and Deimos!",
+   "happy"
+  ],
+  "skycolor": [
+   "Butterscotch by day, blue sunsets!",
+   "love"
+  ],
+  "storm": [
+   "Dust storms that last for months!",
+   "angry"
+  ],
+  "newyear": [
+   "Every 687 days!",
+   "cool"
+  ],
+  "moonlight": [
+   "My moons are tiny potatoes.",
+   "cry"
   ]
  },
  "ME": {
@@ -402,6 +978,82 @@ LINES = {
   "distance": [
    "58 million km. Toasty.",
    "angry"
+  ],
+  "scale": [
+   "A giant iron core inside!",
+   "cool"
+  ],
+  "closest": [
+   "On average, I am closest!",
+   "happy"
+  ],
+  "shield": [
+   "Weak field, but I have one!",
+   "happy"
+  ],
+  "canyons": [
+   "Giant cliffs called scarps!",
+   "shock"
+  ],
+  "changed": [
+   "I am shrinking as my core cools!",
+   "cry"
+  ],
+  "trip": [
+   "MESSENGER took six and a half years!",
+   "sleepy"
+  ],
+  "bedtime": [
+   "My nights last about 88 Earth days!",
+   "sleepy"
+  ],
+  "sky": [
+   "Hard to spot, so close to the Sun.",
+   "cry"
+  ],
+  "names": [
+   "The fast messenger god. Like me!",
+   "happy"
+  ],
+  "eclipse": [
+   "I cross the Sun as a tiny dot!",
+   "calm"
+  ],
+  "inside": [
+   "Huge iron core, 85 percent of my radius!",
+   "cool"
+  ],
+  "weird": [
+   "Sometimes the Sun goes backwards here!",
+   "shock"
+  ],
+  "olympics": [
+   "Fastest orbit. Gold medal!",
+   "happy"
+  ],
+  "coffee": [
+   "To go! I orbit fast!",
+   "happy"
+  ],
+  "gym": [
+   "Cardio. 47 km per second!",
+   "happy"
+  ],
+  "air": [
+   "A super thin exosphere.",
+   "calm"
+  ],
+  "school": [
+   "First in line. Closest to the Sun!",
+   "happy"
+  ],
+  "pressure": [
+   "Almost a vacuum here.",
+   "calm"
+  ],
+  "newyear": [
+   "New Year every 88 days!",
+   "happy"
   ]
  },
  "SA": {
@@ -468,6 +1120,134 @@ LINES = {
   "distance": [
    "1.4 billion km. Far!",
    "calm"
+  ],
+  "age": [
+   "4.5 billion years young.",
+   "love"
+  ],
+  "scale": [
+   "Lowest density. I could float!",
+   "love"
+  ],
+  "round": [
+   "I am squished! Flattest planet.",
+   "shock"
+  ],
+  "aurora": [
+   "Auroras at my poles too!",
+   "happy"
+  ],
+  "cloudy": [
+   "Hazy yellow clouds!",
+   "sleepy"
+  ],
+  "mountains": [
+   "My moon Iapetus has a giant ridge!",
+   "shock"
+  ],
+  "changed": [
+   "My rings may vanish someday!",
+   "cry"
+  ],
+  "trip": [
+   "Cassini took almost seven years!",
+   "calm"
+  ],
+  "seasons": [
+   "Seven year seasons!",
+   "calm"
+  ],
+  "swim": [
+   "Titan has lakes of methane!",
+   "cool"
+  ],
+  "sky": [
+   "Visible without a telescope!",
+   "happy"
+  ],
+  "names": [
+   "Roman god of farming!",
+   "calm"
+  ],
+  "discovered": [
+   "Known since ancient times!",
+   "cool"
+  ],
+  "galaxy": [
+   "Billions of galaxies out there!",
+   "happy"
+  ],
+  "asteroid": [
+   "My rings are made of ice chunks!",
+   "cool"
+  ],
+  "giants": [
+   "Gas giant, hydrogen and helium!",
+   "love"
+  ],
+  "inside": [
+   "A rocky core, probably!",
+   "calm"
+  ],
+  "lights": [
+   "Lightning storms here too!",
+   "happy"
+  ],
+  "weird": [
+   "My moon Pan looks like ravioli!",
+   "love"
+  ],
+  "selfie": [
+   "Cassini photographed Earth from behind me!",
+   "cool"
+  ],
+  "olympics": [
+   "Lowest density. Gold in floating!",
+   "love"
+  ],
+  "coffee": [
+   "With a ring of foam!",
+   "love"
+  ],
+  "gym": [
+   "Spin class. Ten hour days!",
+   "cool"
+  ],
+  "air": [
+   "Hydrogen and helium, please.",
+   "happy"
+  ],
+  "twins": [
+   "Jupiter is just a bigger me.",
+   "cool"
+  ],
+  "famous": [
+   "The most famous rings!",
+   "love"
+  ],
+  "vacation": [
+   "Come see Titan’s methane lakes!",
+   "love"
+  ],
+  "pressure": [
+   "Metallic hydrogen inside me too!",
+   "cool"
+  ],
+  "bestfriend": [
+   "Titan, bigger than Mercury!",
+   "cool"
+  ],
+  "skycolor": [
+   "Titan’s sky is orange haze!",
+   "cool"
+  ],
+  "storm": [
+   "A giant storm circled me in 2010!",
+   "shock"
+  ],
+  "moonlight": [
+   "Titan has thicker air than Earth!",
+   "shock"
   ]
  },
  "UR": {
@@ -509,6 +1289,66 @@ LINES = {
   ],
   "visitors": [
    "Voyager 2 only, in 1986.",
+   "sleepy"
+  ],
+  "shield": [
+   "My field is tilted and off-center!",
+   "sleepy"
+  ],
+  "aurora": [
+   "Mine glow in ultraviolet!",
+   "cool"
+  ],
+  "bedtime": [
+   "42 years of night at my poles!",
+   "shock"
+  ],
+  "seasons": [
+   "Each season lasts 21 years!",
+   "shock"
+  ],
+  "smell": [
+   "Rotten eggs! Hydrogen sulfide.",
+   "cry"
+  ],
+  "sky": [
+   "Barely visible to the eye.",
+   "sleepy"
+  ],
+  "names": [
+   "Greek god of the sky!",
+   "happy"
+  ],
+  "discovered": [
+   "1781, by William Herschel!",
+   "happy"
+  ],
+  "giants": [
+   "Ice giant! Water, methane, ammonia.",
+   "cool"
+  ],
+  "weird": [
+   "I roll around the Sun!",
+   "happy"
+  ],
+  "olympics": [
+   "Coldest air. Gold!",
+   "shiver"
+  ],
+  "twins": [
+   "Neptune and I are almost twins!",
+   "happy"
+  ],
+  "freezing": [
+   "Minus 224 at my coldest!",
+   "shiver"
+  ],
+  "storm": [
+   "Storms pop up near my poles!",
+   "happy"
+  ],
+  "newyear": [
+   "Happy New Year! Next one in 84 years!",
    "sleepy"
   ]
  },
@@ -572,6 +1412,90 @@ LINES = {
   "distance": [
    "4.5 billion km. So lonely.",
    "cry"
+  ],
+  "aurora": [
+   "Webb spotted my auroras!",
+   "love"
+  ],
+  "cloudy": [
+   "Bright methane clouds!",
+   "cool"
+  ],
+  "changed": [
+   "Triton is spiraling inward!",
+   "shock"
+  ],
+  "trip": [
+   "Voyager 2 took 12 years!",
+   "cry"
+  ],
+  "seasons": [
+   "Each season lasts over 40 years!",
+   "shock"
+  ],
+  "snow": [
+   "Triton has nitrogen frost!",
+   "shiver"
+  ],
+  "swim": [
+   "Triton might hide an ocean!",
+   "cool"
+  ],
+  "sky": [
+   "You need a telescope for me.",
+   "cool"
+  ],
+  "names": [
+   "God of the sea. I am blue!",
+   "cool"
+  ],
+  "discovered": [
+   "1846, found with math!",
+   "cool"
+  ],
+  "galaxy": [
+   "Andromeda arrives in about 4.5 billion years!",
+   "shock"
+  ],
+  "giants": [
+   "Ice giant too! Twins!",
+   "happy"
+  ],
+  "olympics": [
+   "Fastest winds. Gold!",
+   "cool"
+  ],
+  "coffee": [
+   "Iced. I am minus 200!",
+   "shiver"
+  ],
+  "twins": [
+   "Same size, different blue!",
+   "cool"
+  ],
+  "school": [
+   "Farthest seat, by the window.",
+   "sleepy"
+  ],
+  "freezing": [
+   "Minus 200. Normal Tuesday.",
+   "cool"
+  ],
+  "vacation": [
+   "Bring a jacket. Minus 200!",
+   "shiver"
+  ],
+  "bestfriend": [
+   "Triton, probably captured from far away!",
+   "cool"
+  ],
+  "storm": [
+   "Voyager saw my Great Dark Spot!",
+   "cool"
+  ],
+  "newyear": [
+   "One New Year every 165 years!",
+   "cry"
   ]
  },
  "PL": {
@@ -618,6 +1542,98 @@ LINES = {
   "halloween": [
    "Ghost costume. Again.",
    "cry"
+  ],
+  "age": [
+   "Same age as you all. Just smaller.",
+   "calm"
+  ],
+  "scale": [
+   "Less than one percent of Earth.",
+   "cry"
+  ],
+  "cloudy": [
+   "Blue haze layers!",
+   "love"
+  ],
+  "mountains": [
+   "Mountains made of water ice!",
+   "shiver"
+  ],
+  "trip": [
+   "New Horizons took nine and a half years!",
+   "shock"
+  ],
+  "snow": [
+   "Methane snow on my peaks!",
+   "shiver"
+  ],
+  "swim": [
+   "Maybe an ocean under my ice!",
+   "love"
+  ],
+  "names": [
+   "Named by an 11 year old girl!",
+   "love"
+  ],
+  "discovered": [
+   "1930, by Clyde Tombaugh!",
+   "love"
+  ],
+  "giants": [
+   "Dwarf planet of ice and rock!",
+   "cry"
+  ],
+  "weird": [
+   "Charon and I always face each other!",
+   "love"
+  ],
+  "interview": [
+   "Part-time planet, full-time cute.",
+   "love"
+  ],
+  "selfie": [
+   "New Horizons saw my heart!",
+   "love"
+  ],
+  "wifi": [
+   "My photos took over a year to download!",
+   "cry"
+  ],
+  "twins": [
+   "Charon is half my size!",
+   "love"
+  ],
+  "school": [
+   "Still not on the class list.",
+   "cry"
+  ],
+  "famous": [
+   "Everyone still loves me!",
+   "happy"
+  ],
+  "freezing": [
+   "Minus 230. Pass the blanket.",
+   "shiver"
+  ],
+  "rocket": [
+   "About 1.2 km per second!",
+   "love"
+  ],
+  "vacation": [
+   "Long flight. About nine years!",
+   "cry"
+  ],
+  "bestfriend": [
+   "Charon! We orbit each other.",
+   "love"
+  ],
+  "newyear": [
+   "My next New Year? 2178!",
+   "cry"
+  ],
+  "moonlight": [
+   "Charon is huge for my size!",
+   "happy"
   ]
  },
  "MO": {
@@ -660,6 +1676,134 @@ LINES = {
   "halloween": [
    "Full moon. Spooky time!",
    "love"
+  ],
+  "age": [
+   "Probably born from a giant crash!",
+   "shock"
+  ],
+  "scale": [
+   "About 1.2 percent of Earth.",
+   "calm"
+  ],
+  "closest": [
+   "384,000 km. Closest of all!",
+   "love"
+  ],
+  "round": [
+   "Round, with lots of dents.",
+   "calm"
+  ],
+  "cloudy": [
+   "No clouds. Ever.",
+   "calm"
+  ],
+  "mountains": [
+   "Mountains from giant impacts.",
+   "calm"
+  ],
+  "canyons": [
+   "Long winding channels called rilles!",
+   "calm"
+  ],
+  "changed": [
+   "I drift 3.8 cm away every year!",
+   "sleepy"
+  ],
+  "trip": [
+   "Three days, by Apollo!",
+   "happy"
+  ],
+  "bedtime": [
+   "Two weeks of night. Cozy.",
+   "sleepy"
+  ],
+  "snow": [
+   "No snow, just dust.",
+   "calm"
+  ],
+  "smell": [
+   "Astronauts said I smell like gunpowder!",
+   "shock"
+  ],
+  "sound": [
+   "Total silence up here.",
+   "sleepy"
+  ],
+  "sky": [
+   "Brightest thing at night!",
+   "love"
+  ],
+  "eclipse": [
+   "I cover the Sun perfectly!",
+   "cool"
+  ],
+  "asteroid": [
+   "No air to stop them. Craters!",
+   "cry"
+  ],
+  "inside": [
+   "A small iron core.",
+   "calm"
+  ],
+  "lights": [
+   "I do not glow. I reflect sunlight!",
+   "calm"
+  ],
+  "weird": [
+   "The same side always faces Earth!",
+   "calm"
+  ],
+  "interview": [
+   "I make your ocean tides!",
+   "happy"
+  ],
+  "selfie": [
+   "Earthrise, 1968!",
+   "happy"
+  ],
+  "wifi": [
+   "About a 1.3 second delay. Fine.",
+   "calm"
+  ],
+  "gym": [
+   "Easy mode. One sixth gravity!",
+   "happy"
+  ],
+  "air": [
+   "Almost no air at all.",
+   "calm"
+  ],
+  "famous": [
+   "The only world humans walked on!",
+   "love"
+  ],
+  "freezing": [
+   "Minus 130 at night!",
+   "shiver"
+  ],
+  "rocket": [
+   "Only 2.4 km per second to leave me!",
+   "happy"
+  ],
+  "vacation": [
+   "Bring a spacesuit. No air!",
+   "calm"
+  ],
+  "pressure": [
+   "Basically zero pressure!",
+   "calm"
+  ],
+  "bestfriend": [
+   "Earth! I always show one face.",
+   "love"
+  ],
+  "skycolor": [
+   "Black, even in daytime!",
+   "shock"
+  ],
+  "moonlight": [
+   "Hi! I am 3,474 km wide.",
+   "happy"
   ]
  },
  "SU": {
@@ -690,6 +1834,70 @@ LINES = {
   "halloween": [
    "My solar storms make auroras!",
    "happy"
+  ],
+  "age": [
+   "4.6 billion years. Still shining!",
+   "cool"
+  ],
+  "scale": [
+   "99.8 percent of all the mass here!",
+   "shock"
+  ],
+  "closest": [
+   "Eight light minutes away.",
+   "calm"
+  ],
+  "round": [
+   "Almost a perfect sphere!",
+   "cool"
+  ],
+  "shield": [
+   "My field flips every 11 years!",
+   "shock"
+  ],
+  "aurora": [
+   "My solar wind makes them happen!",
+   "happy"
+  ],
+  "changed": [
+   "I am slowly getting brighter!",
+   "cool"
+  ],
+  "sound": [
+   "Space is silent. No air for sound!",
+   "calm"
+  ],
+  "galaxy": [
+   "One lap around the galaxy takes 230 million years!",
+   "cool"
+  ],
+  "eclipse": [
+   "400 times bigger, 400 times farther!",
+   "cool"
+  ],
+  "asteroid": [
+   "Over a million asteroids orbit me!",
+   "calm"
+  ],
+  "inside": [
+   "Fusion! Hydrogen into helium!",
+   "happy"
+  ],
+  "lights": [
+   "I make my own light!",
+   "cool"
+  ],
+  "interview": [
+   "I power everything here.",
+   "cool"
+  ],
+  "rocket": [
+   "618 km per second!",
+   "shock"
+  ],
+  "moonlight": [
+   "Moonlight is just my light, reflected!",
+   "cool"
   ]
  }
 }
