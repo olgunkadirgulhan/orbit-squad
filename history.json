@@ -59,6 +59,135 @@
         "EA"
       ],
       "seed": 499667
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode",
+      "title": "Planets Answer 10 Space Questions 🪐 Orbit Squad Episode 1",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "age",
+      "countries": [
+        "MO",
+        "EA",
+        "JU",
+        "SU"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "SA",
+        "VE",
+        "MO",
+        "EA"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "SA",
+        "UR",
+        "EA",
+        "JU"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "outfit",
+      "countries": [
+        "MA",
+        "SU",
+        "UR",
+        "EA"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "volcano",
+      "countries": [
+        "EA",
+        "MO",
+        "MA",
+        "JU"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "visitors",
+      "countries": [
+        "MA",
+        "SA",
+        "MO",
+        "UR"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "pluto",
+      "countries": [
+        "NE",
+        "SA",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "daylength",
+      "countries": [
+        "EA",
+        "JU",
+        "MO",
+        "SA"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "race",
+      "countries": [
+        "JU",
+        "SU",
+        "MA",
+        "NE"
+      ]
+    },
+    {
+      "id": "4DSPgPoQmvE",
+      "date": "2026-10-13 22:12",
+      "kind": "episode-part",
+      "situation": "sunlight",
+      "countries": [
+        "MA",
+        "SU",
+        "SA",
+        "JU"
+      ]
     }
   ]
 }
