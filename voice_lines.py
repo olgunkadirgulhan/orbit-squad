@@ -43,6 +43,22 @@ VOICE = {
  "PL": [
   "Zephyr",
   "a small but brave"
+ ],
+ "TI": [
+  "Enceladus",
+  "a dreamy, mysterious"
+ ],
+ "EU": [
+  "Vindemiatrix",
+  "a gentle, curious"
+ ],
+ "IO": [
+  "Sadachbia",
+  "a hyper, fiery"
+ ],
+ "CE": [
+  "Zubenelgenubi",
+  "a humble, cheerful"
  ]
 }
 LINES = {
@@ -1803,6 +1819,326 @@ LINES = {
   ],
   "moonlight": [
    "Hi! I am 3,474 km wide.",
+   "happy"
+  ]
+ },
+ "TI": {
+  "daylength": [
+   "16 Earth days. Same as my orbit!",
+   "calm"
+  ],
+  "hot": [
+   "Minus 179. Brrr.",
+   "shiver"
+  ],
+  "moons": [
+   "I am Saturn's biggest moon!",
+   "cool"
+  ],
+  "small": [
+   "Bigger than Mercury!",
+   "cool"
+  ],
+  "rain": [
+   "Methane rain! Real rain!",
+   "shock"
+  ],
+  "jump": [
+   "With wings, you could fly here!",
+   "love"
+  ],
+  "water": [
+   "Lakes of liquid methane!",
+   "cool"
+  ],
+  "volcano": [
+   "Maybe ice volcanoes!",
+   "calm"
+  ],
+  "pluto": [
+   "I am bigger than you, Pluto.",
+   "cool"
+  ],
+  "outfit": [
+   "Orange haze. Always.",
+   "calm"
+  ],
+  "visitors": [
+   "Huygens landed on me in 2005!",
+   "love"
+  ],
+  "trip": [
+   "Cassini-Huygens took seven years!",
+   "calm"
+  ],
+  "swim": [
+   "Swim in methane? Maybe not.",
+   "calm"
+  ],
+  "discovered": [
+   "1655, by Christiaan Huygens!",
+   "cool"
+  ],
+  "giants": [
+   "A moon with planet vibes.",
+   "cool"
+  ],
+  "weird": [
+   "I have rivers, lakes and seas!",
+   "cool"
+  ],
+  "selfie": [
+   "Huygens took photos on the way down!",
+   "love"
+  ],
+  "olympics": [
+   "Only moon with thick air. Gold!",
+   "cool"
+  ],
+  "air": [
+   "Thicker air than Earth!",
+   "shock"
+  ],
+  "freezing": [
+   "Minus 179. Normal.",
+   "cool"
+  ],
+  "bestfriend": [
+   "Saturn, my giant buddy!",
+   "love"
+  ]
+ },
+ "EU": {
+  "daylength": [
+   "3.5 days. Locked to Jupiter!",
+   "cool"
+  ],
+  "hot": [
+   "Minus 160 on my ice.",
+   "shiver"
+  ],
+  "moons": [
+   "One of Jupiter's four big moons!",
+   "happy"
+  ],
+  "small": [
+   "A bit smaller than your Moon.",
+   "calm"
+  ],
+  "jump": [
+   "Jump about seven times higher!",
+   "happy"
+  ],
+  "water": [
+   "A whole ocean under my ice!",
+   "love"
+  ],
+  "volcano": [
+   "Maybe water plumes!",
+   "cool"
+  ],
+  "pluto": [
+   "Even I am bigger than you!",
+   "calm"
+  ],
+  "outfit": [
+   "White ice with reddish cracks.",
+   "love"
+  ],
+  "visitors": [
+   "Europa Clipper is on its way!",
+   "happy"
+  ],
+  "trip": [
+   "Clipper takes almost six years!",
+   "calm"
+  ],
+  "swim": [
+   "My ocean may hold twice Earth's water!",
+   "love"
+  ],
+  "discovered": [
+   "1610, by Galileo!",
+   "happy"
+  ],
+  "weird": [
+   "One of the smoothest surfaces around!",
+   "cool"
+  ],
+  "selfie": [
+   "Galileo mapped my cracks!",
+   "happy"
+  ],
+  "olympics": [
+   "Smoothest surface. Gold!",
+   "love"
+  ],
+  "air": [
+   "A tiny bit of oxygen!",
+   "happy"
+  ],
+  "freezing": [
+   "Minus 160 on the surface!",
+   "shiver"
+  ],
+  "bestfriend": [
+   "Jupiter, of course!",
+   "love"
+  ],
+  "skycolor": [
+   "Giant Jupiter in my sky!",
+   "love"
+  ]
+ },
+ "IO": {
+  "daylength": [
+   "42 hours. Fast lap!",
+   "happy"
+  ],
+  "hot": [
+   "My lava is over 1,000°C!",
+   "angry"
+  ],
+  "moons": [
+   "The closest of Jupiter's big moons!",
+   "cool"
+  ],
+  "small": [
+   "Slightly bigger than your Moon!",
+   "happy"
+  ],
+  "rain": [
+   "Sulfur frost falls here!",
+   "cool"
+  ],
+  "jump": [
+   "Jump five times higher!",
+   "happy"
+  ],
+  "water": [
+   "Bone dry. Just lava.",
+   "angry"
+  ],
+  "volcano": [
+   "Over 400 active volcanoes!",
+   "shock"
+  ],
+  "outfit": [
+   "Yellow and orange sulfur!",
+   "cool"
+  ],
+  "visitors": [
+   "Juno flew close to me!",
+   "cool"
+  ],
+  "discovered": [
+   "1610, by Galileo too!",
+   "happy"
+  ],
+  "weird": [
+   "Jupiter squeezes me and I melt!",
+   "shock"
+  ],
+  "selfie": [
+   "Juno caught my lava lakes!",
+   "cool"
+  ],
+  "olympics": [
+   "Most volcanic world. Gold!",
+   "happy"
+  ],
+  "air": [
+   "Thin sulfur dioxide air.",
+   "cool"
+  ],
+  "freezing": [
+   "Cold ground, hot volcanoes!",
+   "cool"
+  ],
+  "bestfriend": [
+   "Jupiter. He squeezes me!",
+   "angry"
+  ],
+  "skycolor": [
+   "Jupiter fills my sky!",
+   "shock"
+  ]
+ },
+ "CE": {
+  "daylength": [
+   "Nine hours. Quick spin!",
+   "happy"
+  ],
+  "moons": [
+   "No moons. Just asteroid friends.",
+   "calm"
+  ],
+  "small": [
+   "Biggest in the asteroid belt!",
+   "cool"
+  ],
+  "jump": [
+   "Jump 35 times higher!",
+   "shock"
+  ],
+  "water": [
+   "Maybe salty water deep inside!",
+   "happy"
+  ],
+  "volcano": [
+   "An ice volcano called Ahuna Mons!",
+   "happy"
+  ],
+  "pluto": [
+   "I am a dwarf planet too!",
+   "love"
+  ],
+  "outfit": [
+   "Gray with bright salty spots!",
+   "happy"
+  ],
+  "visitors": [
+   "Dawn orbited me in 2015!",
+   "love"
+  ],
+  "trip": [
+   "Dawn took about eight years to reach me.",
+   "sleepy"
+  ],
+  "swim": [
+   "Maybe salty water inside!",
+   "happy"
+  ],
+  "discovered": [
+   "1801, the first asteroid ever found!",
+   "love"
+  ],
+  "giants": [
+   "Dwarf planet, rock and ice!",
+   "cool"
+  ],
+  "weird": [
+   "My bright spots are salt!",
+   "shock"
+  ],
+  "selfie": [
+   "Dawn snapped my bright spots!",
+   "love"
+  ],
+  "olympics": [
+   "Biggest in the asteroid belt. Gold!",
+   "happy"
+  ],
+  "air": [
+   "Almost no air.",
+   "calm"
+  ],
+  "freezing": [
+   "About minus 105. Brrr.",
+   "shiver"
+  ],
+  "bestfriend": [
+   "Vesta, my asteroid neighbor!",
    "happy"
   ]
  },

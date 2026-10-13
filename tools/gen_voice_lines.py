@@ -10,6 +10,8 @@ VOICE = {  # gök cismi → (Gemini sesi, karakter tarifi) — kişilik tutarlı
     'JU': ('Charon', 'a deep-voiced, confident'), 'SA': ('Aoede', 'a glamorous, cheerful'),
     'UR': ('Orus', 'a laid-back, sleepy'), 'NE': ('Iapetus', 'a cool, mysterious'),
     'PL': ('Zephyr', 'a small but brave'),
+    'TI': ('Enceladus', 'a dreamy, mysterious'), 'EU': ('Vindemiatrix', 'a gentle, curious'),
+    'IO': ('Sadachbia', 'a hyper, fiery'), 'CE': ('Zubenelgenubi', 'a humble, cheerful'),
 }
 lines = {}
 for sit, s in balls.SITUATIONS.items():

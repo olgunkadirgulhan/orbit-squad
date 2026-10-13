@@ -12,7 +12,8 @@ import orbit as balls  # noqa: E402
 
 HISTORY = HERE / 'history.json'
 # en çok aranan/izlenen gök cisimleri daha sık (2026-10-13 trend: solarballs medyan 237K, "what if earth" 189K)
-WEIGHT = {'EA': 3, 'SA': 2.5, 'JU': 2.5, 'MA': 2.5, 'SU': 2, 'PL': 2, 'MO': 2, 'VE': 1.5, 'NE': 1.5, 'UR': 1.5, 'ME': 1.2}
+WEIGHT = {'EA': 3, 'SA': 2.5, 'JU': 2.5, 'MA': 2.5, 'SU': 2, 'PL': 2, 'MO': 2, 'VE': 1.5, 'NE': 1.5, 'UR': 1.5, 'ME': 1.2,
+          'TI': 1.3, 'EU': 1.3, 'IO': 1.3, 'CE': 1.1}
 TITLES = ['{t} 🪐 #space', '{t} 😂 #planets', '{t} 🌍 #solarsystem', 'Solar System Facts: {s} 🚀',
           '{t} (Real Space Facts!) 🪐', 'POV: {t} 😂 #space']
 

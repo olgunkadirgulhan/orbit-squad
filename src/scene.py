@@ -124,6 +124,32 @@ def flag_img(code):
         im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im)
         d.ellipse([340, 170, 420, 210], fill=(30, 50, 140)); d.line([(150, 120), (260, 115)], fill=(220, 230, 255), width=6)
         return im
+    elif code == 'TI':   # turuncu pus
+        a = _bands(h, w, [(235, 170, 80), (220, 150, 60), (240, 180, 95)], 6, 0.02) * (0.93 + 0.1 * n)
+    elif code == 'EU':   # beyaz buz + kırmızımsı çatlaklar
+        a = np.array((235, 225, 210)) * (0.9 + 0.12 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('EU')
+        for _ in range(16):
+            x, y = rnd.uniform(0, w), rnd.uniform(0, h); pts = [(x, y)]
+            for _ in range(5):
+                x += rnd.uniform(-90, 90); y += rnd.uniform(-40, 40); pts.append((x, y))
+            d.line(pts, fill=(160, 90, 60), width=rnd.choice([3, 4, 5]))
+        return im
+    elif code == 'IO':   # kükürt sarısı + volkan lekeleri
+        a = np.array((235, 200, 70)) * (0.85 + 0.3 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('IO')
+        for _ in range(14):
+            x, y, r = rnd.uniform(0, w), rnd.uniform(40, h - 40), rnd.uniform(8, 22)
+            d.ellipse([x - r * 1.8, y - r * 1.8, x + r * 1.8, y + r * 1.8], fill=(215, 120, 50)); d.ellipse([x - r, y - r, x + r, y + r], fill=(60, 40, 30))
+        return im
+    elif code == 'CE':   # gri + parlak tuz lekeleri
+        a = np.array((140, 135, 130)) * (0.8 + 0.35 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('CE')
+        for _ in range(18):
+            x, y, r = rnd.uniform(0, w), rnd.uniform(0, h), rnd.uniform(8, 24)
+            d.ellipse([x - r, y - r, x + r, y + r], outline=(105, 100, 95), width=3)
+        d.ellipse([280, 285, 312, 310], fill=(250, 250, 245)); d.ellipse([322, 298, 334, 310], fill=(250, 250, 245))
+        return im
     else:  # PL: kalp şekilli buzul (Tombaugh Regio)
         a = np.array((200, 165, 130)) * (0.8 + 0.3 * n)
         im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im)

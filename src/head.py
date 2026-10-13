@@ -23,7 +23,8 @@ SR = 44100
 DARK = (28, 22, 40)
 
 NAMES = {'SU': 'SUN', 'ME': 'MERCURY', 'VE': 'VENUS', 'EA': 'EARTH', 'MO': 'MOON', 'MA': 'MARS', 'JU': 'JUPITER',
-         'SA': 'SATURN', 'UR': 'URANUS', 'NE': 'NEPTUNE', 'PL': 'PLUTO'}
+         'SA': 'SATURN', 'UR': 'URANUS', 'NE': 'NEPTUNE', 'PL': 'PLUTO',
+         'TI': 'TITAN', 'EU': 'EUROPA', 'IO': 'IO', 'CE': 'CERES'}
 
 PLAN = {}
 

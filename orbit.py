@@ -23,7 +23,8 @@ SR = 44100
 DARK = (28, 22, 40)
 
 NAMES = {'SU': 'SUN', 'ME': 'MERCURY', 'VE': 'VENUS', 'EA': 'EARTH', 'MO': 'MOON', 'MA': 'MARS', 'JU': 'JUPITER',
-         'SA': 'SATURN', 'UR': 'URANUS', 'NE': 'NEPTUNE', 'PL': 'PLUTO'}
+         'SA': 'SATURN', 'UR': 'URANUS', 'NE': 'NEPTUNE', 'PL': 'PLUTO',
+         'TI': 'TITAN', 'EU': 'EUROPA', 'IO': 'IO', 'CE': 'CERES'}
 
 PLAN = {}
 
@@ -493,6 +494,52 @@ SITUATIONS.update({
         'SA': ('Titan has thicker air than Earth!', 'shock')}),
 })
 
+# 2026-10-13: kullanıcı "oyuncuları artır" → 4 yeni karakter: Titan (TI), Europa (EU), Io (IO), Ceres (CE). Aynı kural: gerçek bilgi.
+_NEW = {
+    'daylength': {'TI': ('16 Earth days. Same as my orbit!', 'calm'), 'EU': ('3.5 days. Locked to Jupiter!', 'cool'),
+                  'IO': ('42 hours. Fast lap!', 'happy'), 'CE': ('Nine hours. Quick spin!', 'happy')},
+    'hot': {'IO': ('My lava is over 1,000°C!', 'angry'), 'EU': ('Minus 160 on my ice.', 'shiver'), 'TI': ('Minus 179. Brrr.', 'shiver')},
+    'moons': {'TI': ('I am Saturn\'s biggest moon!', 'cool'), 'EU': ('One of Jupiter\'s four big moons!', 'happy'),
+              'IO': ('The closest of Jupiter\'s big moons!', 'cool'), 'CE': ('No moons. Just asteroid friends.', 'calm')},
+    'small': {'TI': ('Bigger than Mercury!', 'cool'), 'EU': ('A bit smaller than your Moon.', 'calm'),
+              'IO': ('Slightly bigger than your Moon!', 'happy'), 'CE': ('Biggest in the asteroid belt!', 'cool')},
+    'rain': {'TI': ('Methane rain! Real rain!', 'shock'), 'IO': ('Sulfur frost falls here!', 'cool')},
+    'water': {'EU': ('A whole ocean under my ice!', 'love'), 'TI': ('Lakes of liquid methane!', 'cool'),
+              'CE': ('Maybe salty water deep inside!', 'happy'), 'IO': ('Bone dry. Just lava.', 'angry')},
+    'volcano': {'IO': ('Over 400 active volcanoes!', 'shock'), 'EU': ('Maybe water plumes!', 'cool'),
+                'TI': ('Maybe ice volcanoes!', 'calm'), 'CE': ('An ice volcano called Ahuna Mons!', 'happy')},
+    'visitors': {'TI': ('Huygens landed on me in 2005!', 'love'), 'EU': ('Europa Clipper is on its way!', 'happy'),
+                 'CE': ('Dawn orbited me in 2015!', 'love'), 'IO': ('Juno flew close to me!', 'cool')},
+    'pluto': {'CE': ('I am a dwarf planet too!', 'love'), 'TI': ('I am bigger than you, Pluto.', 'cool'),
+              'EU': ('Even I am bigger than you!', 'calm')},
+    'outfit': {'IO': ('Yellow and orange sulfur!', 'cool'), 'TI': ('Orange haze. Always.', 'calm'),
+               'EU': ('White ice with reddish cracks.', 'love'), 'CE': ('Gray with bright salty spots!', 'happy')},
+    'air': {'TI': ('Thicker air than Earth!', 'shock'), 'IO': ('Thin sulfur dioxide air.', 'cool'),
+            'EU': ('A tiny bit of oxygen!', 'happy'), 'CE': ('Almost no air.', 'calm')},
+    'jump': {'TI': ('With wings, you could fly here!', 'love'), 'EU': ('Jump about seven times higher!', 'happy'),
+             'IO': ('Jump five times higher!', 'happy'), 'CE': ('Jump 35 times higher!', 'shock')},
+    'weird': {'IO': ('Jupiter squeezes me and I melt!', 'shock'), 'TI': ('I have rivers, lakes and seas!', 'cool'),
+              'EU': ('One of the smoothest surfaces around!', 'cool'), 'CE': ('My bright spots are salt!', 'shock')},
+    'swim': {'TI': ('Swim in methane? Maybe not.', 'calm'), 'EU': ('My ocean may hold twice Earth\'s water!', 'love'),
+             'CE': ('Maybe salty water inside!', 'happy')},
+    'bestfriend': {'TI': ('Saturn, my giant buddy!', 'love'), 'EU': ('Jupiter, of course!', 'love'),
+                   'IO': ('Jupiter. He squeezes me!', 'angry'), 'CE': ('Vesta, my asteroid neighbor!', 'happy')},
+    'discovered': {'TI': ('1655, by Christiaan Huygens!', 'cool'), 'EU': ('1610, by Galileo!', 'happy'),
+                   'IO': ('1610, by Galileo too!', 'happy'), 'CE': ('1801, the first asteroid ever found!', 'love')},
+    'giants': {'CE': ('Dwarf planet, rock and ice!', 'cool'), 'TI': ('A moon with planet vibes.', 'cool')},
+    'skycolor': {'IO': ('Jupiter fills my sky!', 'shock'), 'EU': ('Giant Jupiter in my sky!', 'love')},
+    'trip': {'EU': ('Clipper takes almost six years!', 'calm'), 'CE': ('Dawn took about eight years to reach me.', 'sleepy'),
+             'TI': ('Cassini-Huygens took seven years!', 'calm')},
+    'freezing': {'TI': ('Minus 179. Normal.', 'cool'), 'EU': ('Minus 160 on the surface!', 'shiver'),
+                 'CE': ('About minus 105. Brrr.', 'shiver'), 'IO': ('Cold ground, hot volcanoes!', 'cool')},
+    'olympics': {'IO': ('Most volcanic world. Gold!', 'happy'), 'TI': ('Only moon with thick air. Gold!', 'cool'),
+                 'CE': ('Biggest in the asteroid belt. Gold!', 'happy'), 'EU': ('Smoothest surface. Gold!', 'love')},
+    'selfie': {'CE': ('Dawn snapped my bright spots!', 'love'), 'IO': ('Juno caught my lava lakes!', 'cool'),
+               'EU': ('Galileo mapped my cracks!', 'happy'), 'TI': ('Huygens took photos on the way down!', 'love')},
+}
+for _k, _v in _NEW.items():
+    SITUATIONS[_k]['lines'].update(_v)
+
 
 # ---------------------------------------------------------------- uzay sahneleri (kodla çizilir)
 def vgrad(w, h, c1, c2):
@@ -617,6 +664,32 @@ def flag_img(code):
         a = _bands(h, w, [(60, 100, 220), (45, 80, 200), (70, 115, 230)], 5) * (0.88 + 0.2 * n)
         im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im)
         d.ellipse([340, 170, 420, 210], fill=(30, 50, 140)); d.line([(150, 120), (260, 115)], fill=(220, 230, 255), width=6)
+        return im
+    elif code == 'TI':   # turuncu pus
+        a = _bands(h, w, [(235, 170, 80), (220, 150, 60), (240, 180, 95)], 6, 0.02) * (0.93 + 0.1 * n)
+    elif code == 'EU':   # beyaz buz + kırmızımsı çatlaklar
+        a = np.array((235, 225, 210)) * (0.9 + 0.12 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('EU')
+        for _ in range(16):
+            x, y = rnd.uniform(0, w), rnd.uniform(0, h); pts = [(x, y)]
+            for _ in range(5):
+                x += rnd.uniform(-90, 90); y += rnd.uniform(-40, 40); pts.append((x, y))
+            d.line(pts, fill=(160, 90, 60), width=rnd.choice([3, 4, 5]))
+        return im
+    elif code == 'IO':   # kükürt sarısı + volkan lekeleri
+        a = np.array((235, 200, 70)) * (0.85 + 0.3 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('IO')
+        for _ in range(14):
+            x, y, r = rnd.uniform(0, w), rnd.uniform(40, h - 40), rnd.uniform(8, 22)
+            d.ellipse([x - r * 1.8, y - r * 1.8, x + r * 1.8, y + r * 1.8], fill=(215, 120, 50)); d.ellipse([x - r, y - r, x + r, y + r], fill=(60, 40, 30))
+        return im
+    elif code == 'CE':   # gri + parlak tuz lekeleri
+        a = np.array((140, 135, 130)) * (0.8 + 0.35 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('CE')
+        for _ in range(18):
+            x, y, r = rnd.uniform(0, w), rnd.uniform(0, h), rnd.uniform(8, 24)
+            d.ellipse([x - r, y - r, x + r, y + r], outline=(105, 100, 95), width=3)
+        d.ellipse([280, 285, 312, 310], fill=(250, 250, 245)); d.ellipse([322, 298, 334, 310], fill=(250, 250, 245))
         return im
     else:  # PL: kalp şekilli buzul (Tombaugh Regio)
         a = np.array((200, 165, 130)) * (0.8 + 0.3 * n)
