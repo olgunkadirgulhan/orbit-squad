@@ -52,7 +52,7 @@ def pick_plan(hist, rnd):
 def metadata(plan, hist, rnd):
     s = balls.SITUATIONS[plan['situation']]
     t = ' '.join(re.sub(r'[A-Za-z]', lambda m: m.group().upper(), w.lower(), count=1) for w in s['title'].split()).replace('°c', '°C')
-    used = {v['title'] for v in hist['videos']}
+    used = {v.get('title') for v in hist['videos'] if v.get('title')}
     short_s = t.replace('Planets: ', '', 1).replace('Planets ', '', 1)
     opts = [x.format(t=t, s=short_s) for x in TITLES]; rnd.shuffle(opts)
     title = next((x for x in opts if x not in used), opts[0] + f' #{len(hist["videos"]) + 1}')
