@@ -218,6 +218,21 @@
         "SU"
       ],
       "seed": 602680
+    },
+    {
+      "id": "ldK4NF7foek",
+      "date": "2026-10-14 18:54",
+      "kind": "short",
+      "title": "Planets: How Far Are You From The Sun? 🌍 #solarsystem",
+      "privacy": "public",
+      "situation": "distance",
+      "countries": [
+        "EA",
+        "ME",
+        "MA",
+        "SA"
+      ],
+      "seed": 771241
     }
   ]
 }
