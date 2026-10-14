@@ -188,6 +188,21 @@
         "SA",
         "JU"
       ]
+    },
+    {
+      "id": "90U4e7LUuDM",
+      "date": "2026-10-14 16:48",
+      "kind": "short",
+      "title": "Planets When It Rains (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "rain",
+      "countries": [
+        "JU",
+        "EA",
+        "MA",
+        "MO"
+      ],
+      "seed": 916732
     }
   ]
 }
