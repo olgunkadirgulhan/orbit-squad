@@ -293,6 +293,135 @@
         "SA"
       ],
       "seed": 972856
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode",
+      "title": "The Planets Explain: Year Length, Pluto, Auroras & More 🪐 (Ep. 2)",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "year",
+      "countries": [
+        "JU",
+        "MA",
+        "EA",
+        "SA"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "pluto",
+      "countries": [
+        "NE",
+        "JU",
+        "SA",
+        "EA"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "aurora",
+      "countries": [
+        "EA",
+        "UR",
+        "SA",
+        "JU"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "rain",
+      "countries": [
+        "MA",
+        "MO",
+        "UR",
+        "JU"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "JU",
+        "EA",
+        "MA",
+        "SA"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "outfit",
+      "countries": [
+        "MA",
+        "SA",
+        "EA",
+        "SU"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "EA",
+        "SU",
+        "JU",
+        "UR"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "daylength",
+      "countries": [
+        "SA",
+        "JU",
+        "PL",
+        "VE"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "moons",
+      "countries": [
+        "JU",
+        "SA",
+        "EA",
+        "MA"
+      ]
+    },
+    {
+      "id": "pTshegVAhpU",
+      "date": "2026-10-15 20:49",
+      "kind": "episode-part",
+      "situation": "visitors",
+      "countries": [
+        "UR",
+        "MO",
+        "SA",
+        "EA"
+      ]
     }
   ]
 }
