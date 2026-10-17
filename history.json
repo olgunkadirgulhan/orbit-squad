@@ -527,6 +527,21 @@
         "UR"
       ],
       "seed": 132558
+    },
+    {
+      "id": "biJOTWvGBdA",
+      "date": "2026-10-17 18:53",
+      "kind": "short",
+      "title": "Planets On A Windy Day (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "wind",
+      "countries": [
+        "EA",
+        "NE",
+        "SA",
+        "MA"
+      ],
+      "seed": 108922
     }
   ]
 }
