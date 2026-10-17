@@ -542,6 +542,135 @@
         "MA"
       ],
       "seed": 108922
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode",
+      "title": "Planets Answer 10 Space Questions 🪐 Orbit Squad Episode 3",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "moons",
+      "countries": [
+        "UR",
+        "SA",
+        "EA",
+        "JU"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "year",
+      "countries": [
+        "EA",
+        "UR",
+        "MA",
+        "SA"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "jump",
+      "countries": [
+        "MO",
+        "SU",
+        "JU",
+        "EA"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "pluto",
+      "countries": [
+        "SA",
+        "EA",
+        "MO",
+        "MA"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "outfit",
+      "countries": [
+        "SU",
+        "MA",
+        "UR",
+        "SA"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "daylength",
+      "countries": [
+        "EA",
+        "VE",
+        "SA",
+        "UR"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "EA",
+        "SA",
+        "MO",
+        "JU"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "rain",
+      "countries": [
+        "EA",
+        "UR",
+        "MO",
+        "MA"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "JU",
+        "EA",
+        "NE",
+        "UR"
+      ]
+    },
+    {
+      "id": "PTSEUH9DCSE",
+      "date": "2026-10-17 19:57",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "ME",
+        "EA",
+        "JU",
+        "SA"
+      ]
     }
   ]
 }
