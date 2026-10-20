@@ -866,6 +866,135 @@
         "EA"
       ],
       "seed": 941376
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode",
+      "title": "The Planets Explain: Tilt, Water, Pluto & More 🪐 (Ep. 4)",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "SA",
+        "EA",
+        "UR",
+        "ME"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "VE",
+        "MO",
+        "EA",
+        "JU"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "pluto",
+      "countries": [
+        "MO",
+        "SA",
+        "JU",
+        "NE"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "rings",
+      "countries": [
+        "NE",
+        "SA",
+        "UR",
+        "MA"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "wind",
+      "countries": [
+        "JU",
+        "SA",
+        "EA",
+        "MA"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "SU",
+        "EA",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "year",
+      "countries": [
+        "UR",
+        "EA",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "halloween",
+      "countries": [
+        "EA",
+        "MA",
+        "SA",
+        "MO"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "rain",
+      "countries": [
+        "MO",
+        "JU",
+        "EA",
+        "UR"
+      ]
+    },
+    {
+      "id": "pp_EWlTGsCM",
+      "date": "2026-10-20 21:06",
+      "kind": "episode-part",
+      "situation": "jump",
+      "countries": [
+        "JU",
+        "SA",
+        "EA",
+        "SU"
+      ]
     }
   ]
 }
