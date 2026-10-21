@@ -1025,6 +1025,21 @@
         "SA"
       ],
       "seed": 380964
+    },
+    {
+      "id": "qJUejqvWYmQ",
+      "date": "2026-10-21 18:54",
+      "kind": "short",
+      "title": "Planets When Someone Says It's Hot (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "hot",
+      "countries": [
+        "MA",
+        "EA",
+        "NE",
+        "SU"
+      ],
+      "seed": 38617
     }
   ]
 }
