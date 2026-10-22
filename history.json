@@ -1115,6 +1115,135 @@
         "EA"
       ],
       "seed": 835862
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode",
+      "title": "The Planets Explain: Gravity, Day Length, Colors & More 🪐 (Ep. 5)",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "jump",
+      "countries": [
+        "MA",
+        "EA",
+        "SA",
+        "JU"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "daylength",
+      "countries": [
+        "JU",
+        "SA",
+        "MA",
+        "MO"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "outfit",
+      "countries": [
+        "UR",
+        "SA",
+        "EA",
+        "SU"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "MA",
+        "ME",
+        "EA",
+        "SA"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "halloween",
+      "countries": [
+        "MO",
+        "SA",
+        "SU",
+        "MA"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "pluto",
+      "countries": [
+        "JU",
+        "MO",
+        "MA",
+        "NE"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "wind",
+      "countries": [
+        "JU",
+        "MO",
+        "MA",
+        "EA"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "rings",
+      "countries": [
+        "NE",
+        "UR",
+        "EA",
+        "MA"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "sunlight",
+      "countries": [
+        "MA",
+        "SA",
+        "EA",
+        "JU"
+      ]
+    },
+    {
+      "id": "0QKHxsbc3lc",
+      "date": "2026-10-22 21:05",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "MA",
+        "EA",
+        "VE",
+        "JU"
+      ]
     }
   ]
 }
