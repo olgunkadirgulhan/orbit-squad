@@ -1259,6 +1259,21 @@
         "MA"
       ],
       "seed": 57418
+    },
+    {
+      "id": "wYRHNcRC9KI",
+      "date": "2026-10-23 16:54",
+      "kind": "short",
+      "title": "Planets: How Long Is Your Day? 🪐 #space",
+      "privacy": "public",
+      "situation": "daylength",
+      "countries": [
+        "MA",
+        "MO",
+        "UR",
+        "SA"
+      ],
+      "seed": 268338
     }
   ]
 }
