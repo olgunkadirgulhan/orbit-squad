@@ -1334,6 +1334,21 @@
         "SA"
       ],
       "seed": 510809
+    },
+    {
+      "id": "S3CrYGkPZ4s",
+      "date": "2026-10-24 18:54",
+      "kind": "short",
+      "title": "Solar System Facts: On A Windy Day 🚀",
+      "privacy": "public",
+      "situation": "wind",
+      "countries": [
+        "MO",
+        "SA",
+        "MA",
+        "JU"
+      ],
+      "seed": 408524
     }
   ]
 }
