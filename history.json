@@ -1349,6 +1349,135 @@
         "JU"
       ],
       "seed": 408524
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode",
+      "title": "Planets Answer 10 Space Questions 🪐 Orbit Squad Episode 6",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "small",
+      "countries": [
+        "ME",
+        "EA",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "sunlight",
+      "countries": [
+        "JU",
+        "EA",
+        "MA",
+        "SU"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "pluto",
+      "countries": [
+        "MO",
+        "NE",
+        "EA",
+        "MA"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "ME",
+        "MA",
+        "JU",
+        "SA"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "daylength",
+      "countries": [
+        "SA",
+        "MA",
+        "PL",
+        "MO"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "rings",
+      "countries": [
+        "SA",
+        "JU",
+        "NE",
+        "MA"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "jump",
+      "countries": [
+        "JU",
+        "SA",
+        "EA",
+        "MO"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "SU",
+        "UR",
+        "NE",
+        "JU"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "VE",
+        "SA",
+        "JU",
+        "MO"
+      ]
+    },
+    {
+      "id": "r-0JG_jFaqM",
+      "date": "2026-10-24 20:04",
+      "kind": "episode-part",
+      "situation": "wind",
+      "countries": [
+        "NE",
+        "SA",
+        "EA",
+        "MO"
+      ]
     }
   ]
 }
