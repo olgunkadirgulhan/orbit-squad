@@ -1493,6 +1493,22 @@
         "JU"
       ],
       "seed": 378238
+    },
+    {
+      "id": "u9fcf3fzEMY",
+      "date": "2026-10-25 14:54",
+      "kind": "short",
+      "title": "Solar System Facts: When The Light Show Starts 🚀",
+      "privacy": "public",
+      "situation": "aurora",
+      "countries": [
+        "EA",
+        "NE",
+        "SA",
+        "JU"
+      ],
+      "scene": "space",
+      "seed": 792436
     }
   ]
 }
