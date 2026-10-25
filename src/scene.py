@@ -7,8 +7,13 @@ def vgrad(w, h, c1, c2):
 
 
 SKY = {'space': ((6, 8, 28), (22, 24, 64)), 'nebula': ((24, 8, 44), (70, 30, 96)), 'sunlit': ((20, 14, 40), (90, 44, 60)),
-       'ice': ((6, 18, 40), (30, 70, 110)), 'party': ((26, 8, 34), (80, 30, 50))}
-GROUND = {'space': (92, 90, 104), 'nebula': (110, 92, 120), 'sunlit': (150, 110, 90), 'ice': (170, 200, 220), 'party': (90, 70, 100)}
+       'ice': ((6, 18, 40), (30, 70, 110)), 'party': ((26, 8, 34), (80, 30, 50)),
+       # 2026-10-25 yeni ortamlar (aynı sahne hissi tekrar etmesin)
+       'belt': ((10, 10, 20), (40, 34, 48)), 'aurora': ((4, 14, 30), (10, 50, 60)), 'rings': ((14, 10, 30), (60, 46, 70)),
+       'volcano': ((30, 8, 6), (110, 40, 14)), 'eclipse': ((2, 2, 8), (16, 14, 34))}
+GROUND = {'space': (92, 90, 104), 'nebula': (110, 92, 120), 'sunlit': (150, 110, 90), 'ice': (170, 200, 220), 'party': (90, 70, 100),
+          'belt': (112, 98, 84), 'aurora': (150, 175, 190), 'rings': (196, 170, 120), 'volcano': (70, 56, 40), 'eclipse': (70, 72, 86)}
+SCENES = tuple(SKY)
 
 
 @lru_cache(None)
@@ -28,6 +33,35 @@ def scene_bg(kind):
     for _ in range(220):   # yıldızlar
         x, y, r = rnd.uniform(0, W), rnd.uniform(0, H * 0.69), rnd.choice([1.5, 2, 2.5, 3.5])
         d.ellipse(box(x - r, y - r, x + r, y + r), fill=(255, 255, 240))
+    if kind == 'aurora':   # dalgalı yeşil-mor kutup ışığı perdeleri
+        au = Image.new('RGBA', (w, h), (0, 0, 0, 0)); ad = ImageDraw.Draw(au)
+        for k, col in enumerate(((60, 230, 140), (90, 255, 180), (150, 90, 230))):
+            pts = [(x, 260 + 110 * k + 70 * math.sin(x / 170 + k * 1.7)) for x in range(-40, W + 60, 30)]
+            for x, y in pts:
+                ad.rectangle(box(x - 14, y, x + 14, y + 330), fill=col + (55,))
+        img.alpha_composite(au.filter(ImageFilter.GaussianBlur(L(26))))
+    if kind == 'rings':   # gökyüzünü kesen dev halka yayı
+        rg = Image.new('RGBA', (w, h), (0, 0, 0, 0)); rd = ImageDraw.Draw(rg)
+        for k, (col, al) in enumerate((((230, 200, 150), 150), ((190, 160, 120), 120), ((240, 220, 180), 170), ((160, 130, 100), 110))):
+            r = 1300 + 50 * k
+            rd.arc(box(W / 2 - r * 0.9, 1150 - r * 0.45, W / 2 + r * 0.9, 1150 + r * 0.45), 180, 360, fill=col + (al,), width=L(48))
+        img.alpha_composite(rg.filter(ImageFilter.GaussianBlur(L(2))))
+    if kind == 'eclipse':   # kara güneş + taç ışığı
+        cr = Image.new('RGBA', (w, h), (0, 0, 0, 0)); cd = ImageDraw.Draw(cr)
+        for k, al in ((260, 40), (200, 80), (160, 140)):
+            cd.ellipse(box(W * 0.7 - k, 520 - k, W * 0.7 + k, 520 + k), fill=(255, 235, 190, al))
+        img.alpha_composite(cr.filter(ImageFilter.GaussianBlur(L(30))))
+        d.ellipse(box(W * 0.7 - 140, 520 - 140, W * 0.7 + 140, 520 + 140), fill=(4, 4, 10))
+    if kind == 'volcano':   # ufukta kızıl lav parıltısı
+        gl = Image.new('RGBA', (w, h), (0, 0, 0, 0)); gd2 = ImageDraw.Draw(gl)
+        gd2.ellipse(box(-200, H * 0.55, W + 200, H * 0.85), fill=(255, 110, 30, 120))
+        img.alpha_composite(gl.filter(ImageFilter.GaussianBlur(L(70))))
+    if kind == 'belt':   # süzülen kaya parçaları
+        for _ in range(26):
+            x, y, r = rnd.uniform(0, W), rnd.uniform(80, H * 0.62), rnd.uniform(10, 46)
+            pts = [(x + r * rnd.uniform(0.7, 1.2) * math.cos(a), y + r * rnd.uniform(0.6, 1.1) * math.sin(a)) for a in [i * math.pi / 4 for i in range(8)]]
+            d.polygon([(L(px), L(py)) for px, py in pts], fill=(120, 108, 96))
+            d.ellipse(box(x - r * 0.3, y - r * 0.3, x, y), fill=(92, 82, 74))
     if kind == 'sunlit':   # köşede dev güneş ışığı
         glow = Image.new('RGBA', (w, h), (0, 0, 0, 0)); gd = ImageDraw.Draw(glow)
         for k, al in ((620, 40), (460, 70), (320, 120)):
@@ -36,6 +70,11 @@ def scene_bg(kind):
     # kraterli küçük gezegen zemini (karakterler üstünde durur)
     gc = GROUND.get(kind, GROUND['space'])
     d.ellipse([-L(400), gy - L(60), w + L(400), gy + L(1400)], fill=gc)
+    if kind == 'volcano':   # lav çatlakları
+        for _ in range(9):
+            x0, y0 = rnd.uniform(0, W), rnd.uniform(H * 0.74, H * 0.97)
+            pts = [(x0 + 40 * j, y0 + rnd.uniform(-18, 18)) for j in range(6)]
+            d.line([(L(px), L(py)) for px, py in pts], fill=(255, 120, 30), width=L(6))
     for _ in range(14):
         x, y, r = rnd.uniform(0, W), rnd.uniform(H * 0.73, H * 0.98), rnd.uniform(25, 70)
         d.ellipse(box(x - r, y - r * 0.4, x + r, y + r * 0.4), fill=tuple(int(c * 0.82) for c in gc))
@@ -55,6 +94,14 @@ def effects(img, kind, t):
     if u < 0.25:
         x0, y0 = 1100 - u * 4 * 900, 150 + u * 4 * 380
         d.line(box(x0, y0, x0 + 160, y0 - 68), fill=(255, 255, 230), width=L(5))
+    if kind == 'volcano':   # yükselen kıvılcımlar
+        for j in range(24):
+            x0, sp = rnd.uniform(0, W), rnd.uniform(90, 200)
+            y = H * 0.8 - (rnd.uniform(0, H * 0.7) + t * sp) % (H * 0.7)
+            d.ellipse(box(x0 - 4, y - 4, x0 + 4, y + 4), fill=(255, 170, 60))
+    if kind == 'belt':   # yavaşça geçen kaya
+        x = (t * 120 + 200) % (W + 300) - 150
+        d.ellipse(box(x - 34, 300 - 22, x + 34, 300 + 22), fill=(130, 116, 100))
     if kind == 'party':
         for j in range(30):
             x0, sp = rnd.uniform(0, W), rnd.uniform(150, 300)

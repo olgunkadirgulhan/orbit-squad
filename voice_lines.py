@@ -310,6 +310,82 @@ LINES = {
   "moonlight": [
    "She controls my ocean tides!",
    "love"
+  ],
+  "backwards": [
+   "Sun rises in the east. Like a normal planet.",
+   "calm"
+  ],
+  "reply": [
+   "Instant. I am right here.",
+   "love"
+  ],
+  "tides": [
+   "Two high tides a day. Thanks, Moon!",
+   "love"
+  ],
+  "drifting": [
+   "My days get a tiny bit longer every century.",
+   "sleepy"
+  ],
+  "craters": [
+   "Chicxulub crater. Ask the dinosaurs.",
+   "cry"
+  ],
+  "icecold": [
+   "Ice caps at both poles.",
+   "calm"
+  ],
+  "neighbors": [
+   "Fun fact: Mercury is my closest neighbor on average!",
+   "shock"
+  ],
+  "cleanroom": [
+   "Over 25,000 tracked pieces of space junk!",
+   "cry"
+  ],
+  "diet": [
+   "Tons of space dust land on me daily!",
+   "cry"
+  ],
+  "superpower": [
+   "Only known planet with life!",
+   "love"
+  ],
+  "future": [
+   "In a billion years, my oceans get too hot.",
+   "shiver"
+  ],
+  "crash": [
+   "A Mars-sized world hit me. Then came the Moon!",
+   "cool"
+  ],
+  "gift": [
+   "I gave the Moon footprints. Twelve people!",
+   "love"
+  ],
+  "dance": [
+   "I wobble! Once every 26,000 years.",
+   "happy"
+  ],
+  "darkside": [
+   "Half of me is always night.",
+   "calm"
+  ],
+  "quake": [
+   "About half a million quakes a year!",
+   "shock"
+  ],
+  "beach": [
+   "Real beaches, real water.",
+   "love"
+  ],
+  "jewelry": [
+   "I make diamonds deep underground.",
+   "cool"
+  ],
+  "lava": [
+   "Only in a few hot spots.",
+   "calm"
   ]
  },
  "VE": {
@@ -471,6 +547,38 @@ LINES = {
   ],
   "skycolor": [
    "Orange, under thick clouds.",
+   "cool"
+  ],
+  "backwards": [
+   "I spin backwards. My Sun rises in the west!",
+   "cool"
+  ],
+  "neighbors": [
+   "But I get closest to Earth!",
+   "angry"
+  ],
+  "superpower": [
+   "Brightest planet in your night sky!",
+   "happy"
+  ],
+  "crash": [
+   "Maybe a crash flipped my spin.",
+   "angry"
+  ],
+  "bright": [
+   "Brightest planet in your sky!",
+   "angry"
+  ],
+  "beach": [
+   "Beach day at 465°C? Pass.",
+   "angry"
+  ],
+  "telescope": [
+   "Galileo saw my phases, like the Moon!",
+   "happy"
+  ],
+  "lava": [
+   "Huge lava plains cover me!",
    "cool"
   ]
  },
@@ -710,6 +818,50 @@ LINES = {
   "moonlight": [
    "My Ganymede is bigger than Mercury!",
    "cool"
+  ],
+  "backwards": [
+   "Forward, and fastest of all!",
+   "cool"
+  ],
+  "reply": [
+   "Roughly 35 to 50 minutes. Patience!",
+   "sleepy"
+  ],
+  "tides": [
+   "My tides squeeze Io into volcanoes.",
+   "cool"
+  ],
+  "craters": [
+   "A comet smashed into me in 1994!",
+   "angry"
+  ],
+  "neighbors": [
+   "Trojan asteroids share my orbit!",
+   "cool"
+  ],
+  "cleanroom": [
+   "I sweep up comets and asteroids!",
+   "cool"
+  ],
+  "diet": [
+   "Mostly hydrogen and helium. Light stuff!",
+   "cool"
+  ],
+  "crash": [
+   "Comet Shoemaker-Levy 9. Ouch!",
+   "angry"
+  ],
+  "dance": [
+   "I spin fastest of all planets!",
+   "cool"
+  ],
+  "bright": [
+   "Often third brightest at night!",
+   "calm"
+  ],
+  "telescope": [
+   "Even binoculars show my four big moons!",
+   "happy"
   ]
  },
  "MA": {
@@ -944,6 +1096,74 @@ LINES = {
   "moonlight": [
    "My moons are tiny potatoes.",
    "cry"
+  ],
+  "reply": [
+   "3 to 22 minutes, one way. Sorry!",
+   "calm"
+  ],
+  "drifting": [
+   "Phobos creeps closer every year!",
+   "shock"
+  ],
+  "craters": [
+   "Hellas Basin, over 2,000 km wide!",
+   "cool"
+  ],
+  "icecold": [
+   "Polar caps of water ice and dry ice!",
+   "cool"
+  ],
+  "neighbors": [
+   "Next door to the asteroid belt.",
+   "calm"
+  ],
+  "cleanroom": [
+   "Dust storms can cover my whole planet!",
+   "angry"
+  ],
+  "diet": [
+   "I lost most of my air to the solar wind.",
+   "cry"
+  ],
+  "superpower": [
+   "I make the biggest dust storms!",
+   "angry"
+  ],
+  "future": [
+   "Phobos may become a ring!",
+   "shock"
+  ],
+  "crash": [
+   "A huge impact may explain my two halves.",
+   "calm"
+  ],
+  "gift": [
+   "I sent you hundreds of meteorites!",
+   "happy"
+  ],
+  "bright": [
+   "I glow red. Easy to spot!",
+   "happy"
+  ],
+  "quake": [
+   "InSight heard over 1,300 marsquakes!",
+   "cool"
+  ],
+  "beach": [
+   "Sand dunes everywhere!",
+   "happy"
+  ],
+  "telescope": [
+   "Hubble watches my dust storms!",
+   "cool"
+  ],
+  "jewelry": [
+   "I have rust. Does that count?",
+   "cry"
+  ],
+  "lava": [
+   "Olympus Mons is an old lava volcano!",
+   "cool"
   ]
  },
  "ME": {
@@ -1070,6 +1290,38 @@ LINES = {
   "newyear": [
    "New Year every 88 days!",
    "happy"
+  ],
+  "craters": [
+   "Caloris Basin, 1,500 km wide!",
+   "shock"
+  ],
+  "icecold": [
+   "Even I have ice, in shadowy craters!",
+   "shock"
+  ],
+  "diet": [
+   "I shrank! Up to 7 km across.",
+   "happy"
+  ],
+  "superpower": [
+   "Fastest planet around the Sun!",
+   "happy"
+  ],
+  "crash": [
+   "A giant hit may have stripped my outer layers!",
+   "cry"
+  ],
+  "darkside": [
+   "Night lasts months here.",
+   "sleepy"
+  ],
+  "quake": [
+   "I am shrinking, so my crust cracks!",
+   "cry"
+  ],
+  "lava": [
+   "Ancient lava flooded my plains!",
+   "shock"
   ]
  },
  "SA": {
@@ -1264,6 +1516,50 @@ LINES = {
   "moonlight": [
    "Titan has thicker air than Earth!",
    "shock"
+  ],
+  "reply": [
+   "Over an hour. Each way!",
+   "shock"
+  ],
+  "drifting": [
+   "My rings might vanish someday.",
+   "cry"
+  ],
+  "cleanroom": [
+   "My rings are icy chunks. Neat!",
+   "happy"
+  ],
+  "diet": [
+   "My rings are mostly water ice.",
+   "calm"
+  ],
+  "future": [
+   "My rings might be gone someday.",
+   "cry"
+  ],
+  "gift": [
+   "Ring photos from Cassini!",
+   "love"
+  ],
+  "dance": [
+   "My rings ripple with spiral waves!",
+   "happy"
+  ],
+  "bright": [
+   "My moon Enceladus is the shiniest!",
+   "love"
+  ],
+  "darkside": [
+   "My rings cast shadows on me!",
+   "cool"
+  ],
+  "telescope": [
+   "Galileo thought my rings were ears!",
+   "shock"
+  ],
+  "jewelry": [
+   "Maybe diamond hail deep inside!",
+   "cool"
   ]
  },
  "UR": {
@@ -1366,6 +1662,34 @@ LINES = {
   "newyear": [
    "Happy New Year! Next one in 84 years!",
    "sleepy"
+  ],
+  "backwards": [
+   "I just roll along on my side.",
+   "sleepy"
+  ],
+  "icecold": [
+   "They call me an ice giant.",
+   "sleepy"
+  ],
+  "crash": [
+   "A giant crash may have knocked me sideways!",
+   "sleepy"
+  ],
+  "dance": [
+   "I roll on my side. Signature move.",
+   "sleepy"
+  ],
+  "darkside": [
+   "Each pole gets 42 years of darkness!",
+   "shock"
+  ],
+  "telescope": [
+   "Webb snapped my rings too!",
+   "love"
+  ],
+  "jewelry": [
+   "Maybe diamond rain deep inside!",
+   "love"
   ]
  },
  "NE": {
@@ -1512,6 +1836,46 @@ LINES = {
   "newyear": [
    "One New Year every 165 years!",
    "cry"
+  ],
+  "backwards": [
+   "My moon Triton orbits me backwards!",
+   "shock"
+  ],
+  "reply": [
+   "About four hours. Leave a voicemail.",
+   "cool"
+  ],
+  "tides": [
+   "Tides pull Triton closer to me!",
+   "calm"
+  ],
+  "drifting": [
+   "Triton is spiraling in toward me.",
+   "calm"
+  ],
+  "icecold": [
+   "Ice giant too. Coolest family.",
+   "cool"
+  ],
+  "neighbors": [
+   "Pluto crosses my orbit!",
+   "angry"
+  ],
+  "future": [
+   "Triton may become a ring too!",
+   "shock"
+  ],
+  "dance": [
+   "Triton dances backwards around me!",
+   "cool"
+  ],
+  "telescope": [
+   "Webb photographed my rings!",
+   "love"
+  ],
+  "jewelry": [
+   "It might rain diamonds inside me!",
+   "shock"
   ]
  },
  "PL": {
@@ -1650,6 +2014,30 @@ LINES = {
   "moonlight": [
    "Charon is huge for my size!",
    "happy"
+  ],
+  "backwards": [
+   "I spin backwards too. Rebel life!",
+   "happy"
+  ],
+  "reply": [
+   "Four to seven hours. Hold on!",
+   "cry"
+  ],
+  "icecold": [
+   "A heart-shaped glacier of nitrogen ice!",
+   "love"
+  ],
+  "neighbors": [
+   "Relax, Neptune. We never collide.",
+   "cool"
+  ],
+  "dance": [
+   "Charon and I always face each other!",
+   "love"
+  ],
+  "beach": [
+   "I have dunes of methane ice!",
+   "shiver"
   ]
  },
  "MO": {
@@ -1820,6 +2208,74 @@ LINES = {
   "moonlight": [
    "Hi! I am 3,474 km wide.",
    "happy"
+  ],
+  "backwards": [
+   "I always show Earth the same face.",
+   "calm"
+  ],
+  "reply": [
+   "Reply in about 1.3 seconds!",
+   "happy"
+  ],
+  "tides": [
+   "My gravity pulls your oceans. Tides!",
+   "cool"
+  ],
+  "drifting": [
+   "I move 3.8 centimeters away every year.",
+   "cry"
+  ],
+  "craters": [
+   "No wind here, so my craters stay forever!",
+   "calm"
+  ],
+  "icecold": [
+   "Ice hides in my dark polar craters!",
+   "happy"
+  ],
+  "cleanroom": [
+   "Humans left over 180 tons of stuff on me!",
+   "shock"
+  ],
+  "superpower": [
+   "I keep Earth's tilt steady!",
+   "cool"
+  ],
+  "future": [
+   "Total eclipses end in about 600 million years.",
+   "cry"
+  ],
+  "crash": [
+   "I was probably born from a crash!",
+   "shock"
+  ],
+  "gift": [
+   "Apollo took home 382 kg of my rocks!",
+   "love"
+  ],
+  "dance": [
+   "I never turn my back on Earth.",
+   "love"
+  ],
+  "bright": [
+   "Brightest thing at night!",
+   "cool"
+  ],
+  "darkside": [
+   "Not dark! My far side gets sunlight too.",
+   "angry"
+  ],
+  "quake": [
+   "Some moonquakes last over 10 minutes!",
+   "shiver"
+  ],
+  "beach": [
+   "My soil is sharp, not soft!",
+   "cry"
+  ],
+  "lava": [
+   "My dark patches are old lava!",
+   "calm"
   ]
  },
  "TI": {
@@ -1906,6 +2362,14 @@ LINES = {
   "bestfriend": [
    "Saturn, my giant buddy!",
    "love"
+  ],
+  "superpower": [
+   "Thicker air than Earth!",
+   "cool"
+  ],
+  "beach": [
+   "My dunes are made of hydrocarbon grains!",
+   "cool"
   ]
  },
  "EU": {
@@ -1988,6 +2452,18 @@ LINES = {
   "skycolor": [
    "Giant Jupiter in my sky!",
    "love"
+  ],
+  "tides": [
+   "Tides may keep my ocean liquid!",
+   "happy"
+  ],
+  "icecold": [
+   "My whole surface is ice!",
+   "love"
+  ],
+  "bright": [
+   "My ice reflects lots of sunlight!",
+   "happy"
   ]
  },
  "IO": {
@@ -2062,6 +2538,18 @@ LINES = {
   "skycolor": [
    "Jupiter fills my sky!",
    "shock"
+  ],
+  "tides": [
+   "Jupiter's tides melt my insides!",
+   "shock"
+  ],
+  "quake": [
+   "My lava never stops bubbling!",
+   "angry"
+  ],
+  "lava": [
+   "My floor IS lava. Over 400 volcanoes!",
+   "happy"
   ]
  },
  "CE": {
@@ -2139,6 +2627,22 @@ LINES = {
   ],
   "bestfriend": [
    "Vesta, my asteroid neighbor!",
+   "happy"
+  ],
+  "craters": [
+   "Occator crater holds my bright salt!",
+   "love"
+  ],
+  "neighbors": [
+   "I live in the asteroid belt!",
+   "happy"
+  ],
+  "gift": [
+   "Shiny salt spots, just for you!",
+   "happy"
+  ],
+  "jewelry": [
+   "Salt crystals! Sodium carbonate!",
    "happy"
   ]
  },
@@ -2233,6 +2737,50 @@ LINES = {
   ],
   "moonlight": [
    "Moonlight is just my light, reflected!",
+   "cool"
+  ],
+  "reply": [
+   "My light takes 8 minutes to reach you.",
+   "cool"
+  ],
+  "tides": [
+   "I make tides too, about half as strong.",
+   "calm"
+  ],
+  "drifting": [
+   "I lose a bit of mass every second.",
+   "calm"
+  ],
+  "cleanroom": [
+   "My solar wind blows dust away!",
+   "cool"
+  ],
+  "diet": [
+   "I lose 4 million tons every second!",
+   "shock"
+  ],
+  "superpower": [
+   "I fuse 600 million tons of hydrogen per second!",
+   "cool"
+  ],
+  "future": [
+   "Red giant in about 5 billion years.",
+   "calm"
+  ],
+  "gift": [
+   "Free sunlight. You are welcome.",
+   "cool"
+  ],
+  "bright": [
+   "Brightest thing, period.",
+   "cool"
+  ],
+  "darkside": [
+   "Dark side? Never heard of it.",
+   "cool"
+  ],
+  "quake": [
+   "Sunquakes ripple my surface!",
    "cool"
   ]
  }

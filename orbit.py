@@ -540,6 +540,103 @@ _NEW = {
 for _k, _v in _NEW.items():
     SITUATIONS[_k]['lines'].update(_v)
 
+# 2026-10-25: yeni durumlar (her durum Shorts'ta yalnız bir kez) + yeni ortamlar (belt, aurora, rings, volcano, eclipse)
+SITUATIONS.update({
+    'backwards': dict(title="PLANETS WHEN TOLD 'YOU'RE DOING IT BACKWARDS'", scene='rings', name='Backwards Spin', lines={
+        'VE': ('I spin backwards. My Sun rises in the west!', 'cool'), 'EA': ('Sun rises in the east. Like a normal planet.', 'calm'),
+        'NE': ('My moon Triton orbits me backwards!', 'shock'), 'PL': ('I spin backwards too. Rebel life!', 'happy'),
+        'JU': ('Forward, and fastest of all!', 'cool'), 'MO': ('I always show Earth the same face.', 'calm'),
+        'UR': ('I just roll along on my side.', 'sleepy')}),
+    'reply': dict(title='PLANETS WHEN YOU TEXT THEM', scene='space', name='Message Delay', lines={
+        'MO': ('Reply in about 1.3 seconds!', 'happy'), 'MA': ('3 to 22 minutes, one way. Sorry!', 'calm'),
+        'SU': ('My light takes 8 minutes to reach you.', 'cool'), 'JU': ('Roughly 35 to 50 minutes. Patience!', 'sleepy'),
+        'SA': ('Over an hour. Each way!', 'shock'), 'NE': ('About four hours. Leave a voicemail.', 'cool'),
+        'PL': ('Four to seven hours. Hold on!', 'cry'), 'EA': ('Instant. I am right here.', 'love')}),
+    'tides': dict(title='PLANETS WHEN THE TIDE COMES IN', scene='aurora', name='Tides', lines={
+        'MO': ('My gravity pulls your oceans. Tides!', 'cool'), 'EA': ('Two high tides a day. Thanks, Moon!', 'love'),
+        'SU': ('I make tides too, about half as strong.', 'calm'), 'IO': ("Jupiter's tides melt my insides!", 'shock'),
+        'EU': ('Tides may keep my ocean liquid!', 'happy'), 'JU': ('My tides squeeze Io into volcanoes.', 'cool'),
+        'NE': ('Tides pull Triton closer to me!', 'calm')}),
+    'drifting': dict(title="PLANETS WHEN SOMEONE SAYS 'WE'RE DRIFTING APART'", scene='space', name='Drifting', lines={
+        'MO': ('I move 3.8 centimeters away every year.', 'cry'), 'EA': ('My days get a tiny bit longer every century.', 'sleepy'),
+        'MA': ('Phobos creeps closer every year!', 'shock'), 'NE': ('Triton is spiraling in toward me.', 'calm'),
+        'SA': ('My rings might vanish someday.', 'cry'), 'SU': ('I lose a bit of mass every second.', 'calm')}),
+    'craters': dict(title='PLANETS SHOWING THEIR SCARS', scene='belt', name='Craters', lines={
+        'MO': ('No wind here, so my craters stay forever!', 'calm'), 'ME': ('Caloris Basin, 1,500 km wide!', 'shock'),
+        'EA': ('Chicxulub crater. Ask the dinosaurs.', 'cry'), 'MA': ('Hellas Basin, over 2,000 km wide!', 'cool'),
+        'CE': ('Occator crater holds my bright salt!', 'love'), 'JU': ('A comet smashed into me in 1994!', 'angry')}),
+    'icecold': dict(title='PLANETS WHEN SOMEONE ORDERS ICE', scene='aurora', name='Ice', lines={
+        'EA': ('Ice caps at both poles.', 'calm'), 'MA': ('Polar caps of water ice and dry ice!', 'cool'),
+        'ME': ('Even I have ice, in shadowy craters!', 'shock'), 'MO': ('Ice hides in my dark polar craters!', 'happy'),
+        'EU': ('My whole surface is ice!', 'love'), 'PL': ('A heart-shaped glacier of nitrogen ice!', 'love'),
+        'UR': ('They call me an ice giant.', 'sleepy'), 'NE': ('Ice giant too. Coolest family.', 'cool')}),
+    'neighbors': dict(title='PLANETS MEETING THE NEIGHBORS', scene='belt', name='Neighbors', lines={
+        'EA': ('Fun fact: Mercury is my closest neighbor on average!', 'shock'), 'VE': ('But I get closest to Earth!', 'angry'),
+        'CE': ('I live in the asteroid belt!', 'happy'), 'JU': ('Trojan asteroids share my orbit!', 'cool'),
+        'NE': ('Pluto crosses my orbit!', 'angry'), 'PL': ('Relax, Neptune. We never collide.', 'cool'),
+        'MA': ('Next door to the asteroid belt.', 'calm')}),
+    'cleanroom': dict(title='PLANETS CLEANING THEIR ROOM', scene='belt', name='Cleaning', lines={
+        'MA': ('Dust storms can cover my whole planet!', 'angry'), 'EA': ('Over 25,000 tracked pieces of space junk!', 'cry'),
+        'MO': ('Humans left over 180 tons of stuff on me!', 'shock'), 'SA': ('My rings are icy chunks. Neat!', 'happy'),
+        'JU': ('I sweep up comets and asteroids!', 'cool'), 'SU': ('My solar wind blows dust away!', 'cool')}),
+    'diet': dict(title='PLANETS ON A DIET', scene='sunlit', name='Mass', lines={
+        'SU': ('I lose 4 million tons every second!', 'shock'), 'EA': ('Tons of space dust land on me daily!', 'cry'),
+        'ME': ('I shrank! Up to 7 km across.', 'happy'), 'MA': ('I lost most of my air to the solar wind.', 'cry'),
+        'JU': ('Mostly hydrogen and helium. Light stuff!', 'cool'), 'SA': ('My rings are mostly water ice.', 'calm')}),
+    'superpower': dict(title='PLANETS SHOWING THEIR SUPERPOWER', scene='eclipse', name='Superpowers', lines={
+        'SU': ('I fuse 600 million tons of hydrogen per second!', 'cool'), 'EA': ('Only known planet with life!', 'love'),
+        'MO': ("I keep Earth's tilt steady!", 'cool'), 'MA': ('I make the biggest dust storms!', 'angry'),
+        'VE': ('Brightest planet in your night sky!', 'happy'), 'ME': ('Fastest planet around the Sun!', 'happy'),
+        'TI': ('Thicker air than Earth!', 'cool')}),
+    'future': dict(title='PLANETS PREDICTING THE FUTURE', scene='eclipse', name='Future', lines={
+        'SU': ('Red giant in about 5 billion years.', 'calm'), 'MO': ('Total eclipses end in about 600 million years.', 'cry'),
+        'EA': ('In a billion years, my oceans get too hot.', 'shiver'), 'MA': ('Phobos may become a ring!', 'shock'),
+        'NE': ('Triton may become a ring too!', 'shock'), 'SA': ('My rings might be gone someday.', 'cry')}),
+    'crash': dict(title='PLANETS WHEN SOMEONE BUMPS INTO THEM', scene='belt', name='Impacts', lines={
+        'MO': ('I was probably born from a crash!', 'shock'), 'EA': ('A Mars-sized world hit me. Then came the Moon!', 'cool'),
+        'UR': ('A giant crash may have knocked me sideways!', 'sleepy'), 'VE': ('Maybe a crash flipped my spin.', 'angry'),
+        'MA': ('A huge impact may explain my two halves.', 'calm'), 'ME': ('A giant hit may have stripped my outer layers!', 'cry'),
+        'JU': ('Comet Shoemaker-Levy 9. Ouch!', 'angry')}),
+    'gift': dict(title='PLANETS GIVING GIFTS', scene='party', name='Gifts', lines={
+        'MA': ('I sent you hundreds of meteorites!', 'happy'), 'MO': ('Apollo took home 382 kg of my rocks!', 'love'),
+        'SU': ('Free sunlight. You are welcome.', 'cool'), 'EA': ('I gave the Moon footprints. Twelve people!', 'love'),
+        'CE': ('Shiny salt spots, just for you!', 'happy'), 'SA': ('Ring photos from Cassini!', 'love')}),
+    'dance': dict(title='PLANETS AT A DANCE PARTY', scene='party', name='Spins', lines={
+        'EA': ('I wobble! Once every 26,000 years.', 'happy'), 'JU': ('I spin fastest of all planets!', 'cool'),
+        'PL': ('Charon and I always face each other!', 'love'), 'MO': ('I never turn my back on Earth.', 'love'),
+        'SA': ('My rings ripple with spiral waves!', 'happy'), 'NE': ('Triton dances backwards around me!', 'cool'),
+        'UR': ('I roll on my side. Signature move.', 'sleepy')}),
+    'bright': dict(title="PLANETS WHEN SOMEONE SAYS 'YOU'RE NOT THAT BRIGHT'", scene='eclipse', name='Brightness', lines={
+        'VE': ('Brightest planet in your sky!', 'angry'), 'MO': ('Brightest thing at night!', 'cool'),
+        'SU': ('Brightest thing, period.', 'cool'), 'EU': ('My ice reflects lots of sunlight!', 'happy'),
+        'SA': ('My moon Enceladus is the shiniest!', 'love'), 'JU': ('Often third brightest at night!', 'calm'),
+        'MA': ('I glow red. Easy to spot!', 'happy')}),
+    'darkside': dict(title="PLANETS WHEN SOMEONE SAYS 'DARK SIDE'", scene='eclipse', name='Dark Side', lines={
+        'MO': ('Not dark! My far side gets sunlight too.', 'angry'), 'EA': ('Half of me is always night.', 'calm'),
+        'UR': ('Each pole gets 42 years of darkness!', 'shock'), 'SA': ('My rings cast shadows on me!', 'cool'),
+        'ME': ('Night lasts months here.', 'sleepy'), 'SU': ('Dark side? Never heard of it.', 'cool')}),
+    'quake': dict(title='PLANETS WHEN THE GROUND SHAKES', scene='volcano', name='Quakes', lines={
+        'EA': ('About half a million quakes a year!', 'shock'), 'MO': ('Some moonquakes last over 10 minutes!', 'shiver'),
+        'MA': ('InSight heard over 1,300 marsquakes!', 'cool'), 'SU': ('Sunquakes ripple my surface!', 'cool'),
+        'ME': ('I am shrinking, so my crust cracks!', 'cry'), 'IO': ('My lava never stops bubbling!', 'angry')}),
+    'beach': dict(title='PLANETS AT THE BEACH', scene='sunlit', name='Beach', lines={
+        'MA': ('Sand dunes everywhere!', 'happy'), 'EA': ('Real beaches, real water.', 'love'),
+        'TI': ('My dunes are made of hydrocarbon grains!', 'cool'), 'VE': ('Beach day at 465°C? Pass.', 'angry'),
+        'PL': ('I have dunes of methane ice!', 'shiver'), 'MO': ('My soil is sharp, not soft!', 'cry')}),
+    'telescope': dict(title='PLANETS WHEN THE TELESCOPE ARRIVES', scene='rings', name='Telescopes', lines={
+        'SA': ('Galileo thought my rings were ears!', 'shock'), 'VE': ('Galileo saw my phases, like the Moon!', 'happy'),
+        'NE': ('Webb photographed my rings!', 'love'), 'UR': ('Webb snapped my rings too!', 'love'),
+        'MA': ('Hubble watches my dust storms!', 'cool'), 'JU': ('Even binoculars show my four big moons!', 'happy')}),
+    'jewelry': dict(title='PLANETS WHEN SOMEONE TALKS ABOUT JEWELRY', scene='rings', name='Jewelry', lines={
+        'NE': ('It might rain diamonds inside me!', 'shock'), 'UR': ('Maybe diamond rain deep inside!', 'love'),
+        'SA': ('Maybe diamond hail deep inside!', 'cool'), 'EA': ('I make diamonds deep underground.', 'cool'),
+        'MA': ('I have rust. Does that count?', 'cry'), 'CE': ('Salt crystals! Sodium carbonate!', 'happy')}),
+    'lava': dict(title='PLANETS WHEN SOMEONE SAYS "THE FLOOR IS LAVA"', scene='volcano', name='Lava', lines={
+        'IO': ('My floor IS lava. Over 400 volcanoes!', 'happy'), 'EA': ('Only in a few hot spots.', 'calm'),
+        'VE': ('Huge lava plains cover me!', 'cool'), 'MO': ('My dark patches are old lava!', 'calm'),
+        'MA': ('Olympus Mons is an old lava volcano!', 'cool'), 'ME': ('Ancient lava flooded my plains!', 'shock')}),
+})
+
 
 # ---------------------------------------------------------------- uzay sahneleri (kodla çizilir)
 def vgrad(w, h, c1, c2):
@@ -548,8 +645,13 @@ def vgrad(w, h, c1, c2):
 
 
 SKY = {'space': ((6, 8, 28), (22, 24, 64)), 'nebula': ((24, 8, 44), (70, 30, 96)), 'sunlit': ((20, 14, 40), (90, 44, 60)),
-       'ice': ((6, 18, 40), (30, 70, 110)), 'party': ((26, 8, 34), (80, 30, 50))}
-GROUND = {'space': (92, 90, 104), 'nebula': (110, 92, 120), 'sunlit': (150, 110, 90), 'ice': (170, 200, 220), 'party': (90, 70, 100)}
+       'ice': ((6, 18, 40), (30, 70, 110)), 'party': ((26, 8, 34), (80, 30, 50)),
+       # 2026-10-25 yeni ortamlar (aynı sahne hissi tekrar etmesin)
+       'belt': ((10, 10, 20), (40, 34, 48)), 'aurora': ((4, 14, 30), (10, 50, 60)), 'rings': ((14, 10, 30), (60, 46, 70)),
+       'volcano': ((30, 8, 6), (110, 40, 14)), 'eclipse': ((2, 2, 8), (16, 14, 34))}
+GROUND = {'space': (92, 90, 104), 'nebula': (110, 92, 120), 'sunlit': (150, 110, 90), 'ice': (170, 200, 220), 'party': (90, 70, 100),
+          'belt': (112, 98, 84), 'aurora': (150, 175, 190), 'rings': (196, 170, 120), 'volcano': (70, 56, 40), 'eclipse': (70, 72, 86)}
+SCENES = tuple(SKY)
 
 
 @lru_cache(None)
@@ -569,6 +671,35 @@ def scene_bg(kind):
     for _ in range(220):   # yıldızlar
         x, y, r = rnd.uniform(0, W), rnd.uniform(0, H * 0.69), rnd.choice([1.5, 2, 2.5, 3.5])
         d.ellipse(box(x - r, y - r, x + r, y + r), fill=(255, 255, 240))
+    if kind == 'aurora':   # dalgalı yeşil-mor kutup ışığı perdeleri
+        au = Image.new('RGBA', (w, h), (0, 0, 0, 0)); ad = ImageDraw.Draw(au)
+        for k, col in enumerate(((60, 230, 140), (90, 255, 180), (150, 90, 230))):
+            pts = [(x, 260 + 110 * k + 70 * math.sin(x / 170 + k * 1.7)) for x in range(-40, W + 60, 30)]
+            for x, y in pts:
+                ad.rectangle(box(x - 14, y, x + 14, y + 330), fill=col + (55,))
+        img.alpha_composite(au.filter(ImageFilter.GaussianBlur(L(26))))
+    if kind == 'rings':   # gökyüzünü kesen dev halka yayı
+        rg = Image.new('RGBA', (w, h), (0, 0, 0, 0)); rd = ImageDraw.Draw(rg)
+        for k, (col, al) in enumerate((((230, 200, 150), 150), ((190, 160, 120), 120), ((240, 220, 180), 170), ((160, 130, 100), 110))):
+            r = 1300 + 50 * k
+            rd.arc(box(W / 2 - r * 0.9, 1150 - r * 0.45, W / 2 + r * 0.9, 1150 + r * 0.45), 180, 360, fill=col + (al,), width=L(48))
+        img.alpha_composite(rg.filter(ImageFilter.GaussianBlur(L(2))))
+    if kind == 'eclipse':   # kara güneş + taç ışığı
+        cr = Image.new('RGBA', (w, h), (0, 0, 0, 0)); cd = ImageDraw.Draw(cr)
+        for k, al in ((260, 40), (200, 80), (160, 140)):
+            cd.ellipse(box(W * 0.7 - k, 520 - k, W * 0.7 + k, 520 + k), fill=(255, 235, 190, al))
+        img.alpha_composite(cr.filter(ImageFilter.GaussianBlur(L(30))))
+        d.ellipse(box(W * 0.7 - 140, 520 - 140, W * 0.7 + 140, 520 + 140), fill=(4, 4, 10))
+    if kind == 'volcano':   # ufukta kızıl lav parıltısı
+        gl = Image.new('RGBA', (w, h), (0, 0, 0, 0)); gd2 = ImageDraw.Draw(gl)
+        gd2.ellipse(box(-200, H * 0.55, W + 200, H * 0.85), fill=(255, 110, 30, 120))
+        img.alpha_composite(gl.filter(ImageFilter.GaussianBlur(L(70))))
+    if kind == 'belt':   # süzülen kaya parçaları
+        for _ in range(26):
+            x, y, r = rnd.uniform(0, W), rnd.uniform(80, H * 0.62), rnd.uniform(10, 46)
+            pts = [(x + r * rnd.uniform(0.7, 1.2) * math.cos(a), y + r * rnd.uniform(0.6, 1.1) * math.sin(a)) for a in [i * math.pi / 4 for i in range(8)]]
+            d.polygon([(L(px), L(py)) for px, py in pts], fill=(120, 108, 96))
+            d.ellipse(box(x - r * 0.3, y - r * 0.3, x, y), fill=(92, 82, 74))
     if kind == 'sunlit':   # köşede dev güneş ışığı
         glow = Image.new('RGBA', (w, h), (0, 0, 0, 0)); gd = ImageDraw.Draw(glow)
         for k, al in ((620, 40), (460, 70), (320, 120)):
@@ -577,6 +708,11 @@ def scene_bg(kind):
     # kraterli küçük gezegen zemini (karakterler üstünde durur)
     gc = GROUND.get(kind, GROUND['space'])
     d.ellipse([-L(400), gy - L(60), w + L(400), gy + L(1400)], fill=gc)
+    if kind == 'volcano':   # lav çatlakları
+        for _ in range(9):
+            x0, y0 = rnd.uniform(0, W), rnd.uniform(H * 0.74, H * 0.97)
+            pts = [(x0 + 40 * j, y0 + rnd.uniform(-18, 18)) for j in range(6)]
+            d.line([(L(px), L(py)) for px, py in pts], fill=(255, 120, 30), width=L(6))
     for _ in range(14):
         x, y, r = rnd.uniform(0, W), rnd.uniform(H * 0.73, H * 0.98), rnd.uniform(25, 70)
         d.ellipse(box(x - r, y - r * 0.4, x + r, y + r * 0.4), fill=tuple(int(c * 0.82) for c in gc))
@@ -596,6 +732,14 @@ def effects(img, kind, t):
     if u < 0.25:
         x0, y0 = 1100 - u * 4 * 900, 150 + u * 4 * 380
         d.line(box(x0, y0, x0 + 160, y0 - 68), fill=(255, 255, 230), width=L(5))
+    if kind == 'volcano':   # yükselen kıvılcımlar
+        for j in range(24):
+            x0, sp = rnd.uniform(0, W), rnd.uniform(90, 200)
+            y = H * 0.8 - (rnd.uniform(0, H * 0.7) + t * sp) % (H * 0.7)
+            d.ellipse(box(x0 - 4, y - 4, x0 + 4, y + 4), fill=(255, 170, 60))
+    if kind == 'belt':   # yavaşça geçen kaya
+        x = (t * 120 + 200) % (W + 300) - 150
+        d.ellipse(box(x - 34, 300 - 22, x + 34, 300 + 22), fill=(130, 116, 100))
     if kind == 'party':
         for j in range(30):
             x0, sp = rnd.uniform(0, W), rnd.uniform(150, 300)
@@ -982,8 +1126,8 @@ def render_frame(i):
     T = i / FPS
     sit = SITUATIONS[PLAN['situation']]
     codes = PLAN['countries']; n = len(codes)
-    img = scene_bg(sit['scene']).copy()
-    effects(img, sit['scene'], T)
+    img = scene_bg(PLAN.get('scene') or sit['scene']).copy()
+    effects(img, PLAN.get('scene') or sit['scene'], T)
     # koyu üst bant (başlık okunsun)
     band = Image.new('RGBA', (L(W), L(330)), (20, 18, 35, 170)); img.alpha_composite(band, (0, 0))
     title_band(img, sit['title'], T, 0.0)
@@ -1104,7 +1248,7 @@ def build_audio(path):
     def place(arr, t0, x):
         if x is None: return
         i0 = int(t0 * SR); arr[i0:i0 + len(x)] += x[:max(0, n - i0)]
-    place(mix, 0.0, ambience(sit['scene'], tot))
+    place(mix, 0.0, ambience(PLAN.get('scene') or sit['scene'], tot))
     for t0 in (0.0, 0.4, 0.7): place(mix, t0, sfx('pop'))
     for k, code in enumerate(PLAN['countries']):
         base = INTRO + k * TURN; mood = sit['lines'][code][1]
