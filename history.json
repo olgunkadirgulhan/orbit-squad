@@ -1525,6 +1525,22 @@
       ],
       "scene": "ice",
       "seed": 689093
+    },
+    {
+      "id": "IG7BMkMyP_k",
+      "date": "2026-10-25 18:54",
+      "kind": "short",
+      "title": "Planets Showing Their Shields 🌍 #solarsystem",
+      "privacy": "public",
+      "situation": "shield",
+      "countries": [
+        "UR",
+        "JU",
+        "SU",
+        "EA"
+      ],
+      "scene": "aurora",
+      "seed": 279116
     }
   ]
 }
