@@ -1589,6 +1589,22 @@
       ],
       "scene": "eclipse",
       "seed": 661666
+    },
+    {
+      "id": "maGXRMBlimU",
+      "date": "2026-10-26 18:54",
+      "kind": "short",
+      "title": "Planets When Someone Says 'Gas Giant' 🪐 #space",
+      "privacy": "public",
+      "situation": "giants",
+      "countries": [
+        "PL",
+        "EA",
+        "NE",
+        "UR"
+      ],
+      "scene": "space",
+      "seed": 101161
     }
   ]
 }
