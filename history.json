@@ -1573,6 +1573,22 @@
       ],
       "scene": "belt",
       "seed": 91934
+    },
+    {
+      "id": "Q-Ow82rePpM",
+      "date": "2026-10-26 16:54",
+      "kind": "short",
+      "title": "Planets: When Were You Discovered? 🪐 #space",
+      "privacy": "public",
+      "situation": "discovered",
+      "countries": [
+        "NE",
+        "TI",
+        "PL",
+        "JU"
+      ],
+      "scene": "eclipse",
+      "seed": 661666
     }
   ]
 }
