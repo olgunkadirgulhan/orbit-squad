@@ -1621,6 +1621,22 @@
       ],
       "scene": "party",
       "seed": 390138
+    },
+    {
+      "id": "dPlqVenDYIs",
+      "date": "2026-10-27 14:54",
+      "kind": "short",
+      "title": "Planets Meeting Their Twin 🪐 #space",
+      "privacy": "public",
+      "situation": "twins",
+      "countries": [
+        "PL",
+        "SA",
+        "UR",
+        "NE"
+      ],
+      "scene": "volcano",
+      "seed": 97390
     }
   ]
 }
