@@ -1637,6 +1637,22 @@
       ],
       "scene": "volcano",
       "seed": 97390
+    },
+    {
+      "id": "oOpC7j_2G_U",
+      "date": "2026-10-27 16:54",
+      "kind": "short",
+      "title": "Planets When Someone Mentions Volcanoes (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "volcano",
+      "countries": [
+        "CE",
+        "IO",
+        "JU",
+        "NE"
+      ],
+      "scene": "sunlit",
+      "seed": 331776
     }
   ]
 }
