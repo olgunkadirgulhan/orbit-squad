@@ -1685,6 +1685,135 @@
       ],
       "scene": "eclipse",
       "seed": 785520
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode",
+      "title": "The Planets Explain: Sunlight, Weird Facts, Gravity & More 🪐 (Ep. 7)",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "sunlight",
+      "countries": [
+        "NE",
+        "EA",
+        "JU",
+        "SU"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "weird",
+      "countries": [
+        "EU",
+        "PL",
+        "JU",
+        "MO"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "jump",
+      "countries": [
+        "MA",
+        "PL",
+        "JU",
+        "EA"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "outfit",
+      "countries": [
+        "SA",
+        "NE",
+        "MA",
+        "SU"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "visitors",
+      "countries": [
+        "MA",
+        "NE",
+        "JU",
+        "SA"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "halloween",
+      "countries": [
+        "NE",
+        "MO",
+        "EA",
+        "PL"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "distance",
+      "countries": [
+        "JU",
+        "ME",
+        "EA",
+        "SA"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "twins",
+      "countries": [
+        "EA",
+        "UR",
+        "NE",
+        "SA"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "eclipse",
+      "countries": [
+        "EA",
+        "MA",
+        "JU",
+        "MO"
+      ]
+    },
+    {
+      "id": "-PhBxzoRMC0",
+      "date": "2026-10-27 21:44",
+      "kind": "episode-part",
+      "situation": "giants",
+      "countries": [
+        "NE",
+        "PL",
+        "UR",
+        "JU"
+      ]
     }
   ]
 }
