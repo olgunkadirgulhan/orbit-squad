@@ -1669,6 +1669,22 @@
       ],
       "scene": "space",
       "seed": 985175
+    },
+    {
+      "id": "QVHef28ThCQ",
+      "date": "2026-10-27 20:54",
+      "kind": "short",
+      "title": "Planets During An Eclipse 😂 #planets",
+      "privacy": "public",
+      "situation": "eclipse",
+      "countries": [
+        "JU",
+        "SU",
+        "MO",
+        "EA"
+      ],
+      "scene": "eclipse",
+      "seed": 785520
     }
   ]
 }
