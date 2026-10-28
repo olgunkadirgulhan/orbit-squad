@@ -1830,6 +1830,22 @@
       ],
       "scene": "rings",
       "seed": 367440
+    },
+    {
+      "id": "z8YrLOodgqQ",
+      "date": "2026-10-28 16:55",
+      "kind": "short",
+      "title": "Planets When It Snows (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "snow",
+      "countries": [
+        "JU",
+        "MO",
+        "EA",
+        "PL"
+      ],
+      "scene": "volcano",
+      "seed": 571438
     }
   ]
 }
