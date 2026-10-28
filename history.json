@@ -1846,6 +1846,22 @@
       ],
       "scene": "volcano",
       "seed": 571438
+    },
+    {
+      "id": "RU1gm06mSGk",
+      "date": "2026-10-28 18:54",
+      "kind": "short",
+      "title": "Planets In Your Night Sky 🪐 #space",
+      "privacy": "public",
+      "situation": "sky",
+      "countries": [
+        "UR",
+        "NE",
+        "JU",
+        "MO"
+      ],
+      "scene": "ice",
+      "seed": 392597
     }
   ]
 }
