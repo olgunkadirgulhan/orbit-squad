@@ -1926,6 +1926,22 @@
       ],
       "scene": "party",
       "seed": 101510
+    },
+    {
+      "id": "CoZbcyX-vx8",
+      "date": "2026-10-29 20:54",
+      "kind": "short",
+      "title": "Planets When The Seasons Change (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "seasons",
+      "countries": [
+        "JU",
+        "EA",
+        "NE",
+        "UR"
+      ],
+      "scene": "volcano",
+      "seed": 72659
     }
   ]
 }
