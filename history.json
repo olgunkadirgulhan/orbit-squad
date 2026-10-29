@@ -1894,6 +1894,22 @@
       ],
       "scene": "eclipse",
       "seed": 822165
+    },
+    {
+      "id": "MzDP_eFQw4g",
+      "date": "2026-10-29 16:54",
+      "kind": "short",
+      "title": "Planets When It's Cloudy 🪐 #space",
+      "privacy": "public",
+      "situation": "cloudy",
+      "countries": [
+        "EA",
+        "JU",
+        "MO",
+        "NE"
+      ],
+      "scene": "nebula",
+      "seed": 553005
     }
   ]
 }
