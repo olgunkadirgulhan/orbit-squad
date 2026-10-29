@@ -1942,6 +1942,135 @@
       ],
       "scene": "volcano",
       "seed": 72659
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode",
+      "title": "The Planets Explain: Names, Travel Time, Day Length & More 🪐 (Ep. 8)",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "names",
+      "countries": [
+        "JU",
+        "PL",
+        "NE",
+        "EA"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "trip",
+      "countries": [
+        "NE",
+        "MO",
+        "EU",
+        "JU"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "daylength",
+      "countries": [
+        "MO",
+        "JU",
+        "EA",
+        "NE"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "olympics",
+      "countries": [
+        "TI",
+        "UR",
+        "NE",
+        "IO"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "volcano",
+      "countries": [
+        "MO",
+        "MA",
+        "TI",
+        "JU"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "discovered",
+      "countries": [
+        "TI",
+        "JU",
+        "IO",
+        "EA"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "year",
+      "countries": [
+        "SA",
+        "JU",
+        "UR",
+        "PL"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "aurora",
+      "countries": [
+        "SU",
+        "EA",
+        "UR",
+        "NE"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "scale",
+      "countries": [
+        "MO",
+        "PL",
+        "JU",
+        "EA"
+      ]
+    },
+    {
+      "id": "ODhUF2sDrAE",
+      "date": "2026-10-29 22:19",
+      "kind": "episode-part",
+      "situation": "weird",
+      "countries": [
+        "JU",
+        "EU",
+        "PL",
+        "UR"
+      ]
     }
   ]
 }
