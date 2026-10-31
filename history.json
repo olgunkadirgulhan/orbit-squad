@@ -2183,6 +2183,135 @@
       ],
       "scene": "sunlit",
       "seed": 334652
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode",
+      "title": "The Planets Explain: Planet Types, Oceans, Distance & More 🪐 (Ep. 9)",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "giants",
+      "countries": [
+        "JU",
+        "PL",
+        "UR",
+        "EA"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "swim",
+      "countries": [
+        "PL",
+        "TI",
+        "CE",
+        "EA"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "distance",
+      "countries": [
+        "NE",
+        "EA",
+        "MA",
+        "JU"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "SA",
+        "MA",
+        "JU",
+        "TI"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "rain",
+      "countries": [
+        "PL",
+        "JU",
+        "UR",
+        "MA"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "weird",
+      "countries": [
+        "IO",
+        "MO",
+        "EU",
+        "PL"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "outfit",
+      "countries": [
+        "EA",
+        "EU",
+        "JU",
+        "UR"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "EA",
+        "SU",
+        "JU",
+        "NE"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "small",
+      "countries": [
+        "PL",
+        "IO",
+        "JU",
+        "ME"
+      ]
+    },
+    {
+      "id": "7Ir153hmh6M",
+      "date": "2026-10-31 20:51",
+      "kind": "episode-part",
+      "situation": "rings",
+      "countries": [
+        "UR",
+        "JU",
+        "NE",
+        "MA"
+      ]
     }
   ]
 }
