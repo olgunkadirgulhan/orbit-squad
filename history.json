@@ -2167,6 +2167,22 @@
       ],
       "scene": "eclipse",
       "seed": 840306
+    },
+    {
+      "id": "s-xFNOpKGak",
+      "date": "2026-10-31 18:54",
+      "kind": "short",
+      "title": "Planets If You Could Smell Them 🌍 #solarsystem",
+      "privacy": "public",
+      "situation": "smell",
+      "countries": [
+        "MO",
+        "JU",
+        "UR",
+        "EA"
+      ],
+      "scene": "sunlit",
+      "seed": 334652
     }
   ]
 }
