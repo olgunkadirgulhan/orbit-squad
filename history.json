@@ -2328,6 +2328,22 @@
       ],
       "scene": "belt",
       "seed": 324990
+    },
+    {
+      "id": "tTqF-qXdy5E",
+      "date": "2026-11-01 14:54",
+      "kind": "short",
+      "title": "Planets Bragging About Mountains (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "mountains",
+      "countries": [
+        "EA",
+        "JU",
+        "PL",
+        "MO"
+      ],
+      "scene": "eclipse",
+      "seed": 420886
     }
   ]
 }
