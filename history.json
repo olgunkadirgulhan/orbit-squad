@@ -2379,6 +2379,23 @@
       "scene": "party",
       "kurgu": "classic",
       "seed": 710266
+    },
+    {
+      "id": "yrjsrOy0yVw",
+      "date": "2026-11-02 20:54",
+      "kind": "short",
+      "title": "Planets In A Race Around The Sun 🪐 #space",
+      "privacy": "public",
+      "situation": "race",
+      "countries": [
+        "EA",
+        "JU",
+        "MA",
+        "NE"
+      ],
+      "scene": "belt",
+      "kurgu": "classic",
+      "seed": 881921
     }
   ]
 }
