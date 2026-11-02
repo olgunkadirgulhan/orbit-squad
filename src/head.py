@@ -24,7 +24,8 @@ DARK = (28, 22, 40)
 
 NAMES = {'SU': 'SUN', 'ME': 'MERCURY', 'VE': 'VENUS', 'EA': 'EARTH', 'MO': 'MOON', 'MA': 'MARS', 'JU': 'JUPITER',
          'SA': 'SATURN', 'UR': 'URANUS', 'NE': 'NEPTUNE', 'PL': 'PLUTO',
-         'TI': 'TITAN', 'EU': 'EUROPA', 'IO': 'IO', 'CE': 'CERES'}
+         'TI': 'TITAN', 'EU': 'EUROPA', 'IO': 'IO', 'CE': 'CERES',
+         'GA': 'GANYMEDE', 'EN': 'ENCELADUS', 'ER': 'ERIS', 'PB': 'PHOBOS'}   # 2026-11-02 yeni karakterler
 
 PLAN = {}
 

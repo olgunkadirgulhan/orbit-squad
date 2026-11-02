@@ -24,7 +24,8 @@ DARK = (28, 22, 40)
 
 NAMES = {'SU': 'SUN', 'ME': 'MERCURY', 'VE': 'VENUS', 'EA': 'EARTH', 'MO': 'MOON', 'MA': 'MARS', 'JU': 'JUPITER',
          'SA': 'SATURN', 'UR': 'URANUS', 'NE': 'NEPTUNE', 'PL': 'PLUTO',
-         'TI': 'TITAN', 'EU': 'EUROPA', 'IO': 'IO', 'CE': 'CERES'}
+         'TI': 'TITAN', 'EU': 'EUROPA', 'IO': 'IO', 'CE': 'CERES',
+         'GA': 'GANYMEDE', 'EN': 'ENCELADUS', 'ER': 'ERIS', 'PB': 'PHOBOS'}   # 2026-11-02 yeni karakterler
 
 PLAN = {}
 
@@ -637,6 +638,32 @@ SITUATIONS.update({
         'MA': ('Olympus Mons is an old lava volcano!', 'cool'), 'ME': ('Ancient lava flooded my plains!', 'shock')}),
 })
 
+# 2026-11-02 yeni karakterler (GA Ganymede, EN Enceladus, ER Eris, PB Phobos) — henüz kullanılmamış durumlara; hepsi NASA bilgisi
+_NEW4 = {
+    'famous': {'GA': ('Largest moon in the whole solar system!', 'cool'), 'EN': ('Famous for my ice geysers!', 'happy'),
+               'ER': ('I got Pluto demoted. Oops.', 'cool'), 'PB': ('Famous for being doomed.', 'cry')},
+    'gym': {'GA': ('Bigger than Mercury. No gym needed.', 'cool'), 'PB': ('I lap Mars three times a day!', 'happy')},
+    'icecold': {'EN': ('I spray ice into space!', 'happy'), 'ER': ('About minus 230 out here.', 'shiver'),
+                'GA': ('Ice crust. Maybe an ocean below.', 'calm')},
+    'drifting': {'PB': ('Getting closer to Mars every year...', 'shock'), 'ER': ('One lap around the Sun takes me 559 years.', 'sleepy')},
+    'future': {'PB': ('Mars may tear me into a ring someday.', 'cry')},
+    'bright': {'EN': ('I reflect almost all the sunlight!', 'love'), 'ER': ('Very bright. Very far.', 'cool')},
+    'superpower': {'GA': ('The only moon with its own magnetic field!', 'cool'), 'EN': ('Water geysers from my south pole!', 'happy')},
+    'neighbors': {'PB': ('Deimos is my little sibling.', 'love'), 'GA': ('Io, Europa and Callisto live nearby!', 'happy')},
+    'telescope': {'ER': ('Found in 2005. Pluto lost its title.', 'cool'), 'GA': ('Galileo spotted me in 1610!', 'happy')},
+    'craters': {'PB': ('Stickney crater almost broke me!', 'shock'), 'GA': ('Old craters and long grooves.', 'calm')},
+    'cleanroom': {'EN': ('My geysers feed a whole ring of Saturn!', 'happy')},
+    'jewelry': {'EN': ('Icy sparkles everywhere!', 'love')},
+    'reply': {'ER': ('About thirteen hours, one way!', 'sleepy')},
+    'school': {'ER': ('Named after the goddess of chaos!', 'angry'), 'GA': ('Top of the class. Biggest moon!', 'cool')},
+    'galaxy': {'ER': ('I live way out past Pluto.', 'calm')},
+    'storm': {'EN': ('No storms here. Just geysers!', 'happy')},
+    'beach': {'EN': ('Ocean under my ice. Beach closed.', 'calm')},
+    'rocket': {'PB': ('A Japanese probe is coming for my dust!', 'happy')},
+}
+for _k, _v in _NEW4.items():
+    SITUATIONS[_k]['lines'].update(_v)
+
 
 # ---------------------------------------------------------------- uzay sahneleri (kodla çizilir)
 def vgrad(w, h, c1, c2):
@@ -834,6 +861,29 @@ def flag_img(code):
             x, y, r = rnd.uniform(0, w), rnd.uniform(0, h), rnd.uniform(8, 24)
             d.ellipse([x - r, y - r, x + r, y + r], outline=(105, 100, 95), width=3)
         d.ellipse([280, 285, 312, 310], fill=(250, 250, 245)); d.ellipse([322, 298, 334, 310], fill=(250, 250, 245))
+        return im
+    elif code == 'GA':   # 2026-11-02 Ganymede: koyu kahve-gri + açık oluklu bölgeler
+        a = np.array((150, 135, 115)) * (0.8 + 0.3 * n)
+        a = np.where((_noise(w, h, 21, 50) > 0.55)[..., None], np.array((185, 175, 160)) * (0.9 + 0.15 * n), a)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('GA')
+        for _ in range(10):
+            y = rnd.uniform(0, h); d.line([(0, y), (w, y + rnd.uniform(-30, 30))], fill=(175, 165, 150), width=2)
+        return im
+    elif code == 'EN':   # Enceladus: parlak beyaz buz + mavi 'kaplan çizgileri'
+        a = np.array((248, 250, 255)) * (0.93 + 0.08 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im)
+        for k in range(4):
+            d.line([(200 + k * 35, 300), (250 + k * 35, 360)], fill=(110, 170, 230), width=6)
+        return im
+    elif code == 'ER':   # Eris: soluk gri-beyaz cüce gezegen
+        a = np.array((225, 222, 215)) * (0.85 + 0.2 * n)
+    elif code == 'PB':   # Phobos: koyu gri, kraterli (Stickney)
+        a = np.array((110, 100, 92)) * (0.8 + 0.35 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('PB')
+        d.ellipse([230, 140, 350, 250], fill=(85, 78, 72), outline=(70, 64, 60), width=4)
+        for _ in range(14):
+            x, y, r = rnd.uniform(0, w), rnd.uniform(0, h), rnd.uniform(5, 16)
+            d.ellipse([x - r, y - r, x + r, y + r], outline=(80, 72, 66), width=2)
         return im
     else:  # PL: kalp şekilli buzul (Tombaugh Regio)
         a = np.array((200, 165, 130)) * (0.8 + 0.3 * n)
@@ -1087,6 +1137,13 @@ STAGE = (540, 1010)
 BIG = 500
 SLOTS4 = [(170, 1660), (400, 1660), (680, 1660), (910, 1660)]
 FINAL4 = [(300, 830), (780, 830), (300, 1330), (780, 1330)]
+# 2026-11-02 kurgu 'five': 5 gök cismi
+SLOTS5 = [(120, 1660), (330, 1660), (540, 1660), (750, 1660), (960, 1660)]
+FINAL5 = [(200, 820), (540, 820), (880, 820), (330, 1300), (750, 1300)]
+
+
+def slots(n): return SLOTS5 if n >= 5 else SLOTS4
+def finals(n): return FINAL5 if n >= 5 else FINAL4
 
 
 def total(plan=None):
@@ -1107,7 +1164,7 @@ def turn_pose(k, lt, code, mood):
         sway = 25 * math.sin(tt * 2) if mood in ('calm', 'sleepy', 'cool') else 0.0
         return STAGE[0] + jit + sway, STAGE[1] - hop, BIG, sq
     u = sm((lt - (TURN - 0.6)) / 0.6)   # sıraya geçer
-    sx, sy = SLOTS4[k]
+    sx, sy = slots(len(PLAN['countries']))[k]
     return lerp(STAGE[0], sx, u), lerp(STAGE[1], sy, u), lerp(BIG, 190, u), 0.0
 
 
@@ -1120,6 +1177,16 @@ def title_band(img, txt, t, t0):
 
 def name_tag(img, name, x, y, k=1.0, size=60):
     put_text(img, name, x, y, size, (255, 255, 255), scale=k)
+
+
+def draw_crown(img, cx, cy, w):
+    """Altın taç (kurgu 'crown')."""
+    d = ImageDraw.Draw(img); h = w * 0.6
+    pts = [(cx - w / 2, cy + h / 2), (cx - w / 2, cy - h / 3), (cx - w / 4, cy), (cx, cy - h / 2), (cx + w / 4, cy),
+           (cx + w / 2, cy - h / 3), (cx + w / 2, cy + h / 2)]
+    d.polygon([(L(x), L(y)) for x, y in pts], fill=(250, 200, 40), outline=(160, 110, 10), width=L(5))
+    for x, y in pts[1:6:2]:
+        r = w * 0.07; d.ellipse(box(x - r, y - r, x + r, y + r), fill=(230, 50, 70))
 
 
 def render_frame(i):
@@ -1138,7 +1205,7 @@ def render_frame(i):
     elif T < end:
         k = int((T - INTRO) // TURN); lt = T - INTRO - k * TURN
         for j in range(k):   # sıradakiler
-            sx, sy = SLOTS4[j]
+            sx, sy = slots(n)[j]
             ball(img, codes[j], sx, sy, 190, sit['lines'][codes[j]][1], T, look=(0.6 if sx < STAGE[0] else -0.6, -0.5))
         code = codes[k]; line, mood = sit['lines'][code]
         x, y, d, sq = turn_pose(k, lt, code, mood)
@@ -1150,16 +1217,24 @@ def render_frame(i):
             name_tag(img, NAMES[code], STAGE[0], 1330, back(seg(lt, 0.5, 0.75)), 76)
     else:
         lt = T - end
+        crown = PLAN.get('kurgu') == 'crown'; win = PLAN.get('winner', 0)
         for j, code in enumerate(codes):
-            sx, sy = SLOTS4[j]; fx, fy = FINAL4[j]
+            sx, sy = slots(n)[j]; fx, fy = finals(n)[j]
             u = sm(seg(lt, 0.0, 0.6))
-            x, y, d = lerp(sx, fx, u), lerp(sy, fy, u), lerp(190, 330, u)
+            x, y, d = lerp(sx, fx, u), lerp(sy, fy, u), lerp(190, 330 if n <= 4 else 270, u)
             y -= 40 * abs(math.sin(lt * 5 + j)) * u
-            ball(img, code, x, y, d, 'happy', T)
+            ball(img, code, x, y, d, ('love' if j == win else 'shock') if crown and lt > 1.0 else 'happy', T)
             if u > 0.9: name_tag(img, NAMES[code], x, y + d * 0.68, 1.0, 50)
+            if crown and j == win and lt > 0.9:   # taç yukarıdan düşer
+                cu = back(seg(lt, 0.9, 1.3)); cy = lerp(y - d * 1.6, y - d * 0.62, sm(seg(lt, 0.9, 1.25)))
+                draw_crown(img, x, cy, d * 0.55 * max(cu, 0.01))
         s = back(seg(lt, 0.4, 0.75)) * (1 + 0.04 * math.sin(lt * 7))
-        put_text(img, 'WHICH ONE', W / 2, 1640, 96, (255, 255, 255), scale=s, rot=-3)
-        put_text(img, 'ARE YOU?', W / 2, 1760, 110, (255, 230, 60), scale=s, rot=3)
+        if crown:
+            put_text(img, 'COOLEST FACT?', W / 2, 1640, 96, (255, 255, 255), scale=s, rot=-3)
+            put_text(img, 'AGREE? COMMENT!', W / 2, 1760, 100, (255, 230, 60), scale=s, rot=3)
+        else:
+            put_text(img, 'WHICH ONE', W / 2, 1640, 96, (255, 255, 255), scale=s, rot=-3)
+            put_text(img, 'ARE YOU?', W / 2, 1760, 110, (255, 230, 60), scale=s, rot=3)
     return img.convert('RGB').reduce(S)
 
 

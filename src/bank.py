@@ -471,3 +471,29 @@ SITUATIONS.update({
         'VE': ('Huge lava plains cover me!', 'cool'), 'MO': ('My dark patches are old lava!', 'calm'),
         'MA': ('Olympus Mons is an old lava volcano!', 'cool'), 'ME': ('Ancient lava flooded my plains!', 'shock')}),
 })
+
+# 2026-11-02 yeni karakterler (GA Ganymede, EN Enceladus, ER Eris, PB Phobos) — henüz kullanılmamış durumlara; hepsi NASA bilgisi
+_NEW4 = {
+    'famous': {'GA': ('Largest moon in the whole solar system!', 'cool'), 'EN': ('Famous for my ice geysers!', 'happy'),
+               'ER': ('I got Pluto demoted. Oops.', 'cool'), 'PB': ('Famous for being doomed.', 'cry')},
+    'gym': {'GA': ('Bigger than Mercury. No gym needed.', 'cool'), 'PB': ('I lap Mars three times a day!', 'happy')},
+    'icecold': {'EN': ('I spray ice into space!', 'happy'), 'ER': ('About minus 230 out here.', 'shiver'),
+                'GA': ('Ice crust. Maybe an ocean below.', 'calm')},
+    'drifting': {'PB': ('Getting closer to Mars every year...', 'shock'), 'ER': ('One lap around the Sun takes me 559 years.', 'sleepy')},
+    'future': {'PB': ('Mars may tear me into a ring someday.', 'cry')},
+    'bright': {'EN': ('I reflect almost all the sunlight!', 'love'), 'ER': ('Very bright. Very far.', 'cool')},
+    'superpower': {'GA': ('The only moon with its own magnetic field!', 'cool'), 'EN': ('Water geysers from my south pole!', 'happy')},
+    'neighbors': {'PB': ('Deimos is my little sibling.', 'love'), 'GA': ('Io, Europa and Callisto live nearby!', 'happy')},
+    'telescope': {'ER': ('Found in 2005. Pluto lost its title.', 'cool'), 'GA': ('Galileo spotted me in 1610!', 'happy')},
+    'craters': {'PB': ('Stickney crater almost broke me!', 'shock'), 'GA': ('Old craters and long grooves.', 'calm')},
+    'cleanroom': {'EN': ('My geysers feed a whole ring of Saturn!', 'happy')},
+    'jewelry': {'EN': ('Icy sparkles everywhere!', 'love')},
+    'reply': {'ER': ('About thirteen hours, one way!', 'sleepy')},
+    'school': {'ER': ('Named after the goddess of chaos!', 'angry'), 'GA': ('Top of the class. Biggest moon!', 'cool')},
+    'galaxy': {'ER': ('I live way out past Pluto.', 'calm')},
+    'storm': {'EN': ('No storms here. Just geysers!', 'happy')},
+    'beach': {'EN': ('Ocean under my ice. Beach closed.', 'calm')},
+    'rocket': {'PB': ('A Japanese probe is coming for my dust!', 'happy')},
+}
+for _k, _v in _NEW4.items():
+    SITUATIONS[_k]['lines'].update(_v)

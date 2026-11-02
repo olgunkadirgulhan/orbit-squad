@@ -59,6 +59,22 @@ VOICE = {
  "CE": [
   "Zubenelgenubi",
   "a humble, cheerful"
+ ],
+ "GA": [
+  "Algieba",
+  "a proud, booming"
+ ],
+ "EN": [
+  "Despina",
+  "a sparkly, bubbly"
+ ],
+ "ER": [
+  "Umbriel",
+  "a grumpy, dramatic"
+ ],
+ "PB": [
+  "Laomedeia",
+  "a nervous, jittery"
  ]
 }
 LINES = {
@@ -2782,6 +2798,138 @@ LINES = {
   "quake": [
    "Sunquakes ripple my surface!",
    "cool"
+  ]
+ },
+ "ER": {
+  "galaxy": [
+   "I live way out past Pluto.",
+   "calm"
+  ],
+  "school": [
+   "Named after the goddess of chaos!",
+   "angry"
+  ],
+  "famous": [
+   "I got Pluto demoted. Oops.",
+   "cool"
+  ],
+  "reply": [
+   "About thirteen hours, one way!",
+   "sleepy"
+  ],
+  "drifting": [
+   "One lap around the Sun takes me 559 years.",
+   "sleepy"
+  ],
+  "icecold": [
+   "About minus 230 out here.",
+   "shiver"
+  ],
+  "bright": [
+   "Very bright. Very far.",
+   "cool"
+  ],
+  "telescope": [
+   "Found in 2005. Pluto lost its title.",
+   "cool"
+  ]
+ },
+ "GA": {
+  "gym": [
+   "Bigger than Mercury. No gym needed.",
+   "cool"
+  ],
+  "school": [
+   "Top of the class. Biggest moon!",
+   "cool"
+  ],
+  "famous": [
+   "Largest moon in the whole solar system!",
+   "cool"
+  ],
+  "craters": [
+   "Old craters and long grooves.",
+   "calm"
+  ],
+  "icecold": [
+   "Ice crust. Maybe an ocean below.",
+   "calm"
+  ],
+  "neighbors": [
+   "Io, Europa and Callisto live nearby!",
+   "happy"
+  ],
+  "superpower": [
+   "The only moon with its own magnetic field!",
+   "cool"
+  ],
+  "telescope": [
+   "Galileo spotted me in 1610!",
+   "happy"
+  ]
+ },
+ "PB": {
+  "gym": [
+   "I lap Mars three times a day!",
+   "happy"
+  ],
+  "famous": [
+   "Famous for being doomed.",
+   "cry"
+  ],
+  "rocket": [
+   "A Japanese probe is coming for my dust!",
+   "happy"
+  ],
+  "drifting": [
+   "Getting closer to Mars every year...",
+   "shock"
+  ],
+  "craters": [
+   "Stickney crater almost broke me!",
+   "shock"
+  ],
+  "neighbors": [
+   "Deimos is my little sibling.",
+   "love"
+  ],
+  "future": [
+   "Mars may tear me into a ring someday.",
+   "cry"
+  ]
+ },
+ "EN": {
+  "famous": [
+   "Famous for my ice geysers!",
+   "happy"
+  ],
+  "storm": [
+   "No storms here. Just geysers!",
+   "happy"
+  ],
+  "icecold": [
+   "I spray ice into space!",
+   "happy"
+  ],
+  "cleanroom": [
+   "My geysers feed a whole ring of Saturn!",
+   "happy"
+  ],
+  "superpower": [
+   "Water geysers from my south pole!",
+   "happy"
+  ],
+  "bright": [
+   "I reflect almost all the sunlight!",
+   "love"
+  ],
+  "beach": [
+   "Ocean under my ice. Beach closed.",
+   "calm"
+  ],
+  "jewelry": [
+   "Icy sparkles everywhere!",
+   "love"
   ]
  }
 }

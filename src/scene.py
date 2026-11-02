@@ -197,6 +197,29 @@ def flag_img(code):
             d.ellipse([x - r, y - r, x + r, y + r], outline=(105, 100, 95), width=3)
         d.ellipse([280, 285, 312, 310], fill=(250, 250, 245)); d.ellipse([322, 298, 334, 310], fill=(250, 250, 245))
         return im
+    elif code == 'GA':   # 2026-11-02 Ganymede: koyu kahve-gri + açık oluklu bölgeler
+        a = np.array((150, 135, 115)) * (0.8 + 0.3 * n)
+        a = np.where((_noise(w, h, 21, 50) > 0.55)[..., None], np.array((185, 175, 160)) * (0.9 + 0.15 * n), a)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('GA')
+        for _ in range(10):
+            y = rnd.uniform(0, h); d.line([(0, y), (w, y + rnd.uniform(-30, 30))], fill=(175, 165, 150), width=2)
+        return im
+    elif code == 'EN':   # Enceladus: parlak beyaz buz + mavi 'kaplan çizgileri'
+        a = np.array((248, 250, 255)) * (0.93 + 0.08 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im)
+        for k in range(4):
+            d.line([(200 + k * 35, 300), (250 + k * 35, 360)], fill=(110, 170, 230), width=6)
+        return im
+    elif code == 'ER':   # Eris: soluk gri-beyaz cüce gezegen
+        a = np.array((225, 222, 215)) * (0.85 + 0.2 * n)
+    elif code == 'PB':   # Phobos: koyu gri, kraterli (Stickney)
+        a = np.array((110, 100, 92)) * (0.8 + 0.35 * n)
+        im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im); rnd = random.Random('PB')
+        d.ellipse([230, 140, 350, 250], fill=(85, 78, 72), outline=(70, 64, 60), width=4)
+        for _ in range(14):
+            x, y, r = rnd.uniform(0, w), rnd.uniform(0, h), rnd.uniform(5, 16)
+            d.ellipse([x - r, y - r, x + r, y + r], outline=(80, 72, 66), width=2)
+        return im
     else:  # PL: kalp şekilli buzul (Tombaugh Regio)
         a = np.array((200, 165, 130)) * (0.8 + 0.3 * n)
         im = Image.fromarray(a.clip(0, 255).astype(np.uint8)); d = ImageDraw.Draw(im)

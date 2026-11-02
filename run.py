@@ -13,7 +13,7 @@ import orbit as balls  # noqa: E402
 HISTORY = HERE / 'history.json'
 # en çok aranan/izlenen gök cisimleri daha sık (2026-10-13 trend: solarballs medyan 237K, "what if earth" 189K)
 WEIGHT = {'EA': 3, 'SA': 2.5, 'JU': 2.5, 'MA': 2.5, 'SU': 2, 'PL': 2, 'MO': 2, 'VE': 1.5, 'NE': 1.5, 'UR': 1.5, 'ME': 1.2,
-          'TI': 1.3, 'EU': 1.3, 'IO': 1.3, 'CE': 1.1}
+          'TI': 1.3, 'EU': 1.3, 'IO': 1.3, 'CE': 1.1, 'GA': 1.3, 'EN': 1.3, 'ER': 1.2, 'PB': 1.2}
 TITLES = ['{t} 🪐 #space', '{t} 😂 #planets', '{t} 🌍 #solarsystem', 'Solar System Facts: {s} 🚀',
           '{t} (Real Space Facts!) 🪐', 'POV: {t} 😂 #space']
 
@@ -25,6 +25,11 @@ def load():
 def voiced(sit):
     """Bu durumda kendi aksanlı sesi hazır olan ülkeler (voices/cw/<ÜLKE>/<durum>.wav)."""
     return [c for c in balls.SITUATIONS[sit]['lines'] if (HERE / 'voices' / 'os' / c / f'{sit}.wav').exists()]
+
+
+KURGU = {'classic': 2, 'five': 1, 'crown': 1}
+KURGU_TITLES = {'five': ['{t}: 5 Space Facts 🪐 #space', 'Solar System Facts: {s} (5 Worlds) 🚀', '{t} 🌍 5 Worlds React #planets'],
+                'crown': ['Which Planet Has the Coolest Answer? {s} 👑 #space', '{t}: Who Wins? 👑 #planets', '{t} (Coolest Fact?) 🏆 #solarsystem']}
 
 
 def tkey(t):
@@ -46,14 +51,20 @@ def pick_plan(hist, rnd, mode='short'):
     mode='episode': uzun bölüm = Shorts'ta işlenmiş konuların derlemesi (yeni Shorts havuzunu tüketmez); aynı dörtlü asla tekrar etmez."""
     from itertools import combinations
     used = short_sits(hist)
+    # 2026-11-02 kurgular: classic (4 cisim), five (5 cisim, hızlı), crown (sonda 'en havalı bilgi' tacı + yorum çağrısı)
+    last_k = [v.get('kurgu', 'classic') for v in hist['videos'] if v.get('kind', 'short') == 'short'][-2:]
+    pool = [k for k in KURGU if not (len(last_k) == 2 and all(x == k for x in last_k))]
+    kurgu = rnd.choices(pool, weights=[KURGU[k] for k in pool])[0] if mode == 'short' else 'classic'
     cands = []
     for sit in balls.SITUATIONS:
         if (sit in used) == (mode == 'short'):
             continue
         vs = voiced(sit)
         seen = {tuple(sorted(v.get('countries', []))) for v in hist['videos'] if v.get('situation') == sit}
-        combos = [c for c in combinations(vs, 4) if tuple(sorted(c)) not in seen
+        size = 5 if kurgu == 'five' else 4
+        combos = [c for c in combinations(vs, size) if tuple(sorted(c)) not in seen
                   and len({balls.SITUATIONS[sit]['lines'][x][1] for x in c}) >= 3]   # tepkiler çeşitli olsun
+        if len(combos) > 3000: combos = rnd.sample(combos, 3000)
         if combos:
             cands.append((sit, combos))
     if not cands:
@@ -66,7 +77,9 @@ def pick_plan(hist, rnd, mode='short'):
     own = balls.SITUATIONS[sit]['scene']
     pool = [k for k in balls.SCENES if k not in recent] or list(balls.SCENES)
     scene = rnd.choices(pool, weights=[3 if k == own else 1 for k in pool])[0]
-    return dict(situation=sit, countries=cs, scene=scene, seed=rnd.randrange(10 ** 6))
+    plan = dict(situation=sit, countries=cs, scene=scene, kurgu=kurgu, seed=rnd.randrange(10 ** 6))
+    if kurgu == 'crown': plan['winner'] = rnd.randrange(len(cs))
+    return plan
 
 
 def metadata(plan, hist, rnd):
@@ -74,7 +87,7 @@ def metadata(plan, hist, rnd):
     t = ' '.join(re.sub(r'[A-Za-z]', lambda m: m.group().upper(), w.lower(), count=1) for w in s['title'].split()).replace('°c', '°C')
     used = {tkey(v['title']) for v in hist['videos'] if v.get('title')}
     short_s = t.replace('Planets: ', '', 1).replace('Planets ', '', 1)
-    opts = [x.format(t=t, s=short_s) for x in TITLES]; rnd.shuffle(opts)
+    opts = [x.format(t=t, s=short_s) for x in KURGU_TITLES.get(plan.get('kurgu'), TITLES)]; rnd.shuffle(opts)
     title = next((x for x in opts if tkey(x) not in used), None)
     if title is None:   # aynı konu başlığı zaten var → yeniden yükleme yok
         return None, None, None
