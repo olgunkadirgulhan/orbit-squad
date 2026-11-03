@@ -2414,6 +2414,23 @@
       "kurgu": "crown",
       "seed": 636751,
       "winner": 0
+    },
+    {
+      "id": "t1fy_7Bgymc",
+      "date": "2026-11-03 18:56",
+      "kind": "short",
+      "title": "Planets Predicting The Future (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "future",
+      "countries": [
+        "MO",
+        "NE",
+        "EA",
+        "PB"
+      ],
+      "scene": "rings",
+      "kurgu": "classic",
+      "seed": 533878
     }
   ]
 }
