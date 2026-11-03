@@ -2396,6 +2396,24 @@
       "scene": "belt",
       "kurgu": "classic",
       "seed": 881921
+    },
+    {
+      "id": "KTBtW12Zqj8",
+      "date": "2026-11-03 16:55",
+      "kind": "short",
+      "title": "Which Planet Has the Coolest Answer? When Someone Asks About The Galaxy 👑 #space",
+      "privacy": "public",
+      "situation": "galaxy",
+      "countries": [
+        "SA",
+        "EA",
+        "SU",
+        "JU"
+      ],
+      "scene": "eclipse",
+      "kurgu": "crown",
+      "seed": 636751,
+      "winner": 0
     }
   ]
 }
