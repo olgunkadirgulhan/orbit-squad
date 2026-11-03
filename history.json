@@ -2449,6 +2449,135 @@
       "scene": "sunlit",
       "kurgu": "five",
       "seed": 571920
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode",
+      "title": "Planets Answer 10 Space Questions 🪐 Orbit Squad Episode 10",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "wind",
+      "countries": [
+        "VE",
+        "MO",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "year",
+      "countries": [
+        "JU",
+        "PL",
+        "UR",
+        "NE"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "twins",
+      "countries": [
+        "PL",
+        "UR",
+        "NE",
+        "VE"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "eclipse",
+      "countries": [
+        "MA",
+        "SU",
+        "EA",
+        "JU"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "race",
+      "countries": [
+        "JU",
+        "VE",
+        "MA",
+        "SU"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "rain",
+      "countries": [
+        "NE",
+        "MA",
+        "VE",
+        "MO"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "interview",
+      "countries": [
+        "EA",
+        "MO",
+        "JU",
+        "PL"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "SA",
+        "VE",
+        "EA",
+        "MA"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "small",
+      "countries": [
+        "TI",
+        "SA",
+        "EU",
+        "MA"
+      ]
+    },
+    {
+      "id": "GKBpLwGfpgU",
+      "date": "2026-11-03 22:49",
+      "kind": "episode-part",
+      "situation": "sunlight",
+      "countries": [
+        "SU",
+        "PL",
+        "JU",
+        "EA"
+      ]
     }
   ]
 }
