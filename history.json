@@ -2612,6 +2612,24 @@
       "scene": "aurora",
       "kurgu": "classic",
       "seed": 658492
+    },
+    {
+      "id": "l41QJ9_qiFI",
+      "date": "2026-11-04 20:35",
+      "kind": "short",
+      "title": "Solar System Facts: At The Beach (5 Worlds) 🚀",
+      "privacy": "public",
+      "situation": "beach",
+      "countries": [
+        "MO",
+        "TI",
+        "PL",
+        "VE",
+        "EA"
+      ],
+      "scene": "volcano",
+      "kurgu": "five",
+      "seed": 705044
     }
   ]
 }
