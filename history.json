@@ -2683,6 +2683,135 @@
       "scene": "aurora",
       "kurgu": "five",
       "seed": 366120
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode",
+      "title": "10 Real Space Facts, Told by the Planets 🚀 | Episode 11",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "backwards",
+      "countries": [
+        "NE",
+        "VE",
+        "UR",
+        "EA"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "smell",
+      "countries": [
+        "UR",
+        "MO",
+        "VE",
+        "EA"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "year",
+      "countries": [
+        "VE",
+        "MA",
+        "UR",
+        "SA"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "bedtime",
+      "countries": [
+        "MA",
+        "VE",
+        "MO",
+        "UR"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "halloween",
+      "countries": [
+        "MO",
+        "SU",
+        "SA",
+        "PL"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "sky",
+      "countries": [
+        "UR",
+        "VE",
+        "MA",
+        "JU"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "weird",
+      "countries": [
+        "SA",
+        "VE",
+        "EU",
+        "CE"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "twins",
+      "countries": [
+        "EA",
+        "NE",
+        "SA",
+        "VE"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "moons",
+      "countries": [
+        "IO",
+        "NE",
+        "JU",
+        "VE"
+      ]
+    },
+    {
+      "id": "54eyszMVJG0",
+      "date": "2026-11-05 23:07",
+      "kind": "episode-part",
+      "situation": "icecold",
+      "countries": [
+        "MO",
+        "PL",
+        "ER",
+        "MA"
+      ]
     }
   ]
 }
