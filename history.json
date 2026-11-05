@@ -2665,6 +2665,24 @@
       "scene": "eclipse",
       "kurgu": "classic",
       "seed": 556323
+    },
+    {
+      "id": "V6TJljwANCM",
+      "date": "2026-11-05 20:52",
+      "kind": "short",
+      "title": "Planets When The Telescope Arrives 🌍 5 Worlds React #planets",
+      "privacy": "public",
+      "situation": "telescope",
+      "countries": [
+        "SA",
+        "ER",
+        "UR",
+        "GA",
+        "NE"
+      ],
+      "scene": "aurora",
+      "kurgu": "five",
+      "seed": 366120
     }
   ]
 }
