@@ -2630,6 +2630,24 @@
       "scene": "volcano",
       "kurgu": "five",
       "seed": 705044
+    },
+    {
+      "id": "rZGFFHKUykg",
+      "date": "2026-11-05 16:54",
+      "kind": "short",
+      "title": "Planets Ordering Coffee: Who Wins? 👑 #planets",
+      "privacy": "public",
+      "situation": "coffee",
+      "countries": [
+        "NE",
+        "EA",
+        "MA",
+        "SA"
+      ],
+      "scene": "nebula",
+      "kurgu": "crown",
+      "seed": 834030,
+      "winner": 3
     }
   ]
 }
