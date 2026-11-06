@@ -2829,6 +2829,24 @@
       "scene": "rings",
       "kurgu": "classic",
       "seed": 848590
+    },
+    {
+      "id": "4e1WALzwPOc",
+      "date": "2026-11-06 18:54",
+      "kind": "short",
+      "title": "Planets At A Dance Party: Who Wins? 👑 #planets",
+      "privacy": "public",
+      "situation": "dance",
+      "countries": [
+        "NE",
+        "JU",
+        "EA",
+        "PL"
+      ],
+      "scene": "sunlit",
+      "kurgu": "crown",
+      "seed": 798395,
+      "winner": 3
     }
   ]
 }
