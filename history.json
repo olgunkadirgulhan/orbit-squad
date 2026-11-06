@@ -2812,6 +2812,23 @@
         "ER",
         "MA"
       ]
+    },
+    {
+      "id": "PxgkTGkfDpU",
+      "date": "2026-11-06 16:54",
+      "kind": "short",
+      "title": "Planets When Someone Talks About Jewelry 🪐 #space",
+      "privacy": "public",
+      "situation": "jewelry",
+      "countries": [
+        "CE",
+        "EA",
+        "UR",
+        "NE"
+      ],
+      "scene": "rings",
+      "kurgu": "classic",
+      "seed": 848590
     }
   ]
 }
