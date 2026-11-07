@@ -2900,6 +2900,23 @@
       "scene": "nebula",
       "kurgu": "five",
       "seed": 469241
+    },
+    {
+      "id": "BdouzGpIZqU",
+      "date": "2026-11-07 20:54",
+      "kind": "short",
+      "title": "Solar System Facts: When The Tide Comes In 🚀",
+      "privacy": "public",
+      "situation": "tides",
+      "countries": [
+        "EU",
+        "MO",
+        "EA",
+        "JU"
+      ],
+      "scene": "aurora",
+      "kurgu": "classic",
+      "seed": 975278
     }
   ]
 }
