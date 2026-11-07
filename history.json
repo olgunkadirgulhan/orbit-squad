@@ -2917,6 +2917,135 @@
       "scene": "aurora",
       "kurgu": "classic",
       "seed": 975278
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode",
+      "title": "Planets Answer 10 Space Questions 🪐 Orbit Squad Episode 12",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "rings",
+      "countries": [
+        "UR",
+        "SA",
+        "MA",
+        "VE"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "shield",
+      "countries": [
+        "JU",
+        "UR",
+        "SU",
+        "MA"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "icecold",
+      "countries": [
+        "EU",
+        "PL",
+        "EA",
+        "ER"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "names",
+      "countries": [
+        "EA",
+        "SA",
+        "JU",
+        "PL"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "monday",
+      "countries": [
+        "VE",
+        "MA",
+        "ME",
+        "SA"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "IO",
+        "MA",
+        "EU",
+        "VE"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "bestfriend",
+      "countries": [
+        "MO",
+        "EU",
+        "NE",
+        "MA"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "coffee",
+      "countries": [
+        "VE",
+        "MA",
+        "EA",
+        "NE"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "discovered",
+      "countries": [
+        "CE",
+        "PL",
+        "IO",
+        "SA"
+      ]
+    },
+    {
+      "id": "g7oKS4GOnsY",
+      "date": "2026-11-07 21:22",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "UR",
+        "SU",
+        "EU",
+        "VE"
+      ]
     }
   ]
 }
