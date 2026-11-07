@@ -402,6 +402,34 @@ LINES = {
   "lava": [
    "Only in a few hot spots.",
    "calm"
+  ],
+  "planets_ordering_fast_fo": [
+   "I'll take clean liquid water and plant salad.",
+   "calm"
+  ],
+  "planets_at_a_birthday_pa": [
+   "Three hundred sixty-five days until my next birthday!",
+   "calm"
+  ],
+  "planets_getting_a_speedi": [
+   "Officer, thirty kilometers a second is Earth standard!",
+   "calm"
+  ],
+  "planets_checking_their_p": [
+   "One moon stamp and eight billion living visas!",
+   "happy"
+  ],
+  "planets_comparing_magnet": [
+   "Liquid iron core shields surface life from radiation!",
+   "calm"
+  ],
+  "planets_watching_a_movie": [
+   "Twenty-four hour day, perfect for a movie night!",
+   "happy"
+  ],
+  "planets_ordering_pizza": [
+   "I brought fresh mushrooms, tomatoes, and liquid water!",
+   "love"
   ]
  },
  "VE": {
@@ -596,6 +624,30 @@ LINES = {
   "lava": [
    "Huge lava plains cover me!",
    "cool"
+  ],
+  "planets_ordering_fast_fo": [
+   "Sulfuric acid drizzle on my carbon dioxide burger!",
+   "happy"
+  ],
+  "planets_playing_hide_and": [
+   "Thick clouds hide my surface from every camera!",
+   "calm"
+  ],
+  "planets_weather_report": [
+   "Nine hundred degrees with heavy sulfuric acid overcast!",
+   "shock"
+  ],
+  "planets_at_the_car_wash": [
+   "Acid rain melted the sponges, scrub harder please!",
+   "cool"
+  ],
+  "planets_watching_a_movie": [
+   "I cannot see the screen through dense clouds!",
+   "angry"
+  ],
+  "planets_ordering_pizza": [
+   "Bake it at 900 degrees Fahrenheit, perfectly melted!",
+   "happy"
   ]
  },
  "JU": {
@@ -877,6 +929,34 @@ LINES = {
   ],
   "telescope": [
    "Even binoculars show my four big moons!",
+   "happy"
+  ],
+  "planets_ordering_fast_fo": [
+   "Super-size it! I eat ninety-five moons of snacks!",
+   "shock"
+  ],
+  "planets_at_a_birthday_pa": [
+   "One orbit takes twelve Earth years, save cake!",
+   "cry"
+  ],
+  "planets_weather_report": [
+   "The Great Red Spot is four hundred years old!",
+   "cool"
+  ],
+  "planets_getting_a_speedi": [
+   "Thirteen kilometers a second, but I am heavy!",
+   "angry"
+  ],
+  "planets_at_the_car_wash": [
+   "No wash! My ammonia gas stripes look marvelous!",
+   "love"
+  ],
+  "planets_checking_their_p": [
+   "Ninety-five moon visas, my passport booklet is huge!",
+   "shock"
+  ],
+  "planets_ordering_pizza": [
+   "My Great Red Spot looks like giant pepperoni!",
    "happy"
   ]
  },
@@ -1180,6 +1260,22 @@ LINES = {
   "lava": [
    "Olympus Mons is an old lava volcano!",
    "cool"
+  ],
+  "planets_weather_report": [
+   "Global dust storms block out the entire Sun!",
+   "angry"
+  ],
+  "planets_at_the_car_wash": [
+   "Red iron dust gets into all my gears!",
+   "shock"
+  ],
+  "planets_checking_their_p": [
+   "Two tiny captured asteroid moons on my visa!",
+   "cool"
+  ],
+  "planets_comparing_magnet": [
+   "No core dynamo, just tiny crustal magnetic patches!",
+   "angry"
   ]
  },
  "ME": {
@@ -1338,6 +1434,34 @@ LINES = {
   "lava": [
    "Ancient lava flooded my plains!",
    "shock"
+  ],
+  "planets_ordering_fast_fo": [
+   "One scorched taco, 800 degrees Fahrenheit, extra fast!",
+   "cool"
+  ],
+  "planets_playing_hide_and": [
+   "I hide right behind the Sun at dawn!",
+   "cool"
+  ],
+  "planets_at_a_birthday_pa": [
+   "My year is eighty-eight days, party every three months!",
+   "happy"
+  ],
+  "planets_at_the_car_wash": [
+   "Solar wind blasted all my car paint off!",
+   "angry"
+  ],
+  "planets_checking_their_p": [
+   "Zero moons, zero atmosphere, entry denied everywhere!",
+   "cry"
+  ],
+  "planets_comparing_magnet": [
+   "Only one percent of Earth, barely deflects wind!",
+   "cry"
+  ],
+  "planets_watching_a_movie": [
+   "Movie is two hours, my daylight lasts months!",
+   "sleepy"
   ]
  },
  "SA": {
@@ -1576,6 +1700,34 @@ LINES = {
   "jewelry": [
    "Maybe diamond hail deep inside!",
    "cool"
+  ],
+  "planets_ordering_fast_fo": [
+   "Does the ice ring combo come with helium?",
+   "love"
+  ],
+  "planets_at_a_birthday_pa": [
+   "Twenty-nine Earth years between birthdays? I feel old!",
+   "sleepy"
+  ],
+  "planets_weather_report": [
+   "Winds hit one thousand miles per hour today!",
+   "shock"
+  ],
+  "planets_getting_a_speedi": [
+   "Nine kilometers per second, just cruising my rings!",
+   "love"
+  ],
+  "planets_checking_their_p": [
+   "One hundred forty-six moon stamps and counting, winner!",
+   "love"
+  ],
+  "planets_watching_a_movie": [
+   "Popcorn ice rings make the best movie snack!",
+   "love"
+  ],
+  "planets_ordering_pizza": [
+   "Careful, my ice rings might slice thin crust!",
+   "cool"
   ]
  },
  "UR": {
@@ -1706,6 +1858,10 @@ LINES = {
   "jewelry": [
    "Maybe diamond rain deep inside!",
    "love"
+  ],
+  "planets_at_the_car_wash": [
+   "Rinse me sideways, my ninety-eight degree tilt helps!",
+   "sleepy"
   ]
  },
  "NE": {
@@ -1892,6 +2048,22 @@ LINES = {
   "jewelry": [
    "It might rain diamonds inside me!",
    "shock"
+  ],
+  "planets_playing_hide_and": [
+   "I hid so far it took math to find!",
+   "shock"
+  ],
+  "planets_at_a_birthday_pa": [
+   "One party every one hundred sixty-five Earth years!",
+   "shiver"
+  ],
+  "planets_getting_a_speedi": [
+   "Five kilometers a second, strictly outer solar zone!",
+   "sleepy"
+  ],
+  "planets_watching_a_movie": [
+   "It took four hours for light to arrive!",
+   "calm"
   ]
  },
  "PL": {
@@ -2053,6 +2225,26 @@ LINES = {
   ],
   "beach": [
    "I have dunes of methane ice!",
+   "shiver"
+  ],
+  "planets_ordering_fast_fo": [
+   "A tiny frozen nitrogen nugget is plenty, thanks.",
+   "shiver"
+  ],
+  "planets_at_a_birthday_pa": [
+   "Two hundred forty-eight years per birthday is absurd!",
+   "angry"
+  ],
+  "planets_getting_a_speedi": [
+   "Four kilometers per second, going at dwarf pace!",
+   "cry"
+  ],
+  "planets_checking_their_p": [
+   "Dwarf planet passport since two thousand six, rude!",
+   "angry"
+  ],
+  "planets_ordering_pizza": [
+   "Keep mine frozen at minus 380 degrees Fahrenheit!",
    "shiver"
   ]
  },
@@ -2386,6 +2578,14 @@ LINES = {
   "beach": [
    "My dunes are made of hydrocarbon grains!",
    "cool"
+  ],
+  "planets_ordering_fast_fo": [
+   "I prefer a tall glass of liquid methane!",
+   "cool"
+  ],
+  "planets_weather_report": [
+   "Liquid methane drizzle over northern polar lakes today!",
+   "calm"
   ]
  },
  "EU": {
@@ -2660,6 +2860,10 @@ LINES = {
   "jewelry": [
    "Salt crystals! Sodium carbonate!",
    "happy"
+  ],
+  "planets_playing_hide_and": [
+   "I blend in with thousands of asteroid buddies!",
+   "happy"
   ]
  },
  "SU": {
@@ -2798,6 +3002,18 @@ LINES = {
   "quake": [
    "Sunquakes ripple my surface!",
    "cool"
+  ],
+  "planets_playing_hide_and": [
+   "You cannot hide, I light up the system!",
+   "happy"
+  ],
+  "planets_at_a_birthday_pa": [
+   "Four point six billion candles? That melts everything!",
+   "shock"
+  ],
+  "planets_comparing_magnet": [
+   "My magnetic field flips polarity every eleven years!",
+   "shock"
   ]
  },
  "ER": {
@@ -2832,6 +3048,14 @@ LINES = {
   "telescope": [
    "Found in 2005. Pluto lost its title.",
    "cool"
+  ],
+  "planets_playing_hide_and": [
+   "Good luck spotting me in the scattered disc!",
+   "shiver"
+  ],
+  "planets_at_a_birthday_pa": [
+   "Five hundred fifty-eight years? Still waiting for cake!",
+   "cry"
   ]
  },
  "GA": {
@@ -2865,6 +3089,14 @@ LINES = {
   ],
   "telescope": [
    "Galileo spotted me in 1610!",
+   "happy"
+  ],
+  "planets_checking_their_p": [
+   "Bigger than Mercury, yet stamped as a moon!",
+   "calm"
+  ],
+  "planets_comparing_magnet": [
+   "I am the only moon with magnetic shielding!",
    "happy"
   ]
  },
@@ -2930,6 +3162,14 @@ LINES = {
   "jewelry": [
    "Icy sparkles everywhere!",
    "love"
+  ],
+  "planets_at_the_car_wash": [
+   "I spray water geysers to wash everyone else!",
+   "happy"
+  ],
+  "planets_ordering_pizza": [
+   "Liquid ocean under ice, talk about deep dish!",
+   "happy"
   ]
  }
 }

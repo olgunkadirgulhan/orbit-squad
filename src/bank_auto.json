@@ -1,0 +1,312 @@
+{
+ "planets_ordering_fast_fo": {
+  "title": "PLANETS ORDERING FAST FOOD",
+  "scene": "party",
+  "name": "Fast Food",
+  "lines": {
+   "ME": [
+    "One scorched taco, 800 degrees Fahrenheit, extra fast!",
+    "cool"
+   ],
+   "VE": [
+    "Sulfuric acid drizzle on my carbon dioxide burger!",
+    "happy"
+   ],
+   "EA": [
+    "I'll take clean liquid water and plant salad.",
+    "calm"
+   ],
+   "JU": [
+    "Super-size it! I eat ninety-five moons of snacks!",
+    "shock"
+   ],
+   "SA": [
+    "Does the ice ring combo come with helium?",
+    "love"
+   ],
+   "TI": [
+    "I prefer a tall glass of liquid methane!",
+    "cool"
+   ],
+   "PL": [
+    "A tiny frozen nitrogen nugget is plenty, thanks.",
+    "shiver"
+   ]
+  }
+ },
+ "planets_playing_hide_and": {
+  "title": "PLANETS PLAYING HIDE AND SEEK",
+  "scene": "nebula",
+  "name": "Hide & Seek",
+  "lines": {
+   "SU": [
+    "You cannot hide, I light up the system!",
+    "happy"
+   ],
+   "ME": [
+    "I hide right behind the Sun at dawn!",
+    "cool"
+   ],
+   "VE": [
+    "Thick clouds hide my surface from every camera!",
+    "calm"
+   ],
+   "NE": [
+    "I hid so far it took math to find!",
+    "shock"
+   ],
+   "CE": [
+    "I blend in with thousands of asteroid buddies!",
+    "happy"
+   ],
+   "ER": [
+    "Good luck spotting me in the scattered disc!",
+    "shiver"
+   ]
+  }
+ },
+ "planets_at_a_birthday_pa": {
+  "title": "PLANETS AT A BIRTHDAY PARTY",
+  "scene": "party",
+  "name": "Birthday Party",
+  "lines": {
+   "SU": [
+    "Four point six billion candles? That melts everything!",
+    "shock"
+   ],
+   "ME": [
+    "My year is eighty-eight days, party every three months!",
+    "happy"
+   ],
+   "EA": [
+    "Three hundred sixty-five days until my next birthday!",
+    "calm"
+   ],
+   "JU": [
+    "One orbit takes twelve Earth years, save cake!",
+    "cry"
+   ],
+   "SA": [
+    "Twenty-nine Earth years between birthdays? I feel old!",
+    "sleepy"
+   ],
+   "NE": [
+    "One party every one hundred sixty-five Earth years!",
+    "shiver"
+   ],
+   "PL": [
+    "Two hundred forty-eight years per birthday is absurd!",
+    "angry"
+   ],
+   "ER": [
+    "Five hundred fifty-eight years? Still waiting for cake!",
+    "cry"
+   ]
+  }
+ },
+ "planets_weather_report": {
+  "title": "PLANETS REPORTING THE WEATHER",
+  "scene": "aurora",
+  "name": "Weather Report",
+  "lines": {
+   "VE": [
+    "Nine hundred degrees with heavy sulfuric acid overcast!",
+    "shock"
+   ],
+   "MA": [
+    "Global dust storms block out the entire Sun!",
+    "angry"
+   ],
+   "JU": [
+    "The Great Red Spot is four hundred years old!",
+    "cool"
+   ],
+   "SA": [
+    "Winds hit one thousand miles per hour today!",
+    "shock"
+   ],
+   "TI": [
+    "Liquid methane drizzle over northern polar lakes today!",
+    "calm"
+   ]
+  }
+ },
+ "planets_getting_a_speedi": {
+  "title": "PLANETS GETTING A SPEEDING TICKET",
+  "scene": "space",
+  "name": "Speeding Ticket",
+  "lines": {
+   "EA": [
+    "Officer, thirty kilometers a second is Earth standard!",
+    "calm"
+   ],
+   "JU": [
+    "Thirteen kilometers a second, but I am heavy!",
+    "angry"
+   ],
+   "SA": [
+    "Nine kilometers per second, just cruising my rings!",
+    "love"
+   ],
+   "NE": [
+    "Five kilometers a second, strictly outer solar zone!",
+    "sleepy"
+   ],
+   "PL": [
+    "Four kilometers per second, going at dwarf pace!",
+    "cry"
+   ]
+  }
+ },
+ "planets_at_the_car_wash": {
+  "title": "PLANETS AT THE CAR WASH",
+  "scene": "sunlit",
+  "name": "Car Wash",
+  "lines": {
+   "ME": [
+    "Solar wind blasted all my car paint off!",
+    "angry"
+   ],
+   "VE": [
+    "Acid rain melted the sponges, scrub harder please!",
+    "cool"
+   ],
+   "MA": [
+    "Red iron dust gets into all my gears!",
+    "shock"
+   ],
+   "JU": [
+    "No wash! My ammonia gas stripes look marvelous!",
+    "love"
+   ],
+   "UR": [
+    "Rinse me sideways, my ninety-eight degree tilt helps!",
+    "sleepy"
+   ],
+   "EN": [
+    "I spray water geysers to wash everyone else!",
+    "happy"
+   ]
+  }
+ },
+ "planets_checking_their_p": {
+  "title": "PLANETS CHECKING THEIR PASSPORT",
+  "scene": "space",
+  "name": "Passport Check",
+  "lines": {
+   "ME": [
+    "Zero moons, zero atmosphere, entry denied everywhere!",
+    "cry"
+   ],
+   "EA": [
+    "One moon stamp and eight billion living visas!",
+    "happy"
+   ],
+   "MA": [
+    "Two tiny captured asteroid moons on my visa!",
+    "cool"
+   ],
+   "JU": [
+    "Ninety-five moon visas, my passport booklet is huge!",
+    "shock"
+   ],
+   "SA": [
+    "One hundred forty-six moon stamps and counting, winner!",
+    "love"
+   ],
+   "PL": [
+    "Dwarf planet passport since two thousand six, rude!",
+    "angry"
+   ],
+   "GA": [
+    "Bigger than Mercury, yet stamped as a moon!",
+    "calm"
+   ]
+  }
+ },
+ "planets_comparing_magnet": {
+  "title": "PLANETS COMPARING THEIR MAGNETIC FIELDS",
+  "scene": "aurora",
+  "name": "Magnetic Fields",
+  "lines": {
+   "SU": [
+    "My magnetic field flips polarity every eleven years!",
+    "shock"
+   ],
+   "ME": [
+    "Only one percent of Earth, barely deflects wind!",
+    "cry"
+   ],
+   "EA": [
+    "Liquid iron core shields surface life from radiation!",
+    "calm"
+   ],
+   "GA": [
+    "I am the only moon with magnetic shielding!",
+    "happy"
+   ],
+   "MA": [
+    "No core dynamo, just tiny crustal magnetic patches!",
+    "angry"
+   ]
+  }
+ },
+ "planets_watching_a_movie": {
+  "title": "PLANETS WATCHING A MOVIE",
+  "scene": "space",
+  "name": "Movie Night",
+  "lines": {
+   "ME": [
+    "Movie is two hours, my daylight lasts months!",
+    "sleepy"
+   ],
+   "VE": [
+    "I cannot see the screen through dense clouds!",
+    "angry"
+   ],
+   "EA": [
+    "Twenty-four hour day, perfect for a movie night!",
+    "happy"
+   ],
+   "SA": [
+    "Popcorn ice rings make the best movie snack!",
+    "love"
+   ],
+   "NE": [
+    "It took four hours for light to arrive!",
+    "calm"
+   ]
+  }
+ },
+ "planets_ordering_pizza": {
+  "title": "PLANETS ORDERING PIZZA",
+  "scene": "party",
+  "name": "Pizza Night",
+  "lines": {
+   "VE": [
+    "Bake it at 900 degrees Fahrenheit, perfectly melted!",
+    "happy"
+   ],
+   "JU": [
+    "My Great Red Spot looks like giant pepperoni!",
+    "happy"
+   ],
+   "EA": [
+    "I brought fresh mushrooms, tomatoes, and liquid water!",
+    "love"
+   ],
+   "SA": [
+    "Careful, my ice rings might slice thin crust!",
+    "cool"
+   ],
+   "PL": [
+    "Keep mine frozen at minus 380 degrees Fahrenheit!",
+    "shiver"
+   ],
+   "EN": [
+    "Liquid ocean under ice, talk about deep dish!",
+    "happy"
+   ]
+  }
+ }
+}
