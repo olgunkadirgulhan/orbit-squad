@@ -2864,6 +2864,24 @@
       "scene": "belt",
       "kurgu": "classic",
       "seed": 328863
+    },
+    {
+      "id": "ti0MB0XfVbQ",
+      "date": "2026-11-07 16:54",
+      "kind": "short",
+      "title": "Planets On Monday Morning 🌍 5 Worlds React #planets",
+      "privacy": "public",
+      "situation": "monday",
+      "countries": [
+        "EA",
+        "UR",
+        "VE",
+        "MA",
+        "JU"
+      ],
+      "scene": "space",
+      "kurgu": "five",
+      "seed": 170453
     }
   ]
 }
