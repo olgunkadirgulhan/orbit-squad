@@ -95,7 +95,8 @@ def metadata(plan, hist, rnd):
     lines = '\n'.join(f'{balls.NAMES[c].title()}: "{s["lines"][c][0]}"' for c in plan['countries'])
     desc = (f'{t}! Which one are YOU? Comment below 👇\n\n{lines}\n\n'
             'Every line is a real space fact (rounded numbers, based on NASA planetary data), told by the Orbit Squad. '
-            'New space Shorts every day 🪐\n\n#shorts #space #planets #solarsystem #animation')
+            'New space Shorts every day 🪐\n\n'
+            'Make your own animated video from one idea, 3 free videos: https://fennecvideo.com (our tool)\n\n#shorts #space #planets #solarsystem #animation')
     tags = ['space', 'planets', 'solar system', 'space facts', 'planet facts', 'solarsystem animation', 'planets for fun',
             'astronomy', s['name'].lower(), 'animation', 'shorts'] + [n.lower() for n in names]
     return title, desc, tags
