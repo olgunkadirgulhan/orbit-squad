@@ -3063,6 +3063,24 @@
       "scene": "party",
       "kurgu": "classic",
       "seed": 817777
+    },
+    {
+      "id": "euzCErXpVec",
+      "date": "2026-11-08 18:33",
+      "kind": "short",
+      "title": "Planets Cleaning Their Room (Coolest Fact?) 🏆 #solarsystem",
+      "privacy": "public",
+      "situation": "cleanroom",
+      "countries": [
+        "SA",
+        "MO",
+        "EA",
+        "EN"
+      ],
+      "scene": "belt",
+      "kurgu": "crown",
+      "seed": 835912,
+      "winner": 1
     }
   ]
 }
