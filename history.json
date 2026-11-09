@@ -3098,6 +3098,24 @@
       "scene": "volcano",
       "kurgu": "classic",
       "seed": 381989
+    },
+    {
+      "id": "U7aVES7xjpQ",
+      "date": "2026-11-09 16:54",
+      "kind": "short",
+      "title": "Planets Under Pressure 🌍 5 Worlds React #planets",
+      "privacy": "public",
+      "situation": "pressure",
+      "countries": [
+        "MA",
+        "SA",
+        "EA",
+        "VE",
+        "JU"
+      ],
+      "scene": "nebula",
+      "kurgu": "five",
+      "seed": 419392
     }
   ]
 }
