@@ -3116,6 +3116,23 @@
       "scene": "nebula",
       "kurgu": "five",
       "seed": 419392
+    },
+    {
+      "id": "UFdKWxmIqHk",
+      "date": "2026-11-09 18:54",
+      "kind": "short",
+      "title": "Planets On A Diet 🪐 #space",
+      "privacy": "public",
+      "situation": "diet",
+      "countries": [
+        "SA",
+        "SU",
+        "JU",
+        "EA"
+      ],
+      "scene": "ice",
+      "kurgu": "classic",
+      "seed": 700441
     }
   ]
 }
