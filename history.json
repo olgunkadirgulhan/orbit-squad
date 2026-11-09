@@ -3133,6 +3133,24 @@
       "scene": "ice",
       "kurgu": "classic",
       "seed": 700441
+    },
+    {
+      "id": "rL2xBApMpwc",
+      "date": "2026-11-09 20:54",
+      "kind": "short",
+      "title": "Planets When Someone Says 'Dark Side' (Coolest Fact?) 🏆 #solarsystem",
+      "privacy": "public",
+      "situation": "darkside",
+      "countries": [
+        "SA",
+        "EA",
+        "SU",
+        "MO"
+      ],
+      "scene": "rings",
+      "kurgu": "crown",
+      "seed": 953580,
+      "winner": 0
     }
   ]
 }
