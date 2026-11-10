@@ -3151,6 +3151,23 @@
       "kurgu": "crown",
       "seed": 953580,
       "winner": 0
+    },
+    {
+      "id": "q3GIuYfgSKQ",
+      "date": "2026-11-10 16:54",
+      "kind": "short",
+      "title": "Planets Planning Your Vacation (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "vacation",
+      "countries": [
+        "JU",
+        "PL",
+        "MA",
+        "VE"
+      ],
+      "scene": "sunlit",
+      "kurgu": "classic",
+      "seed": 626974
     }
   ]
 }
