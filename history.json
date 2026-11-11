@@ -3350,6 +3350,23 @@
       "scene": "eclipse",
       "kurgu": "five",
       "seed": 983935
+    },
+    {
+      "id": "P6UeAmNsTS4",
+      "date": "2026-11-11 18:54",
+      "kind": "short",
+      "title": "Planets When The Heater Breaks (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "freezing",
+      "countries": [
+        "NE",
+        "EA",
+        "IO",
+        "EU"
+      ],
+      "scene": "rings",
+      "kurgu": "classic",
+      "seed": 973978
     }
   ]
 }
