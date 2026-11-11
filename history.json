@@ -3332,6 +3332,24 @@
         "ME",
         "VE"
       ]
+    },
+    {
+      "id": "J0d3eCi2C0U",
+      "date": "2026-11-11 16:55",
+      "kind": "short",
+      "title": "Solar System Facts: Showing Their Superpower (5 Worlds) 🚀",
+      "privacy": "public",
+      "situation": "superpower",
+      "countries": [
+        "VE",
+        "EA",
+        "EN",
+        "TI",
+        "MA"
+      ],
+      "scene": "eclipse",
+      "kurgu": "five",
+      "seed": 983935
     }
   ]
 }
