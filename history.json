@@ -3367,6 +3367,23 @@
       "scene": "rings",
       "kurgu": "classic",
       "seed": 973978
+    },
+    {
+      "id": "ErsSxsA9APs",
+      "date": "2026-11-11 20:58",
+      "kind": "short",
+      "title": "Planets: What Color Is Your Sky? 🪐 #space",
+      "privacy": "public",
+      "situation": "skycolor",
+      "countries": [
+        "MA",
+        "SA",
+        "MO",
+        "VE"
+      ],
+      "scene": "sunlit",
+      "kurgu": "classic",
+      "seed": 921246
     }
   ]
 }
