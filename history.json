@@ -3402,6 +3402,23 @@
       "scene": "ice",
       "kurgu": "five",
       "seed": 646440
+    },
+    {
+      "id": "iclqtTk2cno",
+      "date": "2026-11-12 18:54",
+      "kind": "short",
+      "title": "Solar System Facts: Showing Off Their Canyons 🚀",
+      "privacy": "public",
+      "situation": "canyons",
+      "countries": [
+        "EA",
+        "VE",
+        "MO",
+        "MA"
+      ],
+      "scene": "aurora",
+      "kurgu": "classic",
+      "seed": 777327
     }
   ]
 }
