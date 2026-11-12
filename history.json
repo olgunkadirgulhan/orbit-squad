@@ -3419,6 +3419,23 @@
       "scene": "aurora",
       "kurgu": "classic",
       "seed": 777327
+    },
+    {
+      "id": "EUiccmf-GDo",
+      "date": "2026-11-12 20:55",
+      "kind": "short",
+      "title": "Planets Watching A Movie 🌍 #solarsystem",
+      "privacy": "public",
+      "situation": "planets_watching_a_movie",
+      "countries": [
+        "EA",
+        "NE",
+        "VE",
+        "SA"
+      ],
+      "scene": "space",
+      "kurgu": "classic",
+      "seed": 124922
     }
   ]
 }
