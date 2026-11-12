@@ -3384,6 +3384,24 @@
       "scene": "sunlit",
       "kurgu": "classic",
       "seed": 921246
+    },
+    {
+      "id": "XWi16cDNyi0",
+      "date": "2026-11-12 16:54",
+      "kind": "short",
+      "title": "Solar System Facts: Meeting The Neighbors (5 Worlds) 🚀",
+      "privacy": "public",
+      "situation": "neighbors",
+      "countries": [
+        "EA",
+        "PB",
+        "MA",
+        "VE",
+        "PL"
+      ],
+      "scene": "ice",
+      "kurgu": "five",
+      "seed": 646440
     }
   ]
 }
