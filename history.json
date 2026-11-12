@@ -3436,6 +3436,135 @@
       "scene": "space",
       "kurgu": "classic",
       "seed": 124922
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode",
+      "title": "10 Real Space Facts, Told by the Planets 🚀 | Episode 14",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "wifi",
+      "countries": [
+        "EA",
+        "PL",
+        "MO",
+        "JU"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "olympics",
+      "countries": [
+        "JU",
+        "TI",
+        "CE",
+        "UR"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "skycolor",
+      "countries": [
+        "EU",
+        "IO",
+        "MO",
+        "EA"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "jump",
+      "countries": [
+        "IO",
+        "TI",
+        "PL",
+        "SU"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "ME",
+        "VE",
+        "JU",
+        "IO"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "closest",
+      "countries": [
+        "MO",
+        "ME",
+        "SU",
+        "VE"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "selfie",
+      "countries": [
+        "EU",
+        "EA",
+        "TI",
+        "SA"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "interview",
+      "countries": [
+        "MO",
+        "MA",
+        "PL",
+        "JU"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "rain",
+      "countries": [
+        "VE",
+        "PL",
+        "UR",
+        "IO"
+      ]
+    },
+    {
+      "id": "-Rok_gBJDAM",
+      "date": "2026-11-12 23:07",
+      "kind": "episode-part",
+      "situation": "names",
+      "countries": [
+        "VE",
+        "UR",
+        "JU",
+        "PL"
+      ]
     }
   ]
 }
