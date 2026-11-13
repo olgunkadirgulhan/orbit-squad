@@ -3565,6 +3565,24 @@
         "JU",
         "PL"
       ]
+    },
+    {
+      "id": "mav_pSCSu-o",
+      "date": "2026-11-13 16:55",
+      "kind": "short",
+      "title": "Solar System Facts: When The Lights Go Out (5 Worlds) 🚀",
+      "privacy": "public",
+      "situation": "lights",
+      "countries": [
+        "MO",
+        "VE",
+        "SU",
+        "SA",
+        "EA"
+      ],
+      "scene": "aurora",
+      "kurgu": "five",
+      "seed": 844305
     }
   ]
 }
