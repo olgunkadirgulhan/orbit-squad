@@ -3583,6 +3583,23 @@
       "scene": "aurora",
       "kurgu": "five",
       "seed": 844305
+    },
+    {
+      "id": "DrBituSdoDs",
+      "date": "2026-11-13 18:54",
+      "kind": "short",
+      "title": "POV: Planets Ordering Fast Food 😂 #space",
+      "privacy": "public",
+      "situation": "planets_ordering_fast_fo",
+      "countries": [
+        "EA",
+        "JU",
+        "SA",
+        "PL"
+      ],
+      "scene": "belt",
+      "kurgu": "classic",
+      "seed": 987633
     }
   ]
 }
