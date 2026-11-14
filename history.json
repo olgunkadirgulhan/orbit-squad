@@ -3671,6 +3671,135 @@
       "scene": "sunlit",
       "kurgu": "classic",
       "seed": 563807
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode",
+      "title": "10 Real Space Facts, Told by the Planets 🚀 | Episode 15",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "inside",
+      "countries": [
+        "EA",
+        "SA",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "darkside",
+      "countries": [
+        "EA",
+        "UR",
+        "SU",
+        "SA"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "backwards",
+      "countries": [
+        "UR",
+        "EA",
+        "JU",
+        "VE"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "quake",
+      "countries": [
+        "MA",
+        "IO",
+        "SU",
+        "MO"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "freezing",
+      "countries": [
+        "MA",
+        "EA",
+        "NE",
+        "UR"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "cloudy",
+      "countries": [
+        "EA",
+        "VE",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "skycolor",
+      "countries": [
+        "IO",
+        "MA",
+        "SA",
+        "MO"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "halloween",
+      "countries": [
+        "NE",
+        "MO",
+        "VE",
+        "MA"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "wifi",
+      "countries": [
+        "EA",
+        "PL",
+        "JU",
+        "MA"
+      ]
+    },
+    {
+      "id": "-wIfwE9fVLY",
+      "date": "2026-11-14 21:56",
+      "kind": "episode-part",
+      "situation": "rings",
+      "countries": [
+        "UR",
+        "MA",
+        "EA",
+        "SA"
+      ]
     }
   ]
 }
