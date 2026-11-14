@@ -3654,6 +3654,23 @@
       "scene": "aurora",
       "kurgu": "five",
       "seed": 142528
+    },
+    {
+      "id": "Sruyu9e-QhI",
+      "date": "2026-11-14 20:54",
+      "kind": "short",
+      "title": "POV: Planets On New Year's Eve 😂 #space",
+      "privacy": "public",
+      "situation": "newyear",
+      "countries": [
+        "EA",
+        "NE",
+        "UR",
+        "JU"
+      ],
+      "scene": "sunlit",
+      "kurgu": "classic",
+      "seed": 563807
     }
   ]
 }
