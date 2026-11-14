@@ -3618,6 +3618,24 @@
       "scene": "rings",
       "kurgu": "five",
       "seed": 962275
+    },
+    {
+      "id": "VYP0FYeFJxA",
+      "date": "2026-11-14 16:54",
+      "kind": "short",
+      "title": "Planets On The First Day Of School: Who Wins? 👑 #planets",
+      "privacy": "public",
+      "situation": "school",
+      "countries": [
+        "ER",
+        "JU",
+        "NE",
+        "PL"
+      ],
+      "scene": "party",
+      "kurgu": "crown",
+      "seed": 839063,
+      "winner": 0
     }
   ]
 }
