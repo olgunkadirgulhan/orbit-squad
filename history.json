@@ -3800,6 +3800,23 @@
         "EA",
         "SA"
       ]
+    },
+    {
+      "id": "xI2ioM4bNvA",
+      "date": "2026-11-15 16:54",
+      "kind": "short",
+      "title": "Planets Comparing Their Magnetic Fields (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "planets_comparing_magnet",
+      "countries": [
+        "SU",
+        "GA",
+        "EA",
+        "MA"
+      ],
+      "scene": "eclipse",
+      "kurgu": "classic",
+      "seed": 545680
     }
   ]
 }
