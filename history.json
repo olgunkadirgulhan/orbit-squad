@@ -3835,6 +3835,23 @@
       "scene": "ice",
       "kurgu": "five",
       "seed": 35173
+    },
+    {
+      "id": "ySApGt_JCdk",
+      "date": "2026-11-15 20:54",
+      "kind": "short",
+      "title": "Solar System Facts: Showing Their Scars 🚀",
+      "privacy": "public",
+      "situation": "craters",
+      "countries": [
+        "MA",
+        "CE",
+        "EA",
+        "PB"
+      ],
+      "scene": "rings",
+      "kurgu": "classic",
+      "seed": 367261
     }
   ]
 }
