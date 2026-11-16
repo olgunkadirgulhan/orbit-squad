@@ -3852,6 +3852,23 @@
       "scene": "rings",
       "kurgu": "classic",
       "seed": 367261
+    },
+    {
+      "id": "-C6eF7Ir78Y",
+      "date": "2026-11-16 17:54",
+      "kind": "short",
+      "title": "Planets When Someone Says 'You're Not That Bright' 🌍 #solarsystem",
+      "privacy": "public",
+      "situation": "bright",
+      "countries": [
+        "JU",
+        "SA",
+        "VE",
+        "EU"
+      ],
+      "scene": "party",
+      "kurgu": "classic",
+      "seed": 301336
     }
   ]
 }
