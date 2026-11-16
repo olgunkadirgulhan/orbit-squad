@@ -3887,6 +3887,24 @@
       "kurgu": "crown",
       "seed": 222173,
       "winner": 1
+    },
+    {
+      "id": "a69-ojuFUjg",
+      "date": "2026-11-16 21:08",
+      "kind": "short",
+      "title": "Which Planet Has the Coolest Answer? When Someone Says \"The Floor Is Lava\" 👑 #space",
+      "privacy": "public",
+      "situation": "lava",
+      "countries": [
+        "IO",
+        "MA",
+        "MO",
+        "VE"
+      ],
+      "scene": "aurora",
+      "kurgu": "crown",
+      "seed": 675714,
+      "winner": 1
     }
   ]
 }
