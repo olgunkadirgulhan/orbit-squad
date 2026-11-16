@@ -3869,6 +3869,24 @@
       "scene": "party",
       "kurgu": "classic",
       "seed": 301336
+    },
+    {
+      "id": "4CRGiQVtsrs",
+      "date": "2026-11-16 18:54",
+      "kind": "short",
+      "title": "Planets Giving Gifts (Coolest Fact?) 🏆 #solarsystem",
+      "privacy": "public",
+      "situation": "gift",
+      "countries": [
+        "SA",
+        "CE",
+        "EA",
+        "SU"
+      ],
+      "scene": "sunlit",
+      "kurgu": "crown",
+      "seed": 222173,
+      "winner": 1
     }
   ]
 }
