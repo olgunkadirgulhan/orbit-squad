@@ -3905,6 +3905,24 @@
       "kurgu": "crown",
       "seed": 675714,
       "winner": 1
+    },
+    {
+      "id": "-SY3aVtDJEA",
+      "date": "2026-11-17 16:54",
+      "kind": "short",
+      "title": "Solar System Facts: When Someone Says 'We're Drifting Apart' (5 Worlds) 🚀",
+      "privacy": "public",
+      "situation": "drifting",
+      "countries": [
+        "EA",
+        "SU",
+        "SA",
+        "MA",
+        "NE"
+      ],
+      "scene": "belt",
+      "kurgu": "five",
+      "seed": 567946
     }
   ]
 }
