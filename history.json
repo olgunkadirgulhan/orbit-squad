@@ -3941,6 +3941,23 @@
       "scene": "party",
       "kurgu": "five",
       "seed": 117000
+    },
+    {
+      "id": "X3LszwQp04A",
+      "date": "2026-11-17 20:54",
+      "kind": "short",
+      "title": "Planets At The Car Wash (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "planets_at_the_car_wash",
+      "countries": [
+        "UR",
+        "VE",
+        "EN",
+        "JU"
+      ],
+      "scene": "rings",
+      "kurgu": "classic",
+      "seed": 995763
     }
   ]
 }
