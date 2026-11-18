@@ -3958,6 +3958,135 @@
       "scene": "rings",
       "kurgu": "classic",
       "seed": 995763
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode",
+      "title": "Planets Answer 10 Space Questions 🪐 Orbit Squad Episode 16",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "planets_checking_their_p",
+      "countries": [
+        "JU",
+        "EA",
+        "PL",
+        "GA"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "year",
+      "countries": [
+        "EA",
+        "UR",
+        "MA",
+        "PL"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "sound",
+      "countries": [
+        "MA",
+        "MO",
+        "SU",
+        "EA"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "moonlight",
+      "countries": [
+        "SA",
+        "MA",
+        "SU",
+        "MO"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "daylength",
+      "countries": [
+        "VE",
+        "PL",
+        "SA",
+        "ME"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "IO",
+        "TI",
+        "EA",
+        "MO"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "bright",
+      "countries": [
+        "EU",
+        "MA",
+        "SA",
+        "MO"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "tilt",
+      "countries": [
+        "MA",
+        "JU",
+        "VE",
+        "SA"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "freezing",
+      "countries": [
+        "EU",
+        "PL",
+        "TI",
+        "VE"
+      ]
+    },
+    {
+      "id": "7wItc3-mZws",
+      "date": "2026-11-18 00:16",
+      "kind": "episode-part",
+      "situation": "storm",
+      "countries": [
+        "MA",
+        "SA",
+        "NE",
+        "EN"
+      ]
     }
   ]
 }
