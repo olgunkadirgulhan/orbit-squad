@@ -4105,6 +4105,135 @@
       "scene": "volcano",
       "kurgu": "five",
       "seed": 758320
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode",
+      "title": "10 Real Space Facts, Told by the Planets 🚀 | Episode 17",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "pressure",
+      "countries": [
+        "MO",
+        "SA",
+        "VE",
+        "EA"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "cleanroom",
+      "countries": [
+        "EA",
+        "EN",
+        "MA",
+        "SA"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "darkside",
+      "countries": [
+        "MO",
+        "UR",
+        "SU",
+        "EA"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "planets_at_the_car_wash",
+      "countries": [
+        "MA",
+        "UR",
+        "EN",
+        "VE"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "bestfriend",
+      "countries": [
+        "MO",
+        "IO",
+        "TI",
+        "SA"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "planets_getting_a_speedi",
+      "countries": [
+        "PL",
+        "SA",
+        "NE",
+        "EA"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "race",
+      "countries": [
+        "EA",
+        "MA",
+        "ME",
+        "JU"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "icecold",
+      "countries": [
+        "MA",
+        "EN",
+        "EU",
+        "GA"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "planets_ordering_fast_fo",
+      "countries": [
+        "VE",
+        "EA",
+        "PL",
+        "JU"
+      ]
+    },
+    {
+      "id": "Sf5L9-AcQy4",
+      "date": "2026-11-20 00:08",
+      "kind": "episode-part",
+      "situation": "telescope",
+      "countries": [
+        "SA",
+        "UR",
+        "JU",
+        "MA"
+      ]
     }
   ]
 }
