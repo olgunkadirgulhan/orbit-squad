@@ -4234,6 +4234,135 @@
         "JU",
         "MA"
       ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode",
+      "title": "10 Real Space Facts, Told by the Planets 🚀 | Episode 18",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "planets_playing_hide_and",
+      "countries": [
+        "VE",
+        "SU",
+        "NE",
+        "CE"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "mountains",
+      "countries": [
+        "PL",
+        "JU",
+        "MA",
+        "VE"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "water",
+      "countries": [
+        "IO",
+        "VE",
+        "MO",
+        "SA"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "sound",
+      "countries": [
+        "JU",
+        "SU",
+        "VE",
+        "MO"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "vacation",
+      "countries": [
+        "NE",
+        "SA",
+        "EA",
+        "JU"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "gift",
+      "countries": [
+        "MA",
+        "EA",
+        "SA",
+        "SU"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "moons",
+      "countries": [
+        "MA",
+        "JU",
+        "SA",
+        "VE"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "neighbors",
+      "countries": [
+        "PL",
+        "NE",
+        "MA",
+        "EA"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "giants",
+      "countries": [
+        "SA",
+        "TI",
+        "PL",
+        "MA"
+      ]
+    },
+    {
+      "id": "egiHKYe9hZc",
+      "date": "2026-11-21 22:39",
+      "kind": "episode-part",
+      "situation": "volcano",
+      "countries": [
+        "TI",
+        "IO",
+        "MO",
+        "NE"
+      ]
     }
   ]
 }
