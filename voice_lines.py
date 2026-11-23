@@ -430,6 +430,94 @@ LINES = {
   "planets_ordering_pizza": [
    "I brought fresh mushrooms, tomatoes, and liquid water!",
    "love"
+  ],
+  "planets_baking_a_cake": [
+   "I brought nitrogen and oxygen for fluffy batter!",
+   "calm"
+  ],
+  "planets_going_camping": [
+   "I brought ideal air and liquid surface water!",
+   "happy"
+  ],
+  "planets_going_through_se": [
+   "I only carry one moon in my bag!",
+   "happy"
+  ],
+  "planets_at_the_laundroma": [
+   "Seventy percent of my whole shirt is ocean!",
+   "happy"
+  ],
+  "planets_on_a_first_date": [
+   "I host billions of living humans and life!",
+   "happy"
+  ],
+  "planets_losing_their_key": [
+   "I locked them near my North magnetic pole!",
+   "calm"
+  ],
+  "planets_taking_a_driving": [
+   "I cruise at sixty-seven thousand miles an hour!",
+   "cool"
+  ],
+  "planets_returning_a_prod": [
+   "My oceans store heat and balance my temperature!",
+   "happy"
+  ],
+  "planets_ordering_at_the_": [
+   "Add nitrogen, oxygen, and fresh blue oceans!",
+   "happy"
+  ],
+  "planets_at_game_night": [
+   "I brought eight billion people on my team!",
+   "happy"
+  ],
+  "planets_at_spa_day": [
+   "Seventy percent ocean water keeps me fully hydrated!",
+   "calm"
+  ],
+  "planets_at_cooking_show": [
+   "I bring water, salt, and organic flavor!",
+   "happy"
+  ],
+  "planets_packing_suitcase": [
+   "I am packing one moon and eight billion people!",
+   "calm"
+  ],
+  "planets_doing_taxes": [
+   "I claim eight billion dependent humans this year!",
+   "happy"
+  ],
+  "planets_getting_hair_don": [
+   "Auroras give me green and violet hair extensions!",
+   "love"
+  ],
+  "planets_going_on_road_tr": [
+   "Cruising one hundred fifty million kilometers from Sun!",
+   "happy"
+  ],
+  "planets_at_a_spa_day": [
+   "Seventy percent liquid ocean bath is so refreshing!",
+   "calm"
+  ],
+  "planets_at_the_grocery_s": [
+   "I need nitrogen and oxygen for eight billion humans!",
+   "love"
+  ],
+  "planets_at_a_photo_shoot": [
+   "Get my good side, the blue ocean side!",
+   "happy"
+  ],
+  "planets_playing_board_ga": [
+   "I brought millions of living species as team!",
+   "love"
+  ],
+  "planets_at_the_bus_stop": [
+   "My bus lap takes three hundred sixty-five days!",
+   "happy"
+  ],
+  "planets_at_karaoke_night": [
+   "My choir includes blue whales and singing birds!",
+   "love"
   ]
  },
  "VE": {
@@ -648,6 +736,90 @@ LINES = {
   "planets_ordering_pizza": [
    "Bake it at 900 degrees Fahrenheit, perfectly melted!",
    "happy"
+  ],
+  "planets_baking_a_cake": [
+   "My air is mostly thick carbon dioxide gas!",
+   "cool"
+  ],
+  "planets_going_camping": [
+   "My runaway greenhouse effect keeps the tent super hot!",
+   "angry"
+  ],
+  "planets_at_the_laundroma": [
+   "My clouds spin fast around in yellow acid!",
+   "angry"
+  ],
+  "planets_on_a_first_date": [
+   "I am the hottest planet at four hundred sixty!",
+   "love"
+  ],
+  "planets_losing_their_key": [
+   "The Sun rises in the west for me!",
+   "shock"
+  ],
+  "planets_at_a_talent_show": [
+   "I shine brighter than any star at night!",
+   "cool"
+  ],
+  "planets_taking_a_driving": [
+   "I rotate backward slower than my full year!",
+   "shock"
+  ],
+  "planets_returning_a_prod": [
+   "Acid rain evaporates before hitting my hot ground!",
+   "shock"
+  ],
+  "planets_ordering_at_the_": [
+   "Blend heavy carbon dioxide gas into my smoothie!",
+   "angry"
+  ],
+  "planets_at_game_night": [
+   "I rotate backwards so turns go in reverse!",
+   "angry"
+  ],
+  "planets_at_spa_day": [
+   "Acid clouds make the ultimate sulfur skin peel!",
+   "cool"
+  ],
+  "planets_at_cooking_show": [
+   "Greenhouse heat melts lead on my surface!",
+   "cool"
+  ],
+  "planets_packing_suitcase": [
+   "Thick carbon dioxide air is too heavy!",
+   "angry"
+  ],
+  "planets_getting_hair_don": [
+   "Acid clouds curl into permanent yellow volume!",
+   "happy"
+  ],
+  "planets_at_talent_show": [
+   "I melt lead with my heat!",
+   "happy"
+  ],
+  "planets_going_on_road_tr": [
+   "My day lasts longer than my whole year!",
+   "shock"
+  ],
+  "planets_packing_for_a_tr": [
+   "My acid clouds pack nine hundred degrees of heat!",
+   "shock"
+  ],
+  "planets_at_a_spa_day": [
+   "This sulfuric acid steam mask is super hot!",
+   "happy"
+  ],
+  "planets_at_the_grocery_s": [
+   "Where is cloud aisle? I need carbon dioxide!",
+   "angry"
+  ],
+  "planets_at_a_photo_shoot": [
+   "My thick yellow clouds hide all my secrets!",
+   "happy"
+  ],
+  "planets_at_the_bus_stop": [
+   "I waited one day, but a year passed!",
+   "angry"
   ]
  },
  "JU": {
@@ -958,6 +1130,106 @@ LINES = {
   "planets_ordering_pizza": [
    "My Great Red Spot looks like giant pepperoni!",
    "happy"
+  ],
+  "planets_baking_a_cake": [
+   "My gravity compresses this giant batter super fast!",
+   "cool"
+  ],
+  "planets_going_camping": [
+   "My magnetic field shield protects the whole campsite!",
+   "cool"
+  ],
+  "planets_at_the_bowling_a": [
+   "I have ninety-five moons rolling down my lane!",
+   "happy"
+  ],
+  "planets_at_the_laundroma": [
+   "My Great Red Spot storm spins for centuries!",
+   "cool"
+  ],
+  "planets_on_a_first_date": [
+   "I generate intense radiation belt fields around me!",
+   "shock"
+  ],
+  "planets_losing_their_key": [
+   "My magnetic field is twenty thousand times stronger!",
+   "cool"
+  ],
+  "planets_doing_their_taxe": [
+   "I am more massive than all other planets!",
+   "cool"
+  ],
+  "planets_at_a_talent_show": [
+   "I play fast beats spinning in ten hours!",
+   "cool"
+  ],
+  "planets_taking_a_driving": [
+   "My fast spin bulges my equator out wide!",
+   "shock"
+  ],
+  "planets_returning_a_prod": [
+   "I leak heat into space twice my receipt!",
+   "cool"
+  ],
+  "planets_ordering_at_the_": [
+   "Garnish with hydrogen gas and helium syrup!",
+   "cool"
+  ],
+  "planets_at_game_night": [
+   "My Red Spot storm has lasted centuries!",
+   "calm"
+  ],
+  "planets_at_music_festiva": [
+   "My magnetic field creates loud radio beats!",
+   "cool"
+  ],
+  "planets_packing_suitcase": [
+   "I pack ninety-five moons into my suitcase!",
+   "cool"
+  ],
+  "planets_at_tennis_match": [
+   "My strong gravity pulls every ball straight down!",
+   "angry"
+  ],
+  "planets_doing_taxes": [
+   "I claim ninety-five moons on my tax form!",
+   "cool"
+  ],
+  "planets_losing_keys": [
+   "Swallowed by gas thousands of kilometers deep!",
+   "angry"
+  ],
+  "planets_getting_hair_don": [
+   "Great Red Spot is a stylish swirling bun!",
+   "calm"
+  ],
+  "planets_at_talent_show": [
+   "I swallow asteroids to protect inner planets!",
+   "calm"
+  ],
+  "planets_going_on_road_tr": [
+   "Cruising with my herd of ninety-five moons!",
+   "cool"
+  ],
+  "planets_at_a_spa_day": [
+   "My Great Red Spot massage has lasted centuries!",
+   "shock"
+  ],
+  "planets_at_a_photo_shoot": [
+   "Don't crop out my Great Red Spot storm!",
+   "shock"
+  ],
+  "planets_playing_board_ga": [
+   "I bring ninety-five moon tokens to the table!",
+   "happy"
+  ],
+  "planets_at_the_bus_stop": [
+   "My strong gravity delayed the whole bus schedule!",
+   "shock"
+  ],
+  "planets_at_karaoke_night": [
+   "My magnetic roar is louder than the Sun!",
+   "shock"
   ]
  },
  "MA": {
@@ -1276,6 +1548,66 @@ LINES = {
   "planets_comparing_magnet": [
    "No core dynamo, just tiny crustal magnetic patches!",
    "angry"
+  ],
+  "planets_baking_a_cake": [
+   "Iron oxide rust gives this cake a red finish!",
+   "happy"
+  ],
+  "planets_going_camping": [
+   "Watch out for my global dusty dust storms!",
+   "shock"
+  ],
+  "planets_at_the_bowling_a": [
+   "My tiny moons Phobos and Deimos are potato-shaped!",
+   "cool"
+  ],
+  "planets_on_a_first_date": [
+   "I have two tiny moons named Fear and Panic!",
+   "cool"
+  ],
+  "planets_at_a_talent_show": [
+   "I leap three times higher with weak gravity!",
+   "happy"
+  ],
+  "planets_taking_a_driving": [
+   "My speed drops when driving through red sand!",
+   "sleepy"
+  ],
+  "planets_returning_a_prod": [
+   "My air pressure is too thin for liquid water!",
+   "cry"
+  ],
+  "planets_ordering_at_the_": [
+   "I want a blended reddish iron oxide drink!",
+   "happy"
+  ],
+  "planets_at_spa_day": [
+   "Rust dust gives me a natural mud bath!",
+   "happy"
+  ],
+  "planets_at_cooking_show": [
+   "Iron oxide gives food a rusty spice!",
+   "calm"
+  ],
+  "planets_losing_keys": [
+   "Valles Marineris canyon is way too deep!",
+   "cry"
+  ],
+  "planets_at_talent_show": [
+   "I juggle small moons named Phobos and Deimos!",
+   "happy"
+  ],
+  "planets_going_on_road_tr": [
+   "Taking the red dusty route past huge volcanoes!",
+   "calm"
+  ],
+  "planets_packing_for_a_tr": [
+   "I only packed red dust and two tiny moons!",
+   "calm"
+  ],
+  "planets_at_a_photo_shoot": [
+   "Filter it red, iron oxide is my look!",
+   "cool"
   ]
  },
  "ME": {
@@ -1462,6 +1794,82 @@ LINES = {
   "planets_watching_a_movie": [
    "Movie is two hours, my daylight lasts months!",
    "sleepy"
+  ],
+  "planets_going_camping": [
+   "No atmosphere means no campfire or cozy tents!",
+   "cry"
+  ],
+  "planets_going_through_se": [
+   "My huge iron core sets off metal detectors!",
+   "shock"
+  ],
+  "planets_at_the_laundroma": [
+   "I spin slowly every fifty-eight Earth days!",
+   "sleepy"
+  ],
+  "planets_losing_their_key": [
+   "I shrank four miles since my iron core cooled!",
+   "shock"
+  ],
+  "planets_at_a_talent_show": [
+   "I show off my huge Caloris crater basin!",
+   "happy"
+  ],
+  "planets_taking_a_driving": [
+   "My orbit around Sun takes eighty-eight days!",
+   "cool"
+  ],
+  "planets_returning_a_prod": [
+   "My temperature drops five hundred degrees at night!",
+   "shiver"
+  ],
+  "planets_ordering_at_the_": [
+   "Mix silicate rocks and iron into my cup!",
+   "cool"
+  ],
+  "planets_at_game_night": [
+   "My year is eighty-eight days, speed round!",
+   "happy"
+  ],
+  "planets_at_spa_day": [
+   "Zero atmosphere means no facial mask needed!",
+   "happy"
+  ],
+  "planets_packing_suitcase": [
+   "No atmosphere means I pack zero clothes!",
+   "happy"
+  ],
+  "planets_at_tennis_match": [
+   "Eighty-eight day orbit serves super fast aces!",
+   "cool"
+  ],
+  "planets_losing_keys": [
+   "Shrinking planet surface hid them in a wrinkle!",
+   "shock"
+  ],
+  "planets_going_on_road_tr": [
+   "Fastest driver, forty-seven kilometers per second!",
+   "cool"
+  ],
+  "planets_packing_for_a_tr": [
+   "I pack light because I have no atmosphere!",
+   "sleepy"
+  ],
+  "planets_at_the_grocery_s": [
+   "Buying ice for night and sunblock for day!",
+   "shiver"
+  ],
+  "planets_playing_board_ga": [
+   "Waiting for turn takes eighty-eight Earth days!",
+   "angry"
+  ],
+  "planets_at_the_bus_stop": [
+   "The bus around the Sun takes eighty-eight days!",
+   "cool"
+  ],
+  "planets_at_karaoke_night": [
+   "I am way too close to Sun stage lights!",
+   "shiver"
   ]
  },
  "SA": {
@@ -1728,6 +2136,82 @@ LINES = {
   "planets_ordering_pizza": [
    "Careful, my ice rings might slice thin crust!",
    "cool"
+  ],
+  "planets_baking_a_cake": [
+   "My density is low enough to float in water!",
+   "happy"
+  ],
+  "planets_going_through_se": [
+   "Are my main seven ring groups allowed through?",
+   "cool"
+  ],
+  "planets_on_a_first_date": [
+   "My famous ring system spans thousands of kilometers!",
+   "love"
+  ],
+  "planets_losing_their_key": [
+   "I dropped them into my fifty thousand mile rings!",
+   "cry"
+  ],
+  "planets_doing_their_taxe": [
+   "I claim eighty-three moons on my tax form!",
+   "happy"
+  ],
+  "planets_taking_a_driving": [
+   "My rings are mostly chunks of pure ice!",
+   "happy"
+  ],
+  "planets_ordering_at_the_": [
+   "Extra ice crystals from my ring belt please!",
+   "love"
+  ],
+  "planets_at_game_night": [
+   "I have over ninety moons on my side!",
+   "cool"
+  ],
+  "planets_at_spa_day": [
+   "Floating in a massive water tub is easy!",
+   "calm"
+  ],
+  "planets_at_music_festiva": [
+   "My rings vibrate like giant vinyl records!",
+   "love"
+  ],
+  "planets_at_tennis_match": [
+   "My rings make the widest tennis court ever!",
+   "calm"
+  ],
+  "planets_doing_taxes": [
+   "Losing ring dust means giant financial write-offs!",
+   "calm"
+  ],
+  "planets_getting_hair_don": [
+   "Ring system is the ultimate oversized halo hat!",
+   "happy"
+  ],
+  "planets_at_talent_show": [
+   "I balance ice rings glowing bright in space!",
+   "love"
+  ],
+  "planets_packing_for_a_tr": [
+   "I packed over one hundred moons as extra baggage!",
+   "happy"
+  ],
+  "planets_at_a_spa_day": [
+   "My ring bath is polished with pure water ice!",
+   "love"
+  ],
+  "planets_at_a_photo_shoot": [
+   "Make sure my golden rings get full sunlight!",
+   "cool"
+  ],
+  "planets_playing_board_ga": [
+   "I build ring structures around all my spaces!",
+   "happy"
+  ],
+  "planets_at_karaoke_night": [
+   "My icy rings echo like a giant harp!",
+   "happy"
   ]
  },
  "UR": {
@@ -1861,6 +2345,78 @@ LINES = {
   ],
   "planets_at_the_car_wash": [
    "Rinse me sideways, my ninety-eight degree tilt helps!",
+   "sleepy"
+  ],
+  "planets_going_camping": [
+   "It takes eighty-four years for one summer camp!",
+   "sleepy"
+  ],
+  "planets_at_the_bowling_a": [
+   "I roll sideways with a ninety-eight degree tilt!",
+   "shock"
+  ],
+  "planets_at_the_laundroma": [
+   "I smell like sulfur gas rotten eggs inside!",
+   "cry"
+  ],
+  "planets_on_a_first_date": [
+   "My auroras glow brightly near my magnetic poles!",
+   "cool"
+  ],
+  "planets_losing_their_key": [
+   "My thirteen rings are super dark and thin!",
+   "shiver"
+  ],
+  "planets_doing_their_taxe": [
+   "I am the coldest planet at minus two-twenty!",
+   "shiver"
+  ],
+  "planets_taking_a_driving": [
+   "I roll along my orbit like a ball!",
+   "cool"
+  ],
+  "planets_ordering_at_the_": [
+   "I want frozen methane ice crushed up cold!",
+   "shiver"
+  ],
+  "planets_at_game_night": [
+   "I play sideways at ninety-eight degrees tilt!",
+   "shock"
+  ],
+  "planets_at_spa_day": [
+   "Frozen methane ice makes the coldest cool facial!",
+   "shiver"
+  ],
+  "planets_packing_suitcase": [
+   "I packed upside down at ninety-eight degrees tilt!",
+   "happy"
+  ],
+  "planets_doing_taxes": [
+   "My forty-two year winter is a long write-off!",
+   "shiver"
+  ],
+  "planets_getting_hair_don": [
+   "Spinning sideways gives me a bold tilt haircut!",
+   "shock"
+  ],
+  "planets_at_talent_show": [
+   "I roll on my side down the stage!",
+   "shock"
+  ],
+  "planets_at_the_grocery_s": [
+   "Who put methane in slushie? It turned blue!",
+   "shock"
+  ],
+  "planets_at_a_photo_shoot": [
+   "Tilt the camera lens ninety-eight degrees for me!",
+   "sleepy"
+  ],
+  "planets_playing_board_ga": [
+   "I spin sideways while thinking about my move!",
+   "sleepy"
+  ],
+  "planets_at_karaoke_night": [
+   "I sing softly while rolling sideways on stage!",
    "sleepy"
   ]
  },
@@ -2064,6 +2620,78 @@ LINES = {
   "planets_watching_a_movie": [
    "It took four hours for light to arrive!",
    "calm"
+  ],
+  "planets_going_camping": [
+   "Supersonic winds over one thousand miles an hour!",
+   "shiver"
+  ],
+  "planets_at_the_bowling_a": [
+   "I spin around once every sixteen hours fast!",
+   "cool"
+  ],
+  "planets_at_the_laundroma": [
+   "My beautiful coat is brilliant methane sea blue!",
+   "love"
+  ],
+  "planets_on_a_first_date": [
+   "I take one hundred sixty-five years to commit!",
+   "sleepy"
+  ],
+  "planets_losing_their_key": [
+   "It takes light four hours to reach here!",
+   "sleepy"
+  ],
+  "planets_taking_a_driving": [
+   "I am thirty times farther than Earth is!",
+   "shiver"
+  ],
+  "planets_returning_a_prod": [
+   "I radiate twice as much heat as received!",
+   "cool"
+  ],
+  "planets_ordering_at_the_": [
+   "Top it with deep blue liquid ammonia mix!",
+   "cool"
+  ],
+  "planets_at_game_night": [
+   "My winds hit fifteen hundred miles per hour!",
+   "shiver"
+  ],
+  "planets_at_spa_day": [
+   "Super compressed diamond rain is my luxury scrub!",
+   "love"
+  ],
+  "planets_packing_suitcase": [
+   "I brought supersonic winds in my bag!",
+   "shiver"
+  ],
+  "planets_doing_taxes": [
+   "It rains diamonds, so my income is huge!",
+   "love"
+  ],
+  "planets_going_on_road_tr": [
+   "It takes one hundred sixty-five years to finish!",
+   "shiver"
+  ],
+  "planets_at_a_spa_day": [
+   "I am chilling at minus two hundred degrees!",
+   "shiver"
+  ],
+  "planets_at_a_photo_shoot": [
+   "Atmospheric methane gives me this vibrant blue look!",
+   "cool"
+  ],
+  "planets_playing_board_ga": [
+   "Winds reach twelve hundred miles per hour here!",
+   "shiver"
+  ],
+  "planets_at_the_bus_stop": [
+   "I am thirty times farther than Earth from sun!",
+   "shiver"
+  ],
+  "planets_at_karaoke_night": [
+   "I sing with supersonic twelve-hundred-mph winds!",
+   "cool"
   ]
  },
  "PL": {
@@ -2245,6 +2873,46 @@ LINES = {
   ],
   "planets_ordering_pizza": [
    "Keep mine frozen at minus 380 degrees Fahrenheit!",
+   "shiver"
+  ],
+  "planets_going_camping": [
+   "Camping out five billion kilometers away from Sun!",
+   "shiver"
+  ],
+  "planets_at_the_laundroma": [
+   "My heart glacier is made of solid nitrogen!",
+   "love"
+  ],
+  "planets_doing_their_taxe": [
+   "I was demoted to dwarf planet in two-thousand-six!",
+   "cry"
+  ],
+  "planets_at_cooking_show": [
+   "Minus two hundred thirty degrees freezes meals!",
+   "sleepy"
+  ],
+  "planets_doing_taxes": [
+   "Dwarf planet status reduces my tax rate!",
+   "happy"
+  ],
+  "planets_losing_keys": [
+   "Heart-shaped glacier hid my key ring!",
+   "love"
+  ],
+  "planets_going_on_road_tr": [
+   "Tilted orbit takes me far off the highway!",
+   "happy"
+  ],
+  "planets_at_the_grocery_s": [
+   "I can only afford the dwarf planet section!",
+   "cry"
+  ],
+  "planets_playing_board_ga": [
+   "They made a smaller board just for me!",
+   "cry"
+  ],
+  "planets_at_the_bus_stop": [
+   "The bus takes two hundred forty-eight years here!",
    "shiver"
   ]
  },
@@ -2484,6 +3152,30 @@ LINES = {
   "lava": [
    "My dark patches are old lava!",
    "calm"
+  ],
+  "planets_at_the_bowling_a": [
+   "I pull Earth's oceans to create high tides!",
+   "happy"
+  ],
+  "planets_at_a_talent_show": [
+   "I show the exact same face to Earth!",
+   "calm"
+  ],
+  "planets_at_tennis_match": [
+   "Gravity is one sixth, tennis balls float forever!",
+   "happy"
+  ],
+  "planets_losing_keys": [
+   "Check my millions of dark impact craters!",
+   "calm"
+  ],
+  "planets_at_a_photo_shoot": [
+   "I only show one face to the camera!",
+   "calm"
+  ],
+  "planets_at_the_bus_stop": [
+   "I just ride in Earth's shadow anyway!",
+   "calm"
   ]
  },
  "TI": {
@@ -2586,6 +3278,34 @@ LINES = {
   "planets_weather_report": [
    "Liquid methane drizzle over northern polar lakes today!",
    "calm"
+  ],
+  "planets_going_through_se": [
+   "I brought dense nitrogen air and liquid methane!",
+   "cool"
+  ],
+  "planets_on_a_first_date": [
+   "I have weather storms made of liquid methane!",
+   "cool"
+  ],
+  "planets_at_a_talent_show": [
+   "I balance liquid lakes of methane on top!",
+   "cool"
+  ],
+  "planets_at_music_festiva": [
+   "Thick nitrogen air carries concert sound great!",
+   "calm"
+  ],
+  "planets_losing_keys": [
+   "They sank in my liquid methane ocean!",
+   "cool"
+  ],
+  "planets_packing_for_a_tr": [
+   "I packed thick orange haze and methane lakes!",
+   "cool"
+  ],
+  "planets_at_the_grocery_s": [
+   "Just picking up liquid methane soda from lakes!",
+   "cool"
   ]
  },
  "EU": {
@@ -2680,6 +3400,14 @@ LINES = {
   "bright": [
    "My ice reflects lots of sunlight!",
    "happy"
+  ],
+  "planets_baking_a_cake": [
+   "My subsurface ocean adds a huge salty water mix!",
+   "shiver"
+  ],
+  "planets_packing_for_a_tr": [
+   "I brought a global ocean under solid ice!",
+   "shiver"
   ]
  },
  "IO": {
@@ -2766,6 +3494,30 @@ LINES = {
   "lava": [
    "My floor IS lava. Over 400 volcanoes!",
    "happy"
+  ],
+  "planets_at_a_talent_show": [
+   "I shoot sulfur plumes three hundred kilometers high!",
+   "shock"
+  ],
+  "planets_at_music_festiva": [
+   "Lava fountains shoot three hundred kilometers high!",
+   "angry"
+  ],
+  "planets_at_cooking_show": [
+   "I erupt sulfur for exotic hot sauce!",
+   "angry"
+  ],
+  "planets_at_talent_show": [
+   "I shoot sulfur lava jets high in space!",
+   "angry"
+  ],
+  "planets_at_a_spa_day": [
+   "My volcanic sulfur mud wrap is always popping!",
+   "angry"
+  ],
+  "planets_at_karaoke_night": [
+   "My volcanic blasts provide the loudest pyro effects!",
+   "angry"
   ]
  },
  "CE": {
@@ -2864,6 +3616,22 @@ LINES = {
   "planets_playing_hide_and": [
    "I blend in with thousands of asteroid buddies!",
    "happy"
+  ],
+  "planets_at_the_bowling_a": [
+   "I am the largest object in the asteroid belt!",
+   "happy"
+  ],
+  "planets_doing_their_taxe": [
+   "I contain one third of asteroid belt mass!",
+   "cool"
+  ],
+  "planets_losing_keys": [
+   "Lost them in the asteroid belt crowd!",
+   "shiver"
+  ],
+  "planets_at_the_grocery_s": [
+   "I am the largest object in main belt!",
+   "calm"
   ]
  },
  "SU": {
@@ -3014,6 +3782,46 @@ LINES = {
   "planets_comparing_magnet": [
    "My magnetic field flips polarity every eleven years!",
    "shock"
+  ],
+  "planets_at_the_bowling_a": [
+   "I hold ninety-nine percent of all system mass!",
+   "cool"
+  ],
+  "planets_losing_their_key": [
+   "My huge gravity holds eight planets in place!",
+   "cool"
+  ],
+  "planets_doing_their_taxe": [
+   "I burn six hundred million tons of hydrogen!",
+   "cool"
+  ],
+  "planets_at_game_night": [
+   "My core is fifteen million degrees Celsius!",
+   "cool"
+  ],
+  "planets_at_music_festiva": [
+   "My solar bursts release massive radio noise!",
+   "happy"
+  ],
+  "planets_at_cooking_show": [
+   "Fifteen million degree core cooks food instantly!",
+   "happy"
+  ],
+  "planets_doing_taxes": [
+   "Loss of four million tons mass per second!",
+   "cry"
+  ],
+  "planets_getting_hair_don": [
+   "Magnetic field lines burst into solar prominences!",
+   "cool"
+  ],
+  "planets_packing_for_a_tr": [
+   "I pack ninety-nine percent of solar system mass!",
+   "cool"
+  ],
+  "planets_at_karaoke_night": [
+   "My deep bass rumble vibrates every eleven years!",
+   "happy"
   ]
  },
  "ER": {
@@ -3055,6 +3863,22 @@ LINES = {
   ],
   "planets_at_a_birthday_pa": [
    "Five hundred fifty-eight years? Still waiting for cake!",
+   "cry"
+  ],
+  "planets_at_the_bowling_a": [
+   "I am so distant I take five-hundred years!",
+   "sleepy"
+  ],
+  "planets_doing_their_taxe": [
+   "My orbit is tilted forty-four degrees off flat!",
+   "shock"
+  ],
+  "planets_packing_suitcase": [
+   "Deep space is cold, packing nitrogen ice!",
+   "shiver"
+  ],
+  "planets_at_the_bus_stop": [
+   "I am so far out, nobody sees me!",
    "cry"
   ]
  },
@@ -3098,6 +3922,18 @@ LINES = {
   "planets_comparing_magnet": [
    "I am the only moon with magnetic shielding!",
    "happy"
+  ],
+  "planets_going_through_se": [
+   "I am bigger than Mercury so check me!",
+   "cool"
+  ],
+  "planets_at_a_talent_show": [
+   "I generate my own internal magnetic field active!",
+   "cool"
+  ],
+  "planets_at_tennis_match": [
+   "As the biggest moon, I referee this match!",
+   "cool"
   ]
  },
  "PB": {
@@ -3128,6 +3964,14 @@ LINES = {
   "future": [
    "Mars may tear me into a ring someday.",
    "cry"
+  ],
+  "planets_going_through_se": [
+   "I orbit Mars three times every single day!",
+   "happy"
+  ],
+  "planets_at_tennis_match": [
+   "I orbit Mars three times every single day!",
+   "happy"
   ]
  },
  "EN": {
@@ -3169,6 +4013,34 @@ LINES = {
   ],
   "planets_ordering_pizza": [
    "Liquid ocean under ice, talk about deep dish!",
+   "happy"
+  ],
+  "planets_going_through_se": [
+   "My icy geysers spray water vapor into space!",
+   "shock"
+  ],
+  "planets_at_the_laundroma": [
+   "I wash Saturn's E-ring with my ice geysers!",
+   "happy"
+  ],
+  "planets_returning_a_prod": [
+   "My icy shell reflects ninety percent of light!",
+   "cool"
+  ],
+  "planets_at_music_festiva": [
+   "Ice geysers blast white snow into space!",
+   "shiver"
+  ],
+  "planets_at_cooking_show": [
+   "I supply frozen ocean water for drinks!",
+   "shiver"
+  ],
+  "planets_getting_hair_don": [
+   "Ice plumes spray hairspray hundreds of kilometers!",
+   "shiver"
+  ],
+  "planets_at_a_spa_day": [
+   "I shoot cool ice geysers into space!",
    "happy"
   ]
  }
