@@ -4380,6 +4380,24 @@
       "scene": "nebula",
       "kurgu": "classic",
       "seed": 764053
+    },
+    {
+      "id": "qBJq6c7s7G4",
+      "date": "2026-11-24 16:55",
+      "kind": "short",
+      "title": "Planets At The Bowling Alley 🌍 5 Worlds React #planets",
+      "privacy": "public",
+      "situation": "planets_at_the_bowling_a",
+      "countries": [
+        "SU",
+        "ER",
+        "UR",
+        "NE",
+        "CE"
+      ],
+      "scene": "party",
+      "kurgu": "five",
+      "seed": 622525
     }
   ]
 }
