@@ -4398,6 +4398,24 @@
       "scene": "party",
       "kurgu": "five",
       "seed": 622525
+    },
+    {
+      "id": "bJNVDDtyU_s",
+      "date": "2026-11-24 18:55",
+      "kind": "short",
+      "title": "Planets Ordering At The Smoothie Bar: Who Wins? 👑 #planets",
+      "privacy": "public",
+      "situation": "planets_ordering_at_the_",
+      "countries": [
+        "MA",
+        "NE",
+        "UR",
+        "JU"
+      ],
+      "scene": "ice",
+      "kurgu": "crown",
+      "seed": 976326,
+      "winner": 1
     }
   ]
 }
