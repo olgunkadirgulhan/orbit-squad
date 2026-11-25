@@ -4598,6 +4598,24 @@
       "kurgu": "crown",
       "seed": 373664,
       "winner": 2
+    },
+    {
+      "id": "z6sOFYY3qhE",
+      "date": "2026-11-25 20:54",
+      "kind": "short",
+      "title": "Planets Going Camping 🌍 5 Worlds React #planets",
+      "privacy": "public",
+      "situation": "planets_going_camping",
+      "countries": [
+        "NE",
+        "PL",
+        "EA",
+        "UR",
+        "JU"
+      ],
+      "scene": "sunlit",
+      "kurgu": "five",
+      "seed": 798504
     }
   ]
 }
