@@ -4580,6 +4580,24 @@
       "scene": "nebula",
       "kurgu": "five",
       "seed": 325880
+    },
+    {
+      "id": "DqCFfG1ivUs",
+      "date": "2026-11-25 18:54",
+      "kind": "short",
+      "title": "Planets At A Cooking Show: Who Wins? 👑 #planets",
+      "privacy": "public",
+      "situation": "planets_at_cooking_show",
+      "countries": [
+        "MA",
+        "SU",
+        "IO",
+        "PL"
+      ],
+      "scene": "belt",
+      "kurgu": "crown",
+      "seed": 373664,
+      "winner": 2
     }
   ]
 }
