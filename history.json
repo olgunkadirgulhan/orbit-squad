@@ -4433,6 +4433,135 @@
       "scene": "sunlit",
       "kurgu": "classic",
       "seed": 444025
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode",
+      "title": "10 Real Space Facts, Told by the Planets 🚀 | Episode 19",
+      "privacy": "public",
+      "situation": "episode",
+      "countries": []
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "crash",
+      "countries": [
+        "UR",
+        "MO",
+        "EA",
+        "MA"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "planets_ordering_fast_fo",
+      "countries": [
+        "SA",
+        "VE",
+        "PL",
+        "TI"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "smell",
+      "countries": [
+        "EA",
+        "UR",
+        "JU",
+        "VE"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "seasons",
+      "countries": [
+        "MA",
+        "EA",
+        "JU",
+        "NE"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "cleanroom",
+      "countries": [
+        "JU",
+        "MO",
+        "MA",
+        "EA"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "gym",
+      "countries": [
+        "MO",
+        "MA",
+        "ME",
+        "JU"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "hot",
+      "countries": [
+        "VE",
+        "MA",
+        "SU",
+        "UR"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "shield",
+      "countries": [
+        "EA",
+        "UR",
+        "MA",
+        "ME"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "scale",
+      "countries": [
+        "ME",
+        "JU",
+        "MO",
+        "EA"
+      ]
+    },
+    {
+      "id": "f7wqykUNaYU",
+      "date": "2026-11-25 01:53",
+      "kind": "episode-part",
+      "situation": "quake",
+      "countries": [
+        "EA",
+        "IO",
+        "MO",
+        "SU"
+      ]
     }
   ]
 }
