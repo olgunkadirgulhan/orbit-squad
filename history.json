@@ -4650,6 +4650,24 @@
       "scene": "rings",
       "kurgu": "classic",
       "seed": 19026
+    },
+    {
+      "id": "mqVm5Gw9oZE",
+      "date": "2026-11-26 20:54",
+      "kind": "short",
+      "title": "Planets Getting Their Hair Done (Coolest Fact?) 🏆 #solarsystem",
+      "privacy": "public",
+      "situation": "planets_getting_hair_don",
+      "countries": [
+        "SA",
+        "SU",
+        "VE",
+        "JU"
+      ],
+      "scene": "nebula",
+      "kurgu": "crown",
+      "seed": 636577,
+      "winner": 1
     }
   ]
 }
