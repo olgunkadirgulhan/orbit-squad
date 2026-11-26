@@ -4616,6 +4616,23 @@
       "scene": "sunlit",
       "kurgu": "five",
       "seed": 798504
+    },
+    {
+      "id": "plkpKiAO9jA",
+      "date": "2026-11-26 16:54",
+      "kind": "short",
+      "title": "Solar System Facts: At A Music Festival 🚀",
+      "privacy": "public",
+      "situation": "planets_at_music_festiva",
+      "countries": [
+        "TI",
+        "SU",
+        "IO",
+        "JU"
+      ],
+      "scene": "aurora",
+      "kurgu": "classic",
+      "seed": 86414
     }
   ]
 }
