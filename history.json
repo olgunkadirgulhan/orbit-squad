@@ -4832,6 +4832,23 @@
       "scene": "rings",
       "kurgu": "classic",
       "seed": 178311
+    },
+    {
+      "id": "WKAMQK30DpU",
+      "date": "2026-11-27 20:54",
+      "kind": "short",
+      "title": "Planets Taking A Driving Test (Real Space Facts!) 🪐",
+      "privacy": "public",
+      "situation": "planets_taking_a_driving",
+      "countries": [
+        "VE",
+        "NE",
+        "EA",
+        "SA"
+      ],
+      "scene": "nebula",
+      "kurgu": "classic",
+      "seed": 41045
     }
   ]
 }
